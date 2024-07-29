@@ -28,7 +28,7 @@
         </div>
         <div class="flex items-center">
             <button class="specialBtnDark mr-auto font-semibold">
-                <p>Try free today &rarr;</p>
+                <p>Buche eine Probestunde &rarr;</p>
             </button>
         </div>
     </div>

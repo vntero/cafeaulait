@@ -6,19 +6,14 @@
     // Example events
     let events = [
         {
-            date: "2024-08-15",
-            title: "Afro Dance Workshop",
-            location: "Zürich",
+            date: "14.09.2024",
+            title: "Afro Family Day",
+            location: "GZ Buchegg, Zürich",
         },
         {
-            date: "2024-09-10",
-            title: "Youth Dance Performance",
-            location: "Zürich",
-        },
-        {
-            date: "2024-10-05",
-            title: "Dance Battle Extravaganza",
-            location: "Zürich",
+            date: "17.11.2024",
+            title: `Premiere "R'Evolution" - Save the date!`,
+            location: "Volkshaus, Zürich",
         },
     ];
 </script>
@@ -33,6 +28,7 @@
             <span class="italic">Die Afrotanzgruppe aus Zürich für Kinder & Jugendliche</span>
         </p>
 
+        <!-- Main image -->
         <img src="/assets/afrosummerjam.png" alt="Kinder" class="w-full max-w-[1000px] mx-auto rounded-lg shadow-md" />
 
         <CTAs />
