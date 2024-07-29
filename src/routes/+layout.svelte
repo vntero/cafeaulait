@@ -74,7 +74,6 @@
   </div>
 {/if}
 <slot />
-<Footer />
 <svelte:window bind:scrollY={y} bind:outerHeight />
 <!-- header
 hero
