@@ -4,7 +4,7 @@
     >
         <div class="flex flex-col gap-4 md:col-span-2">
             <h1 class="font-semibold">
-                Swoley <span class="text-indigo-400">Moley</span>
+                Swoley <span class="text-red-500">Moley</span>
             </h1>
             <p>©2023 SWOLEY MOLEY LTD. All rights reserved.</p>
         </div>
@@ -13,7 +13,7 @@
             <a
                 href=""
                 target="_blank"
-                class="cursor-pointer hover:text-indigo-400 duration-200"
+                class="cursor-pointer hover:text-red-500 duration-200"
             >
                 Contact Us</a
             >
@@ -23,7 +23,7 @@
             <a
                 href=""
                 target="_blank"
-                class="cursor-pointer hover:text-indigo-400 duration-200"
+                class="cursor-pointer hover:text-red-500 duration-200"
             >
                 Read the science</a
             >
@@ -33,7 +33,7 @@
             <a
                 href=""
                 target="_blank"
-                class="cursor-pointer hover:text-indigo-400 duration-200"
+                class="cursor-pointer hover:text-red-500 duration-200"
             >
                 <i class="fa-brands fa-instagram pr-2" />
                 Instagram</a
@@ -41,7 +41,7 @@
             <a
                 href=""
                 target="_blank"
-                class="cursor-pointer hover:text-indigo-400 duration-200"
+                class="cursor-pointer hover:text-red-500 duration-200"
             >
                 <i class="fa-brands fa-youtube pr-2" />
                 YouTube</a
@@ -49,7 +49,7 @@
             <a
                 href=""
                 target="_blank"
-                class="cursor-pointer hover:text-indigo-400 duration-200"
+                class="cursor-pointer hover:text-red-500 duration-200"
             >
                 <i class="fa-brands fa-facebook pr-2" />
                 Facebook</a
@@ -57,7 +57,7 @@
             <a
                 href=""
                 target="_blank"
-                class="cursor-pointer hover:text-indigo-400 duration-200"
+                class="cursor-pointer hover:text-red-500 duration-200"
             >
                 <i class="fa-brands fa-twitter pr-2" />
                 Twitter</a

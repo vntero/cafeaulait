@@ -83,7 +83,7 @@
             <h3
                 class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
             >
-                See What <span class="text-indigo-400">Others</span> Have To Say
+                See What <span class="text-red-500">Others</span> Have To Say
             </h3>
         </div>
         <div class="flex flex-col md:flex-row gap-8 w-fit mx-auto">

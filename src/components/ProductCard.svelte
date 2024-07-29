@@ -40,7 +40,7 @@
         >
             {#each [1, 2, 3] as i}
                 <div
-                    class="rounded-full aspect-square w-2.5 sm:w-3 bg-indigo-300"
+                    class="rounded-full aspect-square w-2.5 sm:w-3 bg-red-400"
                 />
             {/each}
         </div>
