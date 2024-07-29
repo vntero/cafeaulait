@@ -4,63 +4,60 @@
     >
         <div class="flex flex-col gap-4 md:col-span-2">
             <h1 class="font-semibold">
-                Swoley <span class="text-red-500">Moley</span>
+                Café au Lait
             </h1>
-            <p>©2023 SWOLEY MOLEY LTD. All rights reserved.</p>
+            <a
+                href="https://maps.app.goo.gl/fCfEt3Dc6tQVP39RA"
+                target="_blank"
+                class="cursor-pointer hover:text-red-500 duration-200"
+            >
+            Seefeldstrasse 109, 8008 Zürich</a
+            >
+            <p>2024 © Alle Rechte vorbehalten</p>
         </div>
         <div class="flex flex-col gap-4">
-            <p class="font-bold poppins text-base sm:text-lg">Support</p>
+            <p class="font-bold poppins text-base sm:text-lg">Spenden</p>
             <a
                 href=""
                 target="_blank"
                 class="cursor-pointer hover:text-red-500 duration-200"
             >
-                Contact Us</a
+            IBAN: CH 92 0900 0000 8560 3522 7</a
             >
         </div>
         <div class="flex flex-col gap-4">
-            <p class="font-bold poppins text-base sm:text-lg">Research</p>
+            <p class="font-bold poppins text-base sm:text-lg">Über uns</p>
             <a
                 href=""
                 target="_blank"
                 class="cursor-pointer hover:text-red-500 duration-200"
             >
-                Read the science</a
+                Unser Nachwuchs</a
+            >
+            <a
+                href=""
+                target="_blank"
+                class="cursor-pointer hover:text-red-500 duration-200"
+            >
+                Unsere Künstler</a
+            >
+            <a
+                href=""
+                target="_blank"
+                class="cursor-pointer hover:text-red-500 duration-200"
+            >
+                Unser Team</a
             >
         </div>
         <div class="flex flex-col gap-4">
-            <p class="font-bold poppins text-base sm:text-lg">Follow Us</p>
+            <p class="font-bold poppins text-base sm:text-lg">Socials</p>
             <a
-                href=""
+                href="https://www.instagram.com/cafeaulait_afrodance/"
                 target="_blank"
                 class="cursor-pointer hover:text-red-500 duration-200"
             >
                 <i class="fa-brands fa-instagram pr-2" />
                 Instagram</a
-            >
-            <a
-                href=""
-                target="_blank"
-                class="cursor-pointer hover:text-red-500 duration-200"
-            >
-                <i class="fa-brands fa-youtube pr-2" />
-                YouTube</a
-            >
-            <a
-                href=""
-                target="_blank"
-                class="cursor-pointer hover:text-red-500 duration-200"
-            >
-                <i class="fa-brands fa-facebook pr-2" />
-                Facebook</a
-            >
-            <a
-                href=""
-                target="_blank"
-                class="cursor-pointer hover:text-red-500 duration-200"
-            >
-                <i class="fa-brands fa-twitter pr-2" />
-                Twitter</a
             >
         </div>
     </div>

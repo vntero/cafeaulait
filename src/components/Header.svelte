@@ -24,11 +24,11 @@
             <a
                 href="#reviews"
                 class="duration-200 hover:text-red-500 cursor-pointer"
-            >Über uns</a>
+            >Medienberichterstattung</a>
             <a
                 href="#faqs"
                 class="duration-200 hover:text-red-500 cursor-pointer"
-            >Spenden</a>
+            >Standort</a>
             <button class="specialBtn">
                 <p>Kontakt</p>
             </button>
