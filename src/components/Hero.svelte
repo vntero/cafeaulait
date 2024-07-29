@@ -9,7 +9,7 @@
     <div class="flex flex-col gap-10 flex-1 items-center 
     justify-center pb-10 md:pb-14">
         <h2 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl max-w-[1200px] mx-auto w-full text-center font-semibold">
-            <span class="text-indigo-400">A hair</span> salon 
+            <span class="text-red-500">A hair</span> salon 
             <span class="text-slate-600 line-through">is very slow</span><br/>
             for <span class="text-indigo-400">busy people</span>
         </h2>

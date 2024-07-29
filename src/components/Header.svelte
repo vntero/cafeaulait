@@ -6,10 +6,9 @@
     <div
         class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6"
     >
-        <a href="/">
-            <h1 class="font-semibold">
-                Café au Lait
-            </h1>
+        <a href="/" class="flex items-center">
+            <img alt="The project logo" src="/assets/logo.png" class="w-12 h-12" />
+            <h1 class="font-semibold ml-2">Café au Lait</h1>
         </a>
         <button
             on:click={() => ($openModal = true)}
@@ -20,21 +19,18 @@
         <nav class="hidden md:flex items-center gap-4 lg:gap-6">
             <a
                 href="#product"
-                class="duration-200 hover:text-indigo-400 cursor-pointer"
-                >Product</a
-            >
+                class="duration-200 hover:text-red-500 cursor-pointer"
+            >Kurse</a>
             <a
                 href="#reviews"
-                class="duration-200 hover:text-indigo-400 cursor-pointer"
-                >Reviews</a
-            >
+                class="duration-200 hover:text-red-500 cursor-pointer"
+            >Über uns</a>
             <a
                 href="#faqs"
-                class="duration-200 hover:text-indigo-400 cursor-pointer"
-                >FAQs</a
-            >
+                class="duration-200 hover:text-red-500 cursor-pointer"
+            >Spenden</a>
             <button class="specialBtn">
-                <p>Start free today</p>
+                <p>Kontakt</p>
             </button>
         </nav>
     </div>

@@ -7,14 +7,14 @@ html {
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
 h2,
 h3,
 .poppins {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 span {
@@ -42,7 +42,7 @@ button,
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #ff4b39;
 }
 
 button:focus,
@@ -51,16 +51,16 @@ button:focus-visible {
 }
 
 .specialBtn {
-  border-color: #646cff;
+  border-color: #ff4b39;
 }
 
 .specialBtnDark {
-  background: #646cff;
+  background: #ff4b39;
   color: white;
 }
 
 .specialBtn:hover {
-  border-color: blue;
+  border-color: black;
 }
 
 .dropShadow {
