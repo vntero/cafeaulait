@@ -18,6 +18,10 @@
         </button>
         <nav class="hidden md:flex items-center gap-4 lg:gap-6">
             <a
+                href="/"
+                class="duration-200 hover:text-red-500 cursor-pointer"
+            >Home</a>
+            <a
                 href="#product"
                 class="duration-200 hover:text-red-500 cursor-pointer"
             >Kurse</a>
@@ -25,10 +29,6 @@
                 href="#reviews"
                 class="duration-200 hover:text-red-500 cursor-pointer"
             >Testimonials</a>
-            <a
-                href="#faqs"
-                class="duration-200 hover:text-red-500 cursor-pointer"
-            >Highlights</a>
             <button class="specialBtn">
                 <p>Kontakt</p>
             </button>
