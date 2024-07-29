@@ -1,72 +1,71 @@
 <script>
     import ReviewCard from "./ReviewCard.svelte";
     import SectionWrapper from "./SectionWrapper.svelte";
-    import Stars from "./Stars.svelte";
 
     let lim = true;
 
     let reviewsList = [
         {
-            name: "John Doe",
-            review: "Swoley Moley has been a game-changer for my fitness journey! The personalized workout plans and progress tracking tools are amazing, and the community keeps me motivated. I especially love the feature that recommends new workouts based on my goals and strengths.",
+            name: "Stadt Zürich",
+            review: `"Die Stadt Zürich hat am 24. November 2023 Françoise Strassburg, Gründerin und Präsidentin von Café au Lait, und ihre Weggefährt:innen mit dem Kulturpreis 2023 im Bereich Tanz & Theater gewürdigt. Wir sind überglücklich über diesen Preis und bedanken uns bei der Stadt Zürich."`,
             features: [
-                "Personalized workout plans",
-                "Community features",
-                "Workout recommendation system",
+                "Kulturpreis",
+                "2023",
+                "Tanz & Theater",
             ],
         },
         {
-            name: "Jane Smith",
-            review: "Swoley Moley is the most user-friendly fitness app I've ever used. The interface is clean and intuitive, and the exercises are easy to follow. I've already seen significant results in just a few weeks. My favorite features are the guided workouts and the ability to log my meals and track my progress.",
+            name: "Zeno van Essel - stageplanet.ch",
+            review: `"Ihre Wurzeln sind in Kamerun, Kongo, Togo, Kamerun, Jamaica und anderen Orten der Karibik, Afrikas und Asiens. Ihre Wurzeln sind aber auch hier in der Schweiz, dem Land, wo sie aufwachsen und dessen Dialekt sie sprechen. Zusammen bilden diese Kinder und Jugendlichen verschiedenster Hautfarbe, Herkunft und Kultur die Tanztruppe Café au Lait, die der Schweizer Kultur ein wichtiges Stück neuer, kraftvoller Authentizität hinzufügt."`,
             features: [
-                "Guided workouts",
-                "Meal logging and tracking",
-                "User-friendly interface",
+                "Authentizität",
+                "Kultur",
+                "Integration",
             ],
         },
         {
-            name: "Michael Brown",
-            review: "Swoley Moley is the best investment I've made in my health. It's helped me build muscle, lose weight, and improve my overall fitness level. The variety of workout routines and challenges keeps me engaged, and the nutrition tips are super helpful. I highly recommend this app to anyone looking to get in shape!",
+            name: "Josette Stehli - Zuschauerin",
+            review: `"Le Souffle est une histoire humaine qui remue l'âme au plus profond. Le coeur explose en émotions qui ne peuvent se cacher. Un cri, un seul, nous transperce... qui porte en lui tous les mots de toutes les langues de notre terre. Le mouvement, le rythme, le silence sont l'expression de cette force courageuse qui porte l'homme sur le sentier universel vers l'accueil de toute vie. Merci Café au Lait."`,
             features: [
-                "Variety of workout routines and challenges",
-                "Nutrition tips",
-                "Progress tracking and challenges",
+                "Mouvement",
+                "Humaine",
+                "Force courageuse",
             ],
         },
         {
-            name: "Sarah Williams",
-            review: "I'm a busy mom of two, and Swoley Moley has been a lifesaver! It helps me fit in quick and effective workouts even when I'm short on time. I love the timer feature that keeps me on track, and the workout variety ensures I never get bored.",
+            name: "Zoe Venakis/Julia Bendlin - SRF",
+            review: `"Café au Lait und ihre Macher schenken der Schweizer Kultur eine neue Dimension. Die Performance ist kraftvoll und laut, wie man es von afrikanischen Tänzen und Gesängen kennt."`,
             features: [
-                "Quick and effective workouts",
-                "Timer feature",
-                "Variety of workouts",
+                "Gemeinschaft",
+                "Kulturelle Vielfalt",
+                "Tradition",
             ],
         },
         {
-            name: "David Lee",
-            review: "As a seasoned athlete, I was skeptical about any fitness app. But Swoley Moley has surprised me! It offers advanced workout programs and allows me to customize my routines to fit my specific needs. The data analysis is fantastic, helping me track my progress and optimize my performance.",
+            name: "Zürcher Spendenparlament",
+            review: `"Wir wurden dieses Jahr vom Zürcher Spendenparlament unterstützt. Wir bedanken uns herzlich beim Spendenparlament und bei unseren Künstlern Sahara und Omkar, die uns am Anlass repräsentiert haben."`,
             features: [
-                "Advanced workout programs",
-                "Customization options",
-                "Detailed data analysis",
+                "Ermächtigung",
+                "Zusammenarbeit",
+                "Stolz",
             ],
         },
         {
-            name: "Ashley Johnson",
-            review: "Swoley Moley has helped me overcome my fear of going to the gym. The encouraging community and supportive environment have made me feel comfortable and confident. I love the social features that allow me to connect with other fitness enthusiasts and share my progress.",
+            name: "Klaus Merz - Schriftsteller",
+            review: `"Die neue Produktion “Le Souffle” ist nicht nur herzzerreissend schön, sondern auch künstlerisch klug durchdacht. Flankiert von achtsamen Trommeln und Tänzern und ebenso virtuosem Gesang tanzen und atmen unsere Kinder und Menschenskinder – tragend und getragen – in der wogenden Schar."`,
             features: [
-                "Supportive community",
-                "Social features",
-                "Encouraging environment",
+                "Herzzerreißend",
+                "Künstlerisch",
+                "Virtuos",
             ],
         },
         {
-            name: "Mark Robinson",
-            review: "Swoley Moley is more than just a fitness app; it's a lifestyle change. It's helped me develop healthy habits and make better choices about my diet and exercise. I'm incredibly grateful for this app and the positive impact it's had on my life.",
+            name: "Max Pflüger - Ostschweiz am Sonntag",
+            review: `"Erzählt bildhaft von Erlebnissen afrikanischer Migranten. Ohne Worte und dennoch ausdrucksstark."`,
             features: [
-                "Focus on healthy habits",
-                "Nutritional guidance",
-                "Positive lifestyle impact",
+                "Ausdrucksstark",
+                "Erlebnisse",
+                "Bildhaft",
             ],
         },
     ];
@@ -81,7 +80,7 @@
             <h3
                 class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
             >
-                See What <span class="text-red-500">Others</span> Have To Say
+            Was andere über <span class="text-red-500">uns</span> sagen
             </h3>
         </div>
         <div class="flex flex-col md:flex-row gap-8 w-fit mx-auto">
@@ -98,13 +97,7 @@
             </div>
         </div>
         <button on:click={() => (lim = !lim)} class="specialBtn">
-            <p>{lim ? "Show More" : "Show Less"}</p>
+            <p>{lim ? "Mehr anzeigen" : "Weniger anzeigen"}</p>
         </button>
-        <div class="flex flex-col gap-10">
-            <p class="mx-auto text-lg sm:text-xl md:text-2xl font-semibold">
-                Trusted by 1,349 Swoldiers
-            </p>
-            <Stars />
-        </div>
     </div>
 </SectionWrapper>

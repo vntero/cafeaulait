@@ -24,7 +24,7 @@
             <a
                 href="#reviews"
                 class="duration-200 hover:text-red-500 cursor-pointer"
-            >Medienberichterstattung</a>
+            >Testimonials</a>
             <a
                 href="#faqs"
                 class="duration-200 hover:text-red-500 cursor-pointer"
