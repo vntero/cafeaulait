@@ -3,7 +3,6 @@
     import Header from "./Header.svelte";
     import CTAs from "./CTAs.svelte";
 
-    // Example events
     let events = [
         {
             date: "14.09.2024",
