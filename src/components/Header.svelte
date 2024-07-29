@@ -28,7 +28,7 @@
             <a
                 href="#faqs"
                 class="duration-200 hover:text-red-500 cursor-pointer"
-            >Standort</a>
+            >Highlights</a>
             <button class="specialBtn">
                 <p>Kontakt</p>
             </button>
