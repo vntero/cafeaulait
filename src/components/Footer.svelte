@@ -16,14 +16,14 @@
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Eindrücke</p>
       <a
-        href=""
+        href="/"
         target="_blank"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
         Highlights</a
       >
       <a
-        href=""
+        href="/"
         target="_blank"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
@@ -33,7 +33,7 @@
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Spenden</p>
       <a
-        href=""
+        href="/"
         target="_blank"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
