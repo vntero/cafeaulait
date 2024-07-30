@@ -1,5 +1,5 @@
 <script>
-    import ReviewCard from "./ReviewCard.svelte";
+    import ReviewCard from "./UberUnsCard.svelte";
     import SectionWrapper from "./SectionWrapper.svelte";
 
     let lim = true;
