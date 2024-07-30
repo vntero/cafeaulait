@@ -5,7 +5,7 @@
         {
             featureList: [
             ],
-            description: 'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
+            description: 'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
             imgUrl: 'assets/afrotanz.png'
         },
     ]
@@ -25,7 +25,7 @@
             {#each productFeatures as productFeature, index}
                 <ProductCard {productFeature} {index} >
                     {#if index === 0}
-                    We have many classes <span class="text-red-500 font-medium"> for all ages</span>
+                    Taucht ein in unsere Tanzkurse – <span class="text-red-500 font-medium"> Spaß für jedes Alter!</span>
                     {:else if index === 1}
                     Afro <span class="text-red-500 font-medium">Beats</span>
                     {:else if index === 2}
