@@ -10,38 +10,19 @@
       <h3
         class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
       >
-        Unsere <span class="text-red-500">Mission</span>
+        Unsere <span class="text-red-500">Geschichte</span>
       </h3>
     </div>
+
     <div>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
-        <div
-          class="absolute top-0 w-full h-full bg-center bg-cover rounded-lg shadow-md max-w-[1000px] mx-auto"
-          style="
-                    background-image: url(/assets/unseremission.png);
-                    "
-        ></div>
-        <div
-          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-          style="transform: translateZ(0);"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-blueGray-200 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
+        <img
+          src="/assets/unseremission.png"
+          alt="Uber uns"
+          class="absolute top-0 w-full h-full rounded-lg shadow-md max-w-[1000px] mx-auto"
+        />
       </div>
 
       <section class="pb-20 -mt-24">
@@ -55,12 +36,14 @@
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
                   >
-                    <i class="fas fa-award"></i>
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                  <h6 class="text-xl font-semibold">Love</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                    Café au Lait ist ein Verein für Afrotanz, Gesang &
+                    Perkussion aus Zürich. Der Name ist Programm: So besteht
+                    Café au Lait aus Kindern und Jugendlichen verschiedenster
+                    Hautfarbe, Herkunft und Kultur.
                   </p>
                 </div>
               </div>
@@ -72,14 +55,15 @@
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
+                    class="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
                   >
-                    <i class="fas fa-retweet"></i>
+                    <i class="fa-solid fa-child-reaching"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Free Revisions</h6>
+                  <h6 class="text-xl font-semibold">Movement</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Keep you user engaged by providing meaningful information.
-                    Remember that by this time, the user is curious.
+                    Der Verein ist beim Sportamt Zürich als Jugendsportförderung
+                    anerkannt. Café au Lait wurde im Herbst 2003 von der
+                    gebürtigen Angolanerin Françoise Strassburg gegründet.
                   </p>
                 </div>
               </div>
@@ -93,12 +77,16 @@
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
                   >
-                    <i class="fas fa-fingerprint"></i>
+                    <i class="fa-solid fa-bolt-lightning"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Verified Company</h6>
+                  <h6 class="text-xl font-semibold">Passion</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough. Keep you user engaged!
+                    Zusammen mit ihren Lehrerinnen und Lehrern fördert sie den
+                    Tanz, die Rhythmik und den Gesang der jungen Künstlerinnen
+                    und Künstlern bis hin zur Bühnenreife (siehe CAL Stage
+                    Company). Dabei lernen die Kinder und Jugendlichen
+                    spielerisch auch immer Respekt, gegenseitiges Verständnis
+                    und Solidarität.
                   </p>
                 </div>
               </div>
