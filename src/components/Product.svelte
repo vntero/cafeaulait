@@ -4,31 +4,9 @@
     let productFeatures=[
         {
             featureList: [
-                'Kondition',
-                'Rhythmisches Feingefühl',
-                'Präzision der Tanzbewegungen',
             ],
-            description: 'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
+            description: 'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
             imgUrl: 'assets/afrotanz.png'
-        },
-        {
-            featureList: [
-                'Groove',
-                'Spontaneität',
-                'Lebhaft',
-            ],
-            description: 'Junge Tänzer vermitteln energiereiche Schritte und frische Vibes.',
-            imgUrl: 'assets/afrobeats.png'
-        },
-        {
-            featureList: [
-                'Tänzerisches Können',
-                'Theatralisches Können',
-                'Perkussion',
-                'Gesang',
-            ],
-            description: 'Die «CAL Stage Company» ist eine bühnenorientierte Tanzgruppe. Sie hat zum Ziel, die künstlerische Ausbildung im Bereich des traditionellen und zeitgenössischen afrikanischen Tanzes, der Perkussion und des Gesangs zu fördern.',
-            imgUrl: 'assets/stagecompany.png'
         },
     ]
 </script>
@@ -47,9 +25,13 @@
             {#each productFeatures as productFeature, index}
                 <ProductCard {productFeature} {index} >
                     {#if index === 0}
-                    Afrotanz als Sport <span class="text-red-500 font-medium"> & Bewegung </span>
+                    We have many classes <span class="text-red-500 font-medium"> for all ages</span>
                     {:else if index === 1}
                     Afro <span class="text-red-500 font-medium">Beats</span>
+                    {:else if index === 2}
+                    Afro Beats <span class="text-red-500 font-medium">Masterclass</span>
+                    {:else if index === 3}
+                    Gospel<span class="text-red-500 font-medium">chor</span>
                     {:else}
                     Stage <span class="text-red-500 font-medium">Company</span>
                     {/if}

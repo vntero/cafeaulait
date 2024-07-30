@@ -16,6 +16,23 @@
             <p>2024 © Alle Rechte vorbehalten</p>
         </div>
         <div class="flex flex-col gap-4">
+            <p class="font-bold poppins text-base sm:text-lg">Eindrücke</p>
+            <a
+                href=""
+                target="_blank"
+                class="cursor-pointer hover:text-red-500 duration-200"
+            >
+                Highlights</a
+            >
+            <a
+                href=""
+                target="_blank"
+                class="cursor-pointer hover:text-red-500 duration-200"
+            >
+                Testimonials</a
+            >
+        </div>
+        <div class="flex flex-col gap-4">
             <p class="font-bold poppins text-base sm:text-lg">Spenden</p>
             <a
                 href=""
@@ -23,30 +40,6 @@
                 class="cursor-pointer hover:text-red-500 duration-200"
             >
             IBAN: CH 92 0900 0000 8560 3522 7</a
-            >
-        </div>
-        <div class="flex flex-col gap-4">
-            <p class="font-bold poppins text-base sm:text-lg">Über uns</p>
-            <a
-                href=""
-                target="_blank"
-                class="cursor-pointer hover:text-red-500 duration-200"
-            >
-                Unser Nachwuchs</a
-            >
-            <a
-                href=""
-                target="_blank"
-                class="cursor-pointer hover:text-red-500 duration-200"
-            >
-                Unsere Künstler</a
-            >
-            <a
-                href=""
-                target="_blank"
-                class="cursor-pointer hover:text-red-500 duration-200"
-            >
-                Unser Team</a
             >
         </div>
         <div class="flex flex-col gap-4">

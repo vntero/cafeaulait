@@ -1,9 +1,5 @@
-<script>
-    export let dark;
-</script>
-
 <div class="flex items-center gap-4">
-    <button class={"specialBtn " + (dark ? " bg-[#181b34]" : " ")}>
+    <button class={"specialBtn"}>
         <p class="text-base sm:text-lg md:text-xl">Buche eine Show</p>
     </button>
     <button class="specialBtnDark">
