@@ -20,7 +20,7 @@
   >
       <div class="flex items-center justify-between gap-4 border-b pb-2">
           <h1 class="font-semibold">
-              Swoley <span class="text-red-500">Moley</span>
+              Cafe au Lait
           </h1>
           <button
               on:click={() => ($openModal = false)}
@@ -51,13 +51,13 @@
               </p>
           </button>
           <button
-              on:click={() => reroute("#faqs")}
+              on:click={() => reroute("#uberuns")}
               class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
           >
               <p
                   class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold"
               >
-                  FAQs <i class="fa-solid fa-chevron-right text-xl pl-4" />
+                  Über Uns <i class="fa-solid fa-chevron-right text-xl pl-4" />
               </p>
           </button>
       </div>
