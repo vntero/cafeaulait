@@ -53,7 +53,7 @@
                     </div>
                     <p>{showsItem.review}</p>
                     <div class="flex items-center gap-4">
-                        <button class="specialBtn">
+                        <button class={index === 1 ? "specialBtn" : "specialBtnDark"}>
                             <p class="text-base sm:text-lg md:text-xl">{showsItem.buttonText}</p>
                         </button>
                     </div>

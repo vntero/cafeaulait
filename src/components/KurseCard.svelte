@@ -27,7 +27,7 @@
             {/each}
         </div>
         <div class="flex items-center gap-4">
-            <button class="specialBtnDark">
+            <button class="specialBtn">
                 <p class="text-base sm:text-lg md:text-xl">Erfahre mehr</p>
             </button>
         </div>
