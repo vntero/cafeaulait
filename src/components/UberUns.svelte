@@ -1,103 +1,110 @@
 <script>
-    import ReviewCard from "./UberUnsCard.svelte";
     import SectionWrapper from "./SectionWrapper.svelte";
-
-    let lim = true;
-
-    let reviewsList = [
-        {
-            name: "Stadt Zürich",
-            review: `"Die Stadt Zürich hat am 24. November 2023 Françoise Strassburg, Gründerin und Präsidentin von Café au Lait, und ihre Weggefährt:innen mit dem Kulturpreis 2023 im Bereich Tanz & Theater gewürdigt. Wir sind überglücklich über diesen Preis und bedanken uns bei der Stadt Zürich."`,
-            features: [
-                "Kulturpreis",
-                "2023",
-                "Tanz & Theater",
-            ],
-        },
-        {
-            name: "Zeno van Essel - stageplanet.ch",
-            review: `"Ihre Wurzeln sind in Kamerun, Kongo, Togo, Kamerun, Jamaica und anderen Orten der Karibik, Afrikas und Asiens. Ihre Wurzeln sind aber auch hier in der Schweiz, dem Land, wo sie aufwachsen und dessen Dialekt sie sprechen. Zusammen bilden diese Kinder und Jugendlichen verschiedenster Hautfarbe, Herkunft und Kultur die Tanztruppe Café au Lait, die der Schweizer Kultur ein wichtiges Stück neuer, kraftvoller Authentizität hinzufügt."`,
-            features: [
-                "Authentizität",
-                "Kultur",
-                "Integration",
-            ],
-        },
-        {
-            name: "Josette Stehli - Zuschauerin",
-            review: `"Le Souffle est une histoire humaine qui remue l'âme au plus profond. Le coeur explose en émotions qui ne peuvent se cacher. Un cri, un seul, nous transperce... qui porte en lui tous les mots de toutes les langues de notre terre. Le mouvement, le rythme, le silence sont l'expression de cette force courageuse qui porte l'homme sur le sentier universel vers l'accueil de toute vie. Merci Café au Lait."`,
-            features: [
-                "Mouvement",
-                "Humaine",
-                "Force courageuse",
-            ],
-        },
-        {
-            name: "Zoe Venakis/Julia Bendlin - SRF",
-            review: `"Café au Lait und ihre Macher schenken der Schweizer Kultur eine neue Dimension. Die Performance ist kraftvoll und laut, wie man es von afrikanischen Tänzen und Gesängen kennt."`,
-            features: [
-                "Gemeinschaft",
-                "Kulturelle Vielfalt",
-                "Tradition",
-            ],
-        },
-        {
-            name: "Zürcher Spendenparlament",
-            review: `"Wir wurden dieses Jahr vom Zürcher Spendenparlament unterstützt. Wir bedanken uns herzlich beim Spendenparlament und bei unseren Künstlern Sahara und Omkar, die uns am Anlass repräsentiert haben."`,
-            features: [
-                "Ermächtigung",
-                "Zusammenarbeit",
-                "Stolz",
-            ],
-        },
-        {
-            name: "Klaus Merz - Schriftsteller",
-            review: `"Die neue Produktion “Le Souffle” ist nicht nur herzzerreissend schön, sondern auch künstlerisch klug durchdacht. Flankiert von achtsamen Trommeln und Tänzern und ebenso virtuosem Gesang tanzen und atmen unsere Kinder und Menschenskinder – tragend und getragen – in der wogenden Schar."`,
-            features: [
-                "Herzzerreißend",
-                "Künstlerisch",
-                "Virtuos",
-            ],
-        },
-        {
-            name: "Max Pflüger - Ostschweiz am Sonntag",
-            review: `"Erzählt bildhaft von Erlebnissen afrikanischer Migranten. Ohne Worte und dennoch ausdrucksstark."`,
-            features: [
-                "Ausdrucksstark",
-                "Erlebnisse",
-                "Bildhaft",
-            ],
-        },
-    ];
 </script>
 
 <SectionWrapper id="uberuns">
     <div
         class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center"
     >
-        <div class="flex flex-col gap-2">
-            <br>
-            <h3
-                class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
+        <div>
+            <div class="flex flex-col gap-2">
+                <h3 class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center">
+                    Unsere <span class="text-red-500">Mission</span>
+                </h3>
+            </div>
+            
+            <div
+            class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
             >
-            Was andere über <span class="text-red-500">uns</span> sagen
-            </h3>
-        </div>
-        <div class="flex flex-col md:flex-row gap-8 w-fit mx-auto">
-            <div class="flex flex-col gap-8">
-                {#each lim ? reviewsList.slice(0, 4) : reviewsList as reviewItem, index}
-                    <ReviewCard {reviewItem} left={true} {index} />
-                {/each}
+                <div
+                    class="absolute top-0 w-full h-full bg-center bg-cover rounded-lg shadow-md max-w-[1000px] mx-auto"
+                    style="
+                    background-image: url(/assets/unseremission.png);
+                    "
+                >
+                </div>
+                <div
+                    class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+                    style="transform: translateZ(0);"
+                >
+                    <svg
+                    class="absolute bottom-0 overflow-hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="none"
+                    version="1.1"
+                    viewBox="0 0 2560 100"
+                    x="0"
+                    y="0"
+                    >
+                    <polygon
+                        class="text-blueGray-200 fill-current"
+                        points="2560 0 2560 100 0 100"
+                    ></polygon>
+                    </svg>
+                </div>
             </div>
-            <div class="w-[1px] bg-slate-950 hidden md:flex"></div>
-            <div class="flex flex-col gap-8">
-                {#each lim ? reviewsList.slice(0, 4) : reviewsList as reviewItem, index}
-                    <ReviewCard {reviewItem} {index} />
-                {/each}
-            </div>
+            
+            <section class="pb-20 -mt-24">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap">
+                        <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                            >
+                                <div class="px-4 py-5 flex-auto">
+                                    <div
+                                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+                                    >
+                                        <i class="fas fa-award"></i>
+                                    </div>
+                                    <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                                    <p class="mt-2 mb-4 text-blueGray-500">
+                                    Divide details about your product or agency work into parts. A
+                                    paragraph describing a feature will be enough.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+            
+                <div class="w-full md:w-4/12 px-4 text-center">
+                    <div
+                    class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                    >
+                    <div class="px-4 py-5 flex-auto">
+                        <div
+                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
+                        >
+                        <i class="fas fa-retweet"></i>
+                        </div>
+                        <h6 class="text-xl font-semibold">Free Revisions</h6>
+                        <p class="mt-2 mb-4 text-blueGray-500">
+                        Keep you user engaged by providing meaningful information.
+                        Remember that by this time, the user is curious.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            
+                <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+                    <div
+                    class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                    >
+                    <div class="px-4 py-5 flex-auto">
+                        <div
+                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
+                        >
+                        <i class="fas fa-fingerprint"></i>
+                        </div>
+                        <h6 class="text-xl font-semibold">Verified Company</h6>
+                        <p class="mt-2 mb-4 text-blueGray-500">
+                        Write a few lines about each one. A paragraph describing a
+                        feature will be enough. Keep you user engaged!
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
         </div>
-        <button on:click={() => (lim = !lim)} class="specialBtn">
-            <p>{lim ? "Mehr anzeigen" : "Weniger anzeigen"}</p>
-        </button>
     </div>
 </SectionWrapper>
