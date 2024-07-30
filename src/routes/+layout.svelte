@@ -1,7 +1,6 @@
 <script>
   import "../app.css";
   import CtAs from "../components/CTAs.svelte";
-  import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
 
   import { openModal } from "../store";
@@ -32,23 +31,23 @@
       </div>
       <div class="flex flex-col gap-4 flex-1">
           <button
-              on:click={() => reroute("#product")}
+              on:click={() => reroute("#kurse")}
               class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
           >
               <p
                   class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold"
               >
-                  Product <i class="fa-solid fa-chevron-right text-xl pl-4" />
+                  Kurse <i class="fa-solid fa-chevron-right text-xl pl-4" />
               </p>
           </button>
           <button
-              on:click={() => reroute("#reviews")}
+              on:click={() => reroute("#shows")}
               class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
           >
               <p
                   class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold"
               >
-                  Reviews <i class="fa-solid fa-chevron-right text-xl pl-4" />
+                  Shows <i class="fa-solid fa-chevron-right text-xl pl-4" />
               </p>
           </button>
           <button
@@ -77,8 +76,8 @@
 <svelte:window bind:scrollY={y} bind:outerHeight />
 <!-- header
 hero
-product description
-user reviews
+kurse description
+shows
 faq
 conversion-
 footer -->

@@ -22,15 +22,15 @@
                 class="duration-200 hover:text-red-500 cursor-pointer"
             >Home</a>
             <a
-                href="#product"
+                href="#kurse"
                 class="duration-200 hover:text-red-500 cursor-pointer"
             >Kurse</a>
             <a
-                href="#reviews"
+                href="#shows"
                 class="duration-200 hover:text-red-500 cursor-pointer"
             >Shows</a>
             <a
-                href="#reviews"
+                href="#uberuns"
                 class="duration-200 hover:text-red-500 cursor-pointer"
             >Über uns</a>
             <button class="specialBtn">

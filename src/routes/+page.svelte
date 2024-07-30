@@ -1,15 +1,15 @@
 <script>
     import Hero from "../components/Hero.svelte"
-    import Product from "../components/Product.svelte"
-    import Reviews from "../components/Reviews.svelte"
+    import Kurse from "../components/Kurse.svelte"
+    import Shows from "../components/Shows.svelte"
     import FAQs from "../components/FAQs.svelte"
     import Footer from "../components/Footer.svelte"
 </script>
 
 <main class="flex flex-col">
     <Hero/>
-    <Product/>
-    <Reviews/>
+    <Kurse/>
+    <Shows/>
     <FAQs/>
     <Footer/>
 </main>

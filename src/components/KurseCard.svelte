@@ -1,6 +1,6 @@
 <script>
     export let index;
-    export let productFeature;
+    export let kurseFeature;
 </script>
 
 <div
@@ -13,9 +13,9 @@
         >
             <slot />
         </h4>
-        <p>{productFeature.description}</p>
+        <p>{kurseFeature.description}</p>
         <div class="flex flex-col gap-3">
-            {#each productFeature.featureList as listItem}
+            {#each kurseFeature.featureList as listItem}
                 <div class="flex gap-2 items-center">
                     <div
                         class="grid place-items-center px-1.5 text-xs sm:text-sm aspect-square rounded-full border-[1.5px] bg-white border-solid border-green-300"
@@ -45,7 +45,7 @@
             {/each}
         </div>
         <div class="flex flex-col bg-white gap-4 flex-1">
-            <img src={productFeature.imgUrl} alt="product-img" />
+            <img src={kurseFeature.imgUrl} alt="kurse-img" />
         </div>
     </div>
 </div>
