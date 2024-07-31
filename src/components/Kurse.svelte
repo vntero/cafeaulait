@@ -1,6 +1,7 @@
 <script>
   import KurseCard from './KurseCard.svelte'
   import SectionWrapper from './SectionWrapper.svelte'
+  import { onMount, onDestroy } from 'svelte'
   let kurseFeatures = [
     {
       featureList: [],
@@ -9,6 +10,17 @@
       imgUrl: 'assets/afrotanz.png',
     },
   ]
+
+  let currentIndex = 0
+  let intervalId
+
+  onMount(() => {
+    intervalId = setInterval(() => {
+      currentIndex = (currentIndex + 1) % kurseFeatures.length
+    }, 2000)
+  })
+
+  onDestroy(() => clearInterval(intervalId))
 </script>
 
 <SectionWrapper id="kurse">

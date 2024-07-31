@@ -3,7 +3,7 @@
     class="max-w-[1200px] mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 text-base"
   >
     <div class="flex flex-col gap-4 md:col-span-2">
-      <h1 class="font-semibold">Café au Lait</h1>
+      <h1 class="font-semibold text-red-500 italic">Café au Lait</h1>
       <a
         href="https://maps.app.goo.gl/fCfEt3Dc6tQVP39RA"
         target="_blank"
