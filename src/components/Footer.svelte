@@ -9,8 +9,9 @@
         target="_blank"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
-        Seefeldstrasse 109, 8008 Zürich</a
-      >
+        <i class="fa-solid fa-location-dot"></i>
+        Seefeldstrasse 109, 8008 Zürich
+      </a>
       <p>2024 © Alle Rechte vorbehalten</p>
     </div>
     <div class="flex flex-col gap-4">
