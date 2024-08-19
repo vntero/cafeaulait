@@ -54,6 +54,10 @@ button:focus-visible {
   border-color: #ff4b39;
 }
 
+.specialBtnCancel {
+  border-color: black;
+}
+
 .specialBtnDark {
   background: #ff4b39;
   color: white;
