@@ -10,12 +10,19 @@
 </script>
 
 {#if show}
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div
-    class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+    class="fixed pb-10 inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+    on:click={close}
   >
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <SectionWrapper>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div
         class="relative flex flex-col w-full mb-6 shadow-lg rounded-lg max-w-[1000px] mx-auto m-20 bg-[#FFF1DB]"
+        on:click|stopPropagation
       >
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <form>

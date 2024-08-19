@@ -2,8 +2,15 @@
   import BookModal from './BookModal.svelte'
   let showBookModal = false
 
-  const handleClose = () => {
+  const handleBookClose = () => {
     showBookModal = false
+  }
+
+  import RegisterModal from './RegisterModal.svelte'
+  let showRegisterModal = false
+
+  const handleRegisterClose = () => {
+    showRegisterModal = false
   }
 </script>
 
@@ -11,7 +18,7 @@
   <button class={'specialBtnDark'} on:click={() => (showBookModal = true)}>
     <p class="text-base sm:text-lg md:text-xl">Buche eine Show</p>
   </button>
-  <BookModal show={showBookModal} on:close={handleClose} />
+  <BookModal show={showBookModal} on:close={handleBookClose} />
 
   <a href="/register">
     <button class="specialBtn">
