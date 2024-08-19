@@ -142,12 +142,12 @@
         </div>
         <div class="flex items-center gap-4 justify-center pt-10">
           <button class={'specialBtnDark'}>
-            <p class="text-base sm:text-lg md:text-xl">Submit</p>
+            <p class="text-base sm:text-lg md:text-xl">Senden</p>
           </button>
 
           <a href="/">
-            <button class="specialBtn">
-              <p class="text-base sm:text-lg md:text-xl">Cancel</p>
+            <button class="specialBtnCancel">
+              <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
             </button>
           </a>
         </div>

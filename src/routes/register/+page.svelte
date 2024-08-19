@@ -274,7 +274,7 @@
           </button>
 
           <a href="/">
-            <button class="specialBtn">
+            <button class="specialBtnCancel">
               <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
             </button>
           </a>
