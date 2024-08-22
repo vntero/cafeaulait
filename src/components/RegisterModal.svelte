@@ -21,7 +21,7 @@
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div
-        class="relative flex flex-col w-full mb-6 shadow-lg rounded-lg max-w-[1000px] mx-auto m-20 bg-[#FFF1DB]"
+        class="relative flex flex-col w-full mb-6 shadow-lg rounded-lg max-w-[1000px] mx-auto m-20 bg-[#FFF1DB] max-h-screen overflow-y-auto"
         on:click|stopPropagation
       >
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
@@ -37,7 +37,7 @@
               Kind <span class="text-red-500">*</span>
             </h6>
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-6/12 px-4">
+              <div class="w-6/12 lg:w-6/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -53,7 +53,7 @@
                   />
                 </div>
               </div>
-              <div class="w-full lg:w-6/12 px-4">
+              <div class="w-6/12 lg:w-6/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -112,7 +112,7 @@
               Erziehungsberechtigte:r 1 <span class="text-red-500">*</span>
             </h6>
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-5/12 px-4">
+              <div class="w-6/12 md:w-5/12 lg:w-5/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -129,7 +129,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-4/12 px-4">
+              <div class="w-6/12 md:w-4/12 lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -146,7 +146,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-3/12 px-4">
+              <div class="w-6/12 md:w-3/12 lg:w-3/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -163,7 +163,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-5/12 px-4">
+              <div class="w-6/12 md:w-5/12 lg:w-5/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -180,7 +180,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-2/12 px-4">
+              <div class="w-3/12 md:w-2/12 lg:w-2/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -197,7 +197,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-2/12 px-4">
+              <div class="w-3/12 md:w-2/12 lg:w-2/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -214,7 +214,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-3/12 px-4">
+              <div class="w-6/12 md:w-3/12 lg:w-3/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -237,7 +237,7 @@
               Erziehungsberechtigte:r 2
             </h6>
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-5/12 px-4">
+              <div class="w-6/12 md:w-5/12 lg:w-5/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -253,7 +253,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-4/12 px-4">
+              <div class="w-6/12 md:w-4/12 lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -269,7 +269,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-3/12 px-4">
+              <div class="w-6/12 md:w-3/12 lg:w-3/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -285,7 +285,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-5/12 px-4">
+              <div class="w-6/12 md:w-5/12 lg:w-5/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -301,7 +301,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-2/12 px-4">
+              <div class="w-3/12 md:w-2/12 lg:w-2/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -317,7 +317,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-2/12 px-4">
+              <div class="w-3/12 md:w-2/12 lg:w-2/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -333,7 +333,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-3/12 px-4">
+              <div class="w-6/12 md:w-3/12 lg:w-3/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"

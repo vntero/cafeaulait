@@ -21,8 +21,7 @@
         target="_blank"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
-        <i class="fa-brands fa-instagram pr-2" />
-        Instagram</a
+        <i class="fa-brands fa-instagram pr-2" />Instagram</a
       >
     </div>
     <div class="flex flex-col gap-4">
