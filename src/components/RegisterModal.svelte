@@ -7,6 +7,8 @@
     show = false
     dispatch('close')
   }
+
+  let showSecondGuardian = false
 </script>
 
 {#if show}
@@ -108,109 +110,7 @@
               Erziehungsberechtigte:r 1
             </h6>
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-12/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-address"
-                  >
-                    Name, Vorname <span class="text-red-500">*</span>
-                  </label>
-                  <input
-                    id="grid-address"
-                    type="text"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="w-full px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-city"
-                  >
-                    Strasse, Nr, PLZ, Ort <span class="text-red-500">*</span>
-                  </label>
-                  <div class="grid grid-cols-1 mb-4">
-                    <!-- Strasse input field -->
-                    <input
-                      id="grid-strasse"
-                      type="text"
-                      placeholder="Strasse"
-                      class="col-span-1 lg:col-span-4 md:col-span-4 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      required
-                    />
-                  </div>
-                  <div class="grid grid-cols-3 lg:grid-cols-3 gap-4">
-                    <!-- Nr input field -->
-                    <input
-                      id="grid-nr"
-                      type="text"
-                      placeholder="Nr"
-                      class="col-span-1 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      required
-                    />
-                    <!-- PLZ input field -->
-                    <input
-                      id="grid-plz"
-                      type="text"
-                      placeholder="PLZ"
-                      class="col-span-1 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      required
-                    />
-                    <!-- Ort input field -->
-                    <input
-                      id="grid-ort"
-                      type="text"
-                      placeholder="Ort"
-                      class="col-span-1 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      required
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="w-full px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-country"
-                  >
-                    E-mail <span class="text-red-500">*</span>
-                  </label>
-                  <input
-                    id="grid-country"
-                    type="email"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="w-full px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
-                  >
-                    Telefonnr. <span class="text-red-500">*</span>
-                  </label>
-                  <input
-                    id="grid-postal-code"
-                    type="tel"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
-                  />
-                </div>
-              </div>
-            </div>
-
-            <!-- legal guardian 2 -->
-            <h6 class="mt-3 mb-6 font-bold uppercase">
-              Erziehungsberechtigte:r 2
-            </h6>
-            <div class="flex flex-wrap">
-              <div class="w-full lg:w-12/12 px-4">
+              <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -223,46 +123,6 @@
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
-                </div>
-              </div>
-              <div class="w-full lg:w-4/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-city"
-                  >
-                    Strasse, Nr, PLZ, Ort
-                  </label>
-                  <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
-                    <!-- Strasse input field -->
-                    <input
-                      id="grid-strasse"
-                      type="text"
-                      placeholder="Strasse"
-                      class="col-span-1 lg:col-span-4 md:col-span-4 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    />
-                    <!-- Nr input field -->
-                    <input
-                      id="grid-nr"
-                      type="text"
-                      placeholder="Nr"
-                      class="col-span-1 lg:col-span-1 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    />
-                    <!-- PLZ input field -->
-                    <input
-                      id="grid-plz"
-                      type="text"
-                      placeholder="PLZ"
-                      class="col-span-1 lg:col-span-1 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    />
-                    <!-- Ort input field -->
-                    <input
-                      id="grid-ort"
-                      type="text"
-                      placeholder="Ort"
-                      class="col-span-1 lg:col-span-2 border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    />
-                  </div>
                 </div>
               </div>
 
@@ -281,6 +141,7 @@
                   />
                 </div>
               </div>
+
               <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
@@ -296,11 +157,193 @@
                   />
                 </div>
               </div>
+
+              <div class="w-full lg:w-5/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Strasse
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-2/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Nr
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-2/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    PLZ
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-3/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Ort
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- legal guardian 2 -->
+            <h6 class="mt-3 mb-6 font-bold uppercase">
+              Erziehungsberechtigte:r 2
+            </h6>
+            <div class="flex flex-wrap">
+              <div class="w-full lg:w-4/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-address"
+                  >
+                    Name, Vorname
+                  </label>
+                  <input
+                    id="grid-address"
+                    type="text"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-4/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-country"
+                  >
+                    E-mail
+                  </label>
+                  <input
+                    id="grid-country"
+                    type="email"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-4/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Telefonnr.
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-5/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Strasse
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-2/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Nr
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-2/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    PLZ
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-3/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Ort
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  />
+                </div>
+              </div>
             </div>
 
             <!-- buttons -->
             <div class="flex items-center gap-4 justify-center pt-10">
-              <button class={'specialBtnDark'}>
+              <button class="specialBtnDark">
                 <p class="text-base sm:text-lg md:text-xl">Senden</p>
               </button>
 
