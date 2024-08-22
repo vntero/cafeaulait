@@ -6,7 +6,7 @@
     {
       featureList: [],
       description:
-        'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet. Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
+        'Lerne in deiner Altersgruppe panafrikanische Tänze, Afro Beats, Perkussionsrhythmen und Gesänge kennen und mach mit bei unseren Shows. Café au Lait begleitet dich von den ersten Tanzschritten bis zur Bühnenreife.',
       imgUrl: 'assets/afrotanz.png',
     },
   ]
@@ -37,10 +37,10 @@
     {#each kurseFeatures as kurseFeature, index}
       <KurseCard {kurseFeature} {index}>
         {#if index === 0}
-          Taucht ein in unsere Tanzkurse – <span
+          Unsere Tanz-, Trommel und Gesangskurse – <span
             class="text-red-500 font-medium"
           >
-            Spaß für jedes Alter!</span
+            ab 6 Jahren</span
           >
         {:else if index === 1}
           Afro <span class="text-red-500 font-medium">Beats</span>

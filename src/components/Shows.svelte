@@ -5,12 +5,12 @@
   let showsList = [
     {
       name: 'Dein Event',
-      review: `Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere Shows garantieren jede Menge Spaß und gute Laune. Lassen Sie sich von unseren Performances und der Energie mitreißen! Kontaktieren Sie uns, um mehr über die Buchungsmöglichkeiten zu erfahren. Wir freuen uns darauf, Ihr Event zu einem unvergesslichen Highlight zu machen!`,
+      review: `Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere Shows garantieren jede Menge Spass und gute Laune. Lass dich von unseren Performances und der Energie mitreißen! Kontaktiere uns, um mehr über unser Angebot zu erfahren. Wir freuen uns darauf, deinen Event zu einem unvergesslichen Highlight zu machen.`,
       features: ['Kulturpreis', '2023', 'Tanz & Theater'],
       buttonText: 'Mehr erfahren und buchen',
     },
     {
-      name: 'Unsere Produktione',
+      name: 'Unsere Produktionen',
       review: `Unsere Hauptproduktion bringt die faszinierenden Geschichten afrikanischer Einwanderer in Europa auf die Bühne. Mit lebhaften Tänzen und mitreißender Musik feiern wir die Stärke und Kreativität dieser Gemeinschaft. Erleben Sie, wie kulturelle Vielfalt und persönliche Geschichten zu einer beeindruckenden und inspirierenden Performance verschmelzen.`,
       features: ['Authentizität', 'Kultur', 'Integration'],
       buttonText: 'Jetzt buchen und erleben',
@@ -26,7 +26,7 @@
       <h3
         class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
       >
-        Guck mal <span class="text-red-500">was wir draufhaben!</span>
+        Uns kann man <span class="text-red-500">buchen</span>
       </h3>
     </div>
     <div class="flex flex-col md:flex-row gap-8 w-fit mx-auto">
@@ -43,13 +43,13 @@
           <div
             class="flex items-center flex-wrap gap-2 text-xs sm:text-sm mb-4"
           >
-            {#each showsItem.features as keyword}
+            <!-- {#each showsItem.features as keyword}
               <div
                 class="p-1 py-0.5 rounded-md border border-solid border-red-500 bg-red-50 text-red-500"
               >
                 <p>{keyword}</p>
               </div>
-            {/each}
+            {/each} -->
           </div>
           <p>{showsItem.review}</p>
           <div class="flex items-center gap-4">
