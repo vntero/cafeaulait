@@ -169,11 +169,9 @@
                 <p class="text-base sm:text-lg md:text-xl">Senden</p>
               </button>
 
-              <a href="/">
-                <button class="specialBtnCancel" on:click={close}>
-                  <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
-                </button>
-              </a>
+              <button class="specialBtnCancel" on:click={close}>
+                <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
+              </button>
             </div>
           </form>
         </div>
