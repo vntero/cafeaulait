@@ -11,7 +11,7 @@
     },
     {
       name: 'Unsere Produktionen',
-      review: `Unsere Hauptproduktion bringt die faszinierenden Geschichten afrikanischer Einwanderer in Europa auf die Bühne. Mit lebhaften Tänzen und mitreißender Musik feiern wir die Stärke und Kreativität dieser Gemeinschaft. Erleben Sie, wie kulturelle Vielfalt und persönliche Geschichten zu einer beeindruckenden und inspirierenden Performance verschmelzen.`,
+      review: `Wir erarbeiten regelmässig mit unseren Nachwuchstalenten und Künstler:innen neue Produktionen. Unsere neuste Produktion «R'Evolution» befasst sich mit struktureller Misogynie, derer nach wie vor alle weiblich gelesenen Menschen auf dieser Welt ausgesetzt sind.`,
       features: ['Authentizität', 'Kultur', 'Integration'],
       buttonText: 'Jetzt buchen und erleben',
     },

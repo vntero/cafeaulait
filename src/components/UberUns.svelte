@@ -10,7 +10,7 @@
       <h3
         class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
       >
-        Unsere <span class="text-red-500">Geschichte</span>
+        Unser <span class="text-red-500">Verein</span>
       </h3>
     </div>
 
@@ -28,6 +28,7 @@
       <section class="pb-20 -mt-24">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
+            <!-- Diversität -->
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -38,17 +39,18 @@
                   >
                     <i class="fa-solid fa-heart"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Love</h6>
+                  <h6 class="text-xl font-semibold">Diversität</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
                     Café au Lait ist ein Verein für Afrotanz, Gesang &
-                    Perkussion aus Zürich. Der Name ist Programm: So besteht
-                    Café au Lait aus Kindern und Jugendlichen verschiedenster
-                    Hautfarbe, Herkunft und Kultur.
+                    Perkussion aus Zürich. Der Name ist Programm: Café au Lait
+                    besteht aus Kindern und Jugendlichen unterschiedlicher
+                    Hautfarben, Herkunft und Kultur.
                   </p>
                 </div>
               </div>
             </div>
 
+            <!-- Ursprung -->
             <div class="w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -59,16 +61,17 @@
                   >
                     <i class="fa-solid fa-child-reaching"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Movement</h6>
+                  <h6 class="text-xl font-semibold">Ursprung</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Der Verein ist beim Sportamt Zürich als Jugendsportförderung
-                    anerkannt. Café au Lait wurde im Herbst 2003 von der
-                    gebürtigen Angolanerin Françoise Strassburg gegründet.
+                    Der Verein wurde 2003 von der gebürtigen Angolanerin
+                    Françoise Strassburg gegründet und ist beim Sportamt Zürich
+                    als Jugendsportförderung anerkannt.
                   </p>
                 </div>
               </div>
             </div>
 
+            <!-- Mission -->
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -79,14 +82,17 @@
                   >
                     <i class="fa-solid fa-bolt-lightning"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Passion</h6>
+                  <h6 class="text-xl font-semibold">Mission</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Zusammen mit ihren Lehrerinnen und Lehrern fördert sie den
-                    Tanz, die Rhythmik und den Gesang der jungen Künstlerinnen
-                    und Künstlern bis hin zur Bühnenreife (siehe CAL Stage
-                    Company). Dabei lernen die Kinder und Jugendlichen
-                    spielerisch auch immer Respekt, gegenseitiges Verständnis
-                    und Solidarität.
+                    Café au Lait fördert die jungen Künstlerinnen und Künstlern
+                    in Tanz, Rhythmik, Schauspiel und Gesang bis hin zur
+                    Bühnenreife (<a
+                      href="/"
+                      class="text-red-500 hover:text-blue-600"
+                    >
+                      siehe Stage Company</a
+                    >). Dabei lernen die Kinder und Jugendlichen spielerisch
+                    auch Respekt, gegenseitiges Verständnis und Solidarität.
                   </p>
                 </div>
               </div>
