@@ -7,8 +7,6 @@
     show = false
     dispatch('close')
   }
-
-  let showSecondGuardian = false
 </script>
 
 {#if show}
@@ -33,7 +31,9 @@
             >
               Anmeldung
             </h6>
-            <h6 class="mt-3 mb-6 font-bold uppercase">Kind</h6>
+            <h6 class="mt-3 mb-6 font-bold uppercase">
+              Kind <span class="text-red-500">*</span>
+            </h6>
             <div class="flex flex-wrap">
               <div class="w-full lg:w-6/12 px-4">
                 <div class="relative w-full mb-3">
@@ -107,21 +107,22 @@
 
             <!-- legal guardian 1 -->
             <h6 class="mt-3 mb-6 font-bold uppercase">
-              Erziehungsberechtigte:r 1
+              Erziehungsberechtigte:r 1 <span class="text-red-500">*</span>
             </h6>
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-4/12 px-4">
+              <div class="w-full lg:w-5/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
                     for="grid-address"
                   >
-                    Name, Vorname
+                    Name, Vorname <span class="text-red-500">*</span>
                   </label>
                   <input
                     id="grid-address"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
                   />
                 </div>
               </div>
@@ -132,76 +133,13 @@
                     class="block text-sm font-semibold mb-2"
                     for="grid-country"
                   >
-                    E-mail
+                    E-mail <span class="text-red-500">*</span>
                   </label>
                   <input
                     id="grid-country"
                     type="email"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  />
-                </div>
-              </div>
-
-              <div class="w-full lg:w-4/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
-                  >
-                    Telefonnr.
-                  </label>
-                  <input
-                    id="grid-postal-code"
-                    type="tel"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  />
-                </div>
-              </div>
-
-              <div class="w-full lg:w-5/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
-                  >
-                    Strasse
-                  </label>
-                  <input
-                    id="grid-postal-code"
-                    type="tel"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  />
-                </div>
-              </div>
-
-              <div class="w-full lg:w-2/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
-                  >
-                    Nr
-                  </label>
-                  <input
-                    id="grid-postal-code"
-                    type="tel"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  />
-                </div>
-              </div>
-
-              <div class="w-full lg:w-2/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
-                  >
-                    PLZ
-                  </label>
-                  <input
-                    id="grid-postal-code"
-                    type="tel"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
                   />
                 </div>
               </div>
@@ -212,12 +150,81 @@
                     class="block text-sm font-semibold mb-2"
                     for="grid-postal-code"
                   >
-                    Ort
+                    Telefonnr. <span class="text-red-500">*</span>
                   </label>
                   <input
                     id="grid-postal-code"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-5/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Strasse <span class="text-red-500">*</span>
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-2/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Nr <span class="text-red-500">*</span>
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-2/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    PLZ <span class="text-red-500">*</span>
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="w-full lg:w-3/12 px-4">
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block text-sm font-semibold mb-2"
+                    for="grid-postal-code"
+                  >
+                    Ort <span class="text-red-500">*</span>
+                  </label>
+                  <input
+                    id="grid-postal-code"
+                    type="tel"
+                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                    required
                   />
                 </div>
               </div>
@@ -228,7 +235,7 @@
               Erziehungsberechtigte:r 2
             </h6>
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-4/12 px-4">
+              <div class="w-full lg:w-5/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -260,7 +267,7 @@
                 </div>
               </div>
 
-              <div class="w-full lg:w-4/12 px-4">
+              <div class="w-full lg:w-3/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -347,11 +354,9 @@
                 <p class="text-base sm:text-lg md:text-xl">Senden</p>
               </button>
 
-              <a href="/">
-                <button class="specialBtnCancel">
-                  <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
-                </button>
-              </a>
+              <button class="specialBtnCancel">
+                <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
+              </button>
             </div>
           </form>
         </div>
