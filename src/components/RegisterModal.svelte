@@ -31,6 +31,8 @@
             >
               Anmeldung
             </h6>
+
+            <!-- child -->
             <h6 class="mt-3 mb-6 font-bold uppercase">
               Kind <span class="text-red-500">*</span>
             </h6>
@@ -354,7 +356,7 @@
                 <p class="text-base sm:text-lg md:text-xl">Senden</p>
               </button>
 
-              <button class="specialBtnCancel">
+              <button class="specialBtnCancel" on:click={close}>
                 <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
               </button>
             </div>
