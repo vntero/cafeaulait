@@ -67,8 +67,12 @@
         </p>
       </button>
     </div>
-    <div class="flex flex-col items-center justify-center">
-      <CtAs />
+    <div class="flex flex-col items-center justify-center mb-10">
+      <a href="mailto:info@cafeaulait.ch">
+        <button class="specialBtn">
+          <p>Kontakt</p>
+        </button>
+      </a>
     </div>
   </div>
 {/if}

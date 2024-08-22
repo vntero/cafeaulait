@@ -173,7 +173,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
-                    type="tel"
+                    type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
                   />
