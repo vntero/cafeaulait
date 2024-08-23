@@ -31,7 +31,7 @@
         class="cursor-pointer hover:text-red-500 duration-200"
       >
         <i class="fa-solid fa-group-arrows-rotate"></i>
-        Unser Team</a
+        Wer wir sind</a
       >
       <a
         href="/testimonials"
