@@ -22,24 +22,26 @@
           <div
             class="grid place-items-center px-1.5 text-xs sm:text-sm aspect-square rounded-full border-[1.5px] bg-white border-solid border-red-300"
           >
-            <i class="fa-solid fa-bolt text-red-500"></i>
+            <i class="fa-solid fa-bolt text-red-400"></i>
           </div>
           <p>{listItem}</p>
         </div>
       {/each}
     </div>
-    <div class="flex items-center gap-4">
-      <a href="/testimonials">
-        <button class="specialBtn">
-          <p class="text-base sm:text-lg md:text-xl">Erfahre mehr</p>
-        </button>
-      </a>
+    <div class="flex items-center">
+      <button class="specialBtnDark mr-auto font-semibold">
+        <p>Try free today &rarr;</p>
+      </button>
     </div>
   </div>
   <div class={'flex flex-col dropShadow overflow-hidden rounded-b-lg '}>
     <div
       class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 px-3 flex items-center gap-2"
-    ></div>
+    >
+      {#each [1, 2, 3] as i}
+        <div class="rounded-full aspect-square w-2.5 sm:w-3 bg-red-500" />
+      {/each}
+    </div>
     <div class="flex flex-col bg-white gap-4 flex-1">
       <img src={kurseFeature.imgUrl} alt="kurse-img" />
     </div>

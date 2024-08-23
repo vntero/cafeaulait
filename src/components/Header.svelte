@@ -25,9 +25,6 @@
       <a href="#shows" class="duration-200 hover:text-red-500 cursor-pointer"
         >Shows</a
       >
-      <a href="#uberuns" class="duration-200 hover:text-red-500 cursor-pointer"
-        >Über uns</a
-      >
       <a href="mailto:info@cafeaulait.ch">
         <button class="specialBtn">
           <p>Kontakt</p>
