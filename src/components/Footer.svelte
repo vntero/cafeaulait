@@ -25,13 +25,13 @@
       >
     </div>
     <div class="flex flex-col gap-4">
-      <p class="font-bold poppins text-base sm:text-lg">Eindrücke</p>
+      <p class="font-bold poppins text-base sm:text-lg">Über uns</p>
       <a
         href="/memories"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
-        <i class="fa-regular fa-image"></i>
-        Erinnerungen</a
+        <i class="fa-solid fa-group-arrows-rotate"></i>
+        Unser Team</a
       >
       <a
         href="/testimonials"
@@ -39,6 +39,13 @@
       >
         <i class="fa-regular fa-heart" />
         Testimonials</a
+      >
+      <a
+        href="/memories"
+        class="cursor-pointer hover:text-red-500 duration-200"
+      >
+        <i class="fa-regular fa-image"></i>
+        Erinnerungen</a
       >
     </div>
     <div class="flex flex-col gap-4">
