@@ -13,14 +13,14 @@
     >
       <div class="diff-item-1">
         <div
-          class="bg-gray-500 text-xl lg:text-5xl md:text-3xl sm:text-2xl text-center grid place-content-center font-black font-semibold"
+          class="bg-gray-100 text-xl lg:text-5xl md:text-3xl sm:text-2xl text-center grid place-content-center font-black font-semibold"
         >
           vom Hauch eines neuen Lebens
         </div>
       </div>
       <div class="diff-item-2">
         <div
-          class="bg-base-200 grid place-content-center text-5xl sm:text-6xl md:text-7xl font-black font-semibold"
+          class="bg-black grid place-content-center text-5xl sm:text-6xl md:text-7xl text-white font-semibold"
         >
           Le Souffle
         </div>
@@ -97,27 +97,65 @@
 
     <!-- RECENT EXHIBITIONS -->
     <div class="flex flex-col gap-2">
-      <div class="flex gap-10">
-        <img
-          class="mask mask-squircle w-24"
-          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
-          alt=""
-        />
-        <img
-          class="mask mask-squircle w-24"
-          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
-          alt=""
-        />
-        <img
-          class="mask mask-squircle w-24"
-          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
-          alt=""
-        />
-        <img
-          class="mask mask-squircle w-24"
-          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
-          alt=""
-        />
+      <p
+        class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full"
+      >
+        <span>Recent features</span>
+      </p>
+    </div>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-[1000px]"
+    >
+      <div class="card glass w-full">
+        <figure>
+          <img src="assets/caliente2024.png" alt="car!" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+        </div>
+      </div>
+      <div class="card glass w-full">
+        <figure>
+          <img src="assets/asj2024.png" alt="car!" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+        </div>
+      </div>
+      <div class="card glass w-full">
+        <figure>
+          <img src="assets/zts2022.png" alt="car!" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+        </div>
+      </div>
+      <div class="card glass w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="car!"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+        </div>
+      </div>
+      <div class="card glass w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="car!"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+        </div>
       </div>
     </div>
   </div></SectionWrapper
