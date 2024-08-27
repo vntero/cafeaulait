@@ -96,6 +96,30 @@
     </div>
 
     <!-- RECENT EXHIBITIONS -->
-  </div>
-</SectionWrapper>
+    <div class="flex flex-col gap-2">
+      <div class="flex gap-10">
+        <img
+          class="mask mask-squircle w-24"
+          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
+          alt=""
+        />
+        <img
+          class="mask mask-squircle w-24"
+          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
+          alt=""
+        />
+        <img
+          class="mask mask-squircle w-24"
+          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
+          alt=""
+        />
+        <img
+          class="mask mask-squircle w-24"
+          src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
+          alt=""
+        />
+      </div>
+    </div>
+  </div></SectionWrapper
+>
 <Footer />
