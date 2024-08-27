@@ -103,16 +103,16 @@
         <span>Recent features</span>
       </p>
     </div>
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-[1000px]"
-    >
+    <div class="grid grid-cols-3 gap-4 max-w-[1000px]">
       <div class="card glass w-full">
         <figure>
           <img src="assets/caliente2024.png" alt="car!" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Life hack</h2>
-          <p>How to park your car at your garage?</p>
+          <p>
+            We had the honour of showing our production at this prestigious
+            event.
+          </p>
         </div>
       </div>
       <div class="card glass w-full">
@@ -120,8 +120,10 @@
           <img src="assets/asj2024.png" alt="car!" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Life hack</h2>
-          <p>How to park your car at your garage?</p>
+          <p>
+            What an amazing experience to be able to show Le Souffle to such a
+            lovely crowd.
+          </p>
         </div>
       </div>
       <div class="card glass w-full">
@@ -129,32 +131,10 @@
           <img src="assets/zts2022.png" alt="car!" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Life hack</h2>
-          <p>How to park your car at your garage?</p>
-        </div>
-      </div>
-      <div class="card glass w-full">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="car!"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Life hack</h2>
-          <p>How to park your car at your garage?</p>
-        </div>
-      </div>
-      <div class="card glass w-full">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="car!"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Life hack</h2>
-          <p>How to park your car at your garage?</p>
+          <p>
+            Unbelievable collaboration! Le Souffle was the main event of the
+            night, and what a night.
+          </p>
         </div>
       </div>
     </div>
