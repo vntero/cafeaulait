@@ -33,7 +33,7 @@
       <p
         class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full"
       >
-        <span class="italic">Le Souffle - vom Hauch eines neuen Lebens</span>
+        <span class="italic">"Le Souffle" - vom Hauch eines neuen Lebens</span>
       </p>
       <p class="opacity-60 text-base sm:text-lg md:text-xl text-center">
         Eine Produktion von <span class="text-red-500"
@@ -41,6 +41,53 @@
         >
       </p>
     </div>
-  </div>
-</SectionWrapper>
+
+    <!-- CAROUSEL -->
+    <div class="carousel rounded-box max-w-[1000px] space-x-4">
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+          alt="Burger"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+          alt="Burger"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+          alt="Burger"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+          alt="Burger"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+          alt="Burger"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+          alt="Burger"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+          alt="Burger"
+        />
+      </div>
+    </div>
+    <!-- PRODUCTION DESCRIPTION -->
+  </div></SectionWrapper
+>
 <Footer />
