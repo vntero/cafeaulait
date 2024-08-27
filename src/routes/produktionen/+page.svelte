@@ -45,25 +45,25 @@
     <!-- CAROUSEL -->
     <div class="carousel rounded-box space-x-2 h-64 max-w-[1000px]">
       <div class="carousel-item">
-        <img src="assets/ls1.png" alt="Burger" />
+        <img src="assets/ls1.png" alt="le souffle" />
       </div>
       <div class="carousel-item">
-        <img src="assets/ls2.png" alt="Burger" />
+        <img src="assets/ls2.png" alt="le souffle" />
       </div>
       <div class="carousel-item">
-        <img src="assets/ls3.png" alt="Burger" />
+        <img src="assets/ls3.png" alt="le souffle" />
       </div>
       <div class="carousel-item">
-        <img src="assets/ls4.png" alt="Burger" />
+        <img src="assets/ls4.png" alt="le souffle" />
       </div>
       <div class="carousel-item">
-        <img src="assets/ls5.png" alt="Burger" />
+        <img src="assets/ls5.png" alt="le souffle" />
       </div>
       <div class="carousel-item">
-        <img src="assets/ls6.png" alt="Burger" />
+        <img src="assets/ls6.png" alt="le souffle" />
       </div>
       <div class="carousel-item">
-        <img src="assets/ls7.png" alt="Burger" />
+        <img src="assets/ls7.png" alt="le souffle" />
       </div>
     </div>
     <!-- PRODUCTION DESCRIPTION -->
