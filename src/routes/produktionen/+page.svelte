@@ -13,9 +13,9 @@
     >
       <div class="diff-item-1">
         <div
-          class="bg-gray-500 text-primary-content grid place-content-center text-5xl sm:text-6xl md:text-7xl font-black font-semibold"
+          class="bg-gray-500 text-xl lg:text-5xl md:text-3xl sm:text-2xl text-center grid place-content-center font-black font-semibold"
         >
-          Le Souffle
+          vom Hauch eines neuen Lebens
         </div>
       </div>
       <div class="diff-item-2">
