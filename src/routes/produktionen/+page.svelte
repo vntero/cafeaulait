@@ -7,7 +7,7 @@
 <SectionWrapper>
   <Header />
   <div class="flex flex-col gap-10 flex-1 items-center mt-16">
-    <!-- SLIDER TITLE -->
+    <!-- LE SOUFFLE - DIFF SLIDER TITLE -->
     <div
       class="diff aspect-[16/2] rounded-lg max-w-[1000px] mx-auto w-full text-center"
     >
@@ -67,6 +67,35 @@
       </div>
     </div>
     <!-- PRODUCTION DESCRIPTION -->
-  </div></SectionWrapper
->
+    <div class="flex flex-col gap-2">
+      <p class="text-base sm:text-lg md:text-xl text-justify max-w-[1000px]">
+        <span class="text-red-500">Provokativ</span>,
+        <span class="text-red-500">berührend</span>,
+        <span class="text-red-500">wortlos</span>,
+        <span class="text-red-500">witzig</span>. Das ist unsere jüngste
+        Produktion namens
+        <span class="text-red-500"
+          >„Le Souffle – vom Hauch eines neuen Lebens“</span
+        >. Sie geht eine brand-aktuelle Thematik an, die
+        <span class="text-red-500">polarisiert</span>. Mit diesem Stück wagt
+        sich CAL an <span class="text-red-500">sensitive Themen</span>, die den
+        Nerv der Gesellschaft treffen und spricht dabei über Migration,
+        Hoffnung, Fremdenhass, Integration, Mischlingskinder und Liebe. Das
+        Stück handelt vom Aufbruch in eine neue, hoffentlich bessere Welt, den
+        zahlreiche Migrantinnen und Migranten wagen.
+      </p>
+      <p class="text-base sm:text-lg md:text-xl text-justify max-w-[1000px]">
+        Die anfängliche Freude, aber auch die Gefahren und Trauer auf diesem Weg
+        werden von CALs Nachwuchstalenten sowie von professionellen Tänzern
+        Afrikas mit <span class="text-red-500">farbenfrohen Kostümen</span>,
+        <span class="text-red-500">atemberaubenden Tänzen</span>, pulsierenden
+        Trommeln und betörenden Gesängen dargestellt. Ein Muss für Liebhaber des
+        traditionellen und zeitgenössischen afrikanischen Tanzes und alle, die
+        ihren Horizont erweitern wollen.
+      </p>
+    </div>
+
+    <!-- RECENT EXHIBITIONS -->
+  </div>
+</SectionWrapper>
 <Footer />
