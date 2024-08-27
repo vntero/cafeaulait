@@ -1,4 +1,5 @@
 <script>
+  import Book from './Book.svelte'
   import SectionWrapper from './SectionWrapper.svelte'
 
   // Simplified showsList with exactly 2 items
@@ -20,7 +21,7 @@
 
 <SectionWrapper id="shows">
   <div
-    class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center"
+    class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center pt-30"
   >
     <div class="flex flex-col gap-2">
       <h3
@@ -29,39 +30,83 @@
         Uns kann man <span class="text-red-500">buchen</span>
       </h3>
     </div>
-    <div class="flex flex-col md:flex-row gap-8 w-fit mx-auto">
-      {#each showsList as showsItem, index}
-        <div class="flex flex-col gap-2 w-full max-w-[500px] mx-auto relative">
-          <div class="flex relative">
-            <div class="flex items-center gap-2">
-              <h3 class="text-lg sm:text-xl md:text-2xl">
-                {showsItem.name}
-              </h3>
-            </div>
-          </div>
-          <div class="h-[1.5px] bg-slate-950 w-1/4 mr-auto mb-4 mt-2"></div>
-          <div
-            class="flex items-center flex-wrap gap-2 text-xs sm:text-sm mb-4"
-          >
-            <!-- {#each showsItem.features as keyword}
-              <div
-                class="p-1 py-0.5 rounded-md border border-solid border-red-500 bg-red-50 text-red-500"
-              >
-                <p>{keyword}</p>
-              </div>
-            {/each} -->
-          </div>
-          <p>{showsItem.review}</p>
-          <div class="flex items-center gap-4">
-            <button class={index === 1 ? 'specialBtn' : 'specialBtnDark'}>
-              <p class="text-base sm:text-lg md:text-xl">
-                {showsItem.buttonText}
-              </p>
-            </button>
+    <div class="container mx-auto px-4">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
+          <div class="md:pr-12">
+            <h3 class="text-3xl font-semibold">Dein Event</h3>
+            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+              Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere
+              Shows garantieren jede Menge Spass und gute Laune. Lass dich von
+              unseren Performances und der Energie mitreißen! Kontaktiere uns,
+              um mehr über unser Angebot zu erfahren. Wir freuen uns darauf,
+              deinen Event zu einem unvergesslichen Highlight zu machen.
+            </p>
+            <ul class="list-none mt-6">
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
+                    >
+                      <i class="fas fa-fingerprint text-red-500"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-blueGray-500">
+                      Bring our rythm to your celebration
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
+                    >
+                      <i class="fa-solid fa-sun text-red-500"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-blueGray-500">
+                      Dancing, singing - Traditional, contemporary
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
+                    >
+                      <i class="far fa-paper-plane text-red-500"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-blueGray-500">From Zürich, with love</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <br />
+            <Book />
           </div>
         </div>
-        <div class="w-[1px] bg-slate-950 hidden md:flex"></div>
-      {/each}
+
+        <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+          <img
+            alt="..."
+            class="max-w-full rounded-lg shadow-xl"
+            style="
+            transform: scale(1) perspective(1040px) rotateY(-11deg)
+              rotateX(2deg) rotate(2deg);
+          "
+            src="assets/shows.png"
+          />
+        </div>
+      </div>
     </div>
-  </div>
-</SectionWrapper>
+  </div></SectionWrapper
+>

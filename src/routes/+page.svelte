@@ -2,7 +2,6 @@
   import Intro from '../components/Intro.svelte'
   import Kurse from '../components/Kurse.svelte'
   import Shows from '../components/Shows.svelte'
-  import UberUns from '../components/UberUns.svelte'
   import Footer from '../components/Footer.svelte'
 </script>
 
@@ -10,6 +9,5 @@
   <Intro />
   <Kurse />
   <Shows />
-  <UberUns />
   <Footer />
 </main>

@@ -1,4 +1,5 @@
 <script>
+  import Register from './Register.svelte'
   export let index
   export let kurseFeature
 </script>
@@ -29,9 +30,7 @@
       {/each}
     </div>
     <div class="flex items-center">
-      <button class="specialBtnDark mr-auto font-semibold">
-        <p>Try free today &rarr;</p>
-      </button>
+      <Register />
     </div>
   </div>
   <div class={'flex flex-col dropShadow overflow-hidden rounded-b-lg '}>

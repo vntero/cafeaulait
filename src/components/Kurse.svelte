@@ -11,30 +11,32 @@
       ],
       description:
         'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
-      imgUrl: 'assets/selection.png',
+      imgUrl: 'assets/kurse1.png',
     },
     {
       featureList: ['Fresh', 'Modern', 'Trendy', 'Technical'],
       description:
-        'Depending on your time, we give you the best look possible!',
-      imgUrl: 'assets/training.png',
+        'Junge Tänzer vermitteln energiereiche Schritte und frische Vibes.',
+      imgUrl: 'assets/kurse2.png',
     },
     {
-      featureList: ['Singing', 'Stage presence', 'Coordination', 'Depilation'],
-      description: 'Need a helping hand? We got covered there too.',
-      imgUrl: 'assets/goal.png',
+      featureList: ['Singing', 'Stage presence', 'Coordination', 'Voice'],
+      description:
+        'Die «CAL Stage Company» ist eine bühnenorientierte Tanzgruppe. Sie hat zum Ziel, die künstlerische Ausbildung im Bereich des traditionellen und zeitgenössischen afrikanischen Tanzes, der Perkussion und des Gesangs zu fördern.',
+      imgUrl: 'assets/kurse3.png',
     },
     {
-      featureList: ['Nails', 'Skin', 'Feet', 'Depilation'],
-      description: 'Need a helping hand? We got covered there too.',
-      imgUrl: 'assets/goal.png',
+      featureList: ['Presence', 'Impact', 'Coordination', 'Strength'],
+      description:
+        'Der «CAL Gospelchor» ist ein bühnenorientierter Chor, der an den unterschiedlichsten Anlässen auftritt und an den Produktionen der «CAL Stage Company» mitarbeitet.',
+      imgUrl: 'assets/kurse4.png',
     },
   ]
 </script>
 
 <SectionWrapper id="kurse">
   <div
-    class="flex flex-col gap-10 sm:gap-14 md:gap-24 flex-1 items-center justify-center pb-10 md:pb-14"
+    class="flex flex-col gap-10 sm:gap-14 md:gap-24 flex-1 items-center justify-center pb-10 md:pb-14 pt-20"
   >
     <div class="flex flex-col gap-2">
       <p class="opacity-60 text-base sm:text-lg md:text-xl text-center"></p>

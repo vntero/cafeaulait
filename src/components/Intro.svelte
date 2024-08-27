@@ -1,7 +1,8 @@
 <script>
   import SectionWrapper from './SectionWrapper.svelte'
   import Header from './Header.svelte'
-  import CTAs from './CTAs.svelte'
+  import Book from './Book.svelte'
+  import Register from './Register.svelte'
 
   let events = [
     {
@@ -40,7 +41,10 @@
       class="w-full max-w-[1000px] mx-auto rounded-lg shadow-md"
     />
 
-    <CTAs />
+    <div class="flex items-center gap-4">
+      <Book />
+      <Register />
+    </div>
 
     <!-- Upcoming Events Section -->
     <div

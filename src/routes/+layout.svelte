@@ -1,6 +1,5 @@
 <script>
   import '../app.css'
-  import CtAs from '../components/CTAs.svelte'
   import Header from '../components/Header.svelte'
 
   import { openModal } from '../store'
@@ -56,14 +55,6 @@
       >
         <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
           <i class="fa-solid fa-chevron-right text-xl pl-4" /> Shows
-        </p>
-      </button>
-      <button
-        on:click={() => reroute('#uberuns')}
-        class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
-      >
-        <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
-          <i class="fa-solid fa-chevron-right text-xl pl-4" /> Über Uns
         </p>
       </button>
     </div>

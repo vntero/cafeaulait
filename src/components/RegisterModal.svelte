@@ -41,12 +41,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-username"
+                    for="register-name"
                   >
                     Name, Vorname <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="grid-username"
+                    id="register-name"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -57,12 +57,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-email"
+                    for="register-birthday"
                   >
                     Geburtsdatum <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="grid-email"
+                    id="register-birthday"
                     type="date"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -73,13 +73,13 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-first-name"
+                    for="register-origin"
                   >
                     Herkunft (bei mehreren bitte alle angeben. Wird
                     ausschliesslich zu statistischen Zwecken verwendet)
                   </label>
                   <input
-                    id="grid-first-name"
+                    id="register-origin"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -89,13 +89,13 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-last-name"
+                    for="register-motivation"
                   >
                     Motivationsgrund für die Anmeldung sowie allfällige
                     tänzerische/sportliche Erfahrung
                   </label>
                   <textarea
-                    id="grid-about-me"
+                    id="register-motivation"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     rows="4"
@@ -116,12 +116,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-address"
+                    for="register-parent-one-name"
                   >
                     Name, Vorname <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="grid-address"
+                    id="register-parent-one-name"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -133,12 +133,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-country"
+                    for="register-parent-one-email"
                   >
                     E-mail <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="grid-country"
+                    id="register-parent-one-email"
                     type="email"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -150,12 +150,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
+                    for="register-parent-one-tel"
                   >
                     Telefonnr. <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="grid-postal-code"
+                    id="register-parent-one-tel"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
