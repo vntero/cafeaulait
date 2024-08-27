@@ -34,7 +34,7 @@
         Wer wir sind
       </a>
       <a
-        href="/productions"
+        href="/produktionen"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
         <i class="fa-regular fa-star"></i>
