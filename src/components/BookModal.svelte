@@ -29,7 +29,7 @@
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >
-              Shows buchen
+              Shows buchen - mit mit mit Hu g o
             </h6>
             <br />
             <p>
