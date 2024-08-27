@@ -27,26 +27,26 @@
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Über uns</p>
       <a
-        href="/memories"
+        href="/werwirsind"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
-        <i class="fa-solid fa-group-arrows-rotate"></i>
-        Wer wir sind</a
+        <i class="fa-regular fa-heart"></i>
+        Wer wir sind
+      </a>
+      <a
+        href="/productions"
+        class="cursor-pointer hover:text-red-500 duration-200"
       >
+        <i class="fa-regular fa-star"></i>
+        Unsere Produktionen
+      </a>
       <a
         href="/testimonials"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
-        <i class="fa-regular fa-heart" />
-        Testimonials</a
-      >
-      <a
-        href="/memories"
-        class="cursor-pointer hover:text-red-500 duration-200"
-      >
-        <i class="fa-regular fa-image"></i>
-        Erinnerungen</a
-      >
+        <i class="fa-regular fa-comment"></i>
+        Was andere sagen
+      </a>
     </div>
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Spenden</p>
