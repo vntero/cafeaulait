@@ -1,5 +1,5 @@
 <script>
-  import KursplanModal from './Kursplan.svelte'
+  import KursplanModal from './KursplanModal.svelte'
   let showKursplanModal = false
 
   const handleKursplanClose = () => {

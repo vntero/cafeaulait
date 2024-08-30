@@ -1,5 +1,6 @@
 <script>
   import Register from './Register.svelte'
+  import Kursplan from './Kursplan.svelte'
   export let index
   export let kurseFeature
 </script>
@@ -31,6 +32,7 @@
     </div>
     <div class="flex items-center">
       <Register />
+      <Kursplan />
     </div>
   </div>
   <div class={'flex flex-col dropShadow overflow-hidden rounded-b-lg '}>

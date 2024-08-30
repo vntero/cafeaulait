@@ -32,67 +32,65 @@
     </div>
     <div class="container mx-auto px-4">
       <div class="items-center flex flex-wrap">
-        <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
-          <div class="md:pr-12">
-            <h3 class="text-3xl font-semibold">Dein Event</h3>
-            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-              Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere
-              Shows garantieren jede Menge Spass und gute Laune. Lass dich von
-              unseren Performances und der Energie mitreißen! Kontaktiere uns,
-              um mehr über unser Angebot zu erfahren. Wir freuen uns darauf,
-              deinen Event zu einem unvergesslichen Highlight zu machen.
-            </p>
-            <ul class="list-none mt-6">
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                    >
-                      <i class="fas fa-fingerprint text-red-500"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">
-                      Bring our rythm to your celebration
-                    </h4>
-                  </div>
+        <div class="w-full md:w-5/12 ml-auto md:px-4">
+          <h3 class="text-3xl font-semibold">Dein Event</h3>
+          <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+            Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere Shows
+            garantieren jede Menge Spass und gute Laune. Lass dich von unseren
+            Performances und der Energie mitreißen! Kontaktiere uns, um mehr
+            über unser Angebot zu erfahren. Wir freuen uns darauf, deinen Event
+            zu einem unvergesslichen Highlight zu machen.
+          </p>
+          <ul class="list-none mt-6">
+            <li class="py-2">
+              <div class="flex items-center">
+                <div>
+                  <span
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
+                  >
+                    <i class="fas fa-fingerprint text-red-500"></i>
+                  </span>
                 </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                    >
-                      <i class="fa-solid fa-sun text-red-500"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">
-                      Dancing, singing - Traditional, contemporary
-                    </h4>
-                  </div>
+                <div>
+                  <h4 class="text-blueGray-500">
+                    Bring our rythm to your celebration
+                  </h4>
                 </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                    >
-                      <i class="far fa-paper-plane text-red-500"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">From Zürich, with love</h4>
-                  </div>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="flex items-center">
+                <div>
+                  <span
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
+                  >
+                    <i class="fa-solid fa-sun text-red-500"></i>
+                  </span>
                 </div>
-              </li>
-            </ul>
-            <br />
-            <Book />
-          </div>
+                <div>
+                  <h4 class="text-blueGray-500">
+                    Dancing, singing - Traditional, contemporary
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="flex items-center">
+                <div>
+                  <span
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
+                  >
+                    <i class="far fa-paper-plane text-red-500"></i>
+                  </span>
+                </div>
+                <div>
+                  <h4 class="text-blueGray-500">From Zürich, with love</h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <br />
+          <Book />
         </div>
 
         <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
