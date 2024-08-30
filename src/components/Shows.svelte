@@ -32,7 +32,7 @@
     </div>
     <div class="container mx-auto px-4">
       <div class="items-center flex flex-wrap">
-        <div class="w-full md:w-5/12 ml-auto md:px-4">
+        <div class="w-full md:w-6/12">
           <h3 class="text-3xl font-semibold">Dein Event</h3>
           <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
             Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere Shows
@@ -93,7 +93,7 @@
           <Book />
         </div>
 
-        <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+        <div class="w-full md:w-6/12 px-4 pt-24 md:pt-0">
           <img
             alt="..."
             class="max-w-full rounded-lg shadow-xl"
