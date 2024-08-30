@@ -30,7 +30,7 @@
         </div>
       {/each}
     </div>
-    <div class="flex items-center">
+    <div class="flex items-center gap-4">
       <Register />
       <Kursplan />
     </div>

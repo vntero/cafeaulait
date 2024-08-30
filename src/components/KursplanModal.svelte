@@ -1,6 +1,7 @@
 <script>
   import SectionWrapper from '../components/SectionWrapper.svelte'
   import { createEventDispatcher } from 'svelte'
+
   const dispatch = createEventDispatcher()
   export let show = true
   export let close = () => {
@@ -26,178 +27,197 @@
       >
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <h6
-            class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
+            class="text-xl sm:text-2xl md:text-3xl lg:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
           >
             Kursplan & Preise
           </h6>
 
           <!-- Table 1 content -->
           <div class="overflow-x-auto mt-8">
-            <table class="w-full border-collapse">
+            <table
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+            >
               <thead>
                 <tr class="bg-gray-200">
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2">Samstag</th>
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2">Samstag</th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
                 </tr>
               </thead>
               <!-- TEENIES -->
               <tbody>
-                <tr class="bg-orange-100">
-                  <th class="border px-4 py-2"></th>
-                  <td class="border px-4 py-2">
+                <tr class="bg-red-200">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
                     <i class="fa-solid fa-clock"></i> 10:30 - 11:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle GZ Riesbach</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle Freies Gymi</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 12:30 - 13:10</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
+                    Turnhalle Freies Gymi
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 12:30 - 13:10
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle Freies Gymi</td
-                  >
+                    Turnhalle Freies Gymi
+                  </td>
                 </tr>
-                <tr class="bg-orange-100">
-                  <th class="border px-4 py-2">Teenies</th>
-                  <td class="border px-4 py-2">Traditioneller Tanz </td>
-                  <td class="border px-4 py-2">Afro Beats</td>
-                  <td class="border px-4 py-2">Pause</td>
-                  <td class="border px-4 py-2">Gesang</td>
+                <tr class="bg-red-200">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Teenies</th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >Traditioneller Tanz</td
+                  >
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Afro Beats</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Pause</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Gesang</td>
                 </tr>
                 <!-- MINI F -->
                 <tr class="bg-pink-100">
-                  <th class="border px-4 py-2"></th>
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 10:30 - 11:30 <br />
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 10:30 - 11:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle GZ Riesbach</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 11:30 - 12:30 <br />
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle GZ Riesbach</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 12:30 - 13:10</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 12:30 - 13:10
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle Freies Gymi</td
-                  >
+                    Turnhalle Freies Gymi
+                  </td>
                 </tr>
                 <tr class="bg-pink-100">
-                  <th class="border px-4 py-2">Mini F</th>
-                  <td class="border px-4 py-2">Afro Beats</td>
-                  <td class="border px-4 py-2">Traditioneller Tanz</td>
-                  <td class="border px-4 py-2">Pause</td>
-                  <td class="border px-4 py-2">Gesang</td>
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Mini F</th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Afro Beats</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >Traditioneller Tanz</td
+                  >
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Pause</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Gesang</td>
                 </tr>
                 <!-- MINI A -->
-                <tr class="bg-green-100">
-                  <th class="border px-4 py-2"></th>
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 10:30 - 11:50 <br />
+                <tr class="bg-orange-100">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 10:30 - 11:50<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle GZ Riesbach</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 11:50 - 12:30 <br />
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 11:50 - 12:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle GZ Riesbach</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 12:30 - 13:10</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 12:30 - 13:10
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle Freies Gymi</td
-                  >
+                    Turnhalle Freies Gymi
+                  </td>
                 </tr>
-                <tr class="bg-green-100">
-                  <th class="border px-4 py-2">Mini A</th>
-                  <td class="border px-4 py-2">Traditioneller Tanz </td>
-                  <td class="border px-4 py-2">Afro Beats </td>
-                  <td class="border px-4 py-2">Pause</td>
-                  <td class="border px-4 py-2">Gesang</td>
+                <tr class="bg-orange-100">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Mini A</th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >Traditioneller Tanz</td
+                  >
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Afro Beats</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Pause</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Gesang</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <!-- Last saturday of the month table content -->
+          <!-- Last Saturday of the Month Table -->
           <div class="overflow-x-auto mt-8">
-            <table class="w-full border-collapse">
+            <table
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+            >
               <thead>
                 <tr class="bg-gray-200">
-                  <th class="px-4 py-2" colspan="5"
-                    >Letzter Samstag des Monats: ALLE zusammen</th
-                  >
+                  <th class="px-2 sm:px-4 py-1 sm:py-2" colspan="5">
+                    Letzter Samstag des Monats: ALLE zusammen
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="bg-blue-100">
-                  <th class="border px-4 py-2"></th>
-                  <td class="border px-4 py-2">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
                     <i class="fa-solid fa-clock"></i> 10:30 - 11:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle GZ Riesbach</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle Freies Gymi</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 12:30 - 13:10</td
-                  >
-                  <td class="border px-4 py-2"
-                    ><i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
+                    Turnhalle Freies Gymi
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 12:30 - 13:10
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
                     <i class="fa-solid fa-location-dot"></i>
-                    Turnhalle Freies Gymi</td
-                  >
+                    Turnhalle Freies Gymi
+                  </td>
                 </tr>
                 <tr class="bg-blue-100">
-                  <th class="border px-4 py-2">Alle</th>
-                  <td class="border px-4 py-2">Gesang </td>
-                  <td class="border px-4 py-2">CAL Stage Company</td>
-                  <td class="border px-4 py-2">Pause</td>
-                  <td class="border px-4 py-2">CAL Stage Company</td>
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Alle</th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Gesang</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >CAL Stage Company</td
+                  >
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Pause</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >CAL Stage Company</td
+                  >
                 </tr>
               </tbody>
             </table>
           </div>
-          <!-- Preise table content -->
+
+          <!-- Preise Table Content -->
           <div class="overflow-x-auto mt-8">
-            <table class="w-full border-collapse">
+            <table
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+            >
               <thead>
                 <tr class="bg-green-300">
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"
-                    >Preise: CHF 450 pro Semester (Geschwisterrabatt 50%)</th
-                  >
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2 text-center">
+                    Preise: CHF 450 pro Semester (Geschwisterrabatt 50%)
+                  </th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
                 </tr>
               </thead>
             </table>
           </div>
 
-          <!-- buttons -->
+          <!-- Buttons -->
           <div class="flex items-center gap-4 justify-center pt-10">
             <button class="specialBtnCancel" on:click={close}>
-              <p class="text-base sm:text-lg md:text-xl">Abbrechen</p>
+              <p class="text-xs sm:text-sm md:text-base lg:text-lg">
+                Abbrechen
+              </p>
             </button>
           </div>
         </div>
