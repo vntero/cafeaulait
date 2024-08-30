@@ -30,7 +30,7 @@
         Uns kann man <span class="text-red-500">buchen</span>
       </h3>
     </div>
-    <div class="container mx-auto px-4">
+    <div class="container">
       <div class="items-center flex flex-wrap">
         <div class="w-full md:w-6/12">
           <h3 class="text-3xl font-semibold">Dein Event</h3>
