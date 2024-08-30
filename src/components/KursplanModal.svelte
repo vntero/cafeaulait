@@ -28,38 +28,121 @@
           <h6
             class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
           >
-            Employee Information
+            Kursplan & Preise
           </h6>
 
           <!-- Table content -->
           <div class="overflow-x-auto mt-8">
             <table class="w-full border-collapse">
               <thead>
-                <tr class="bg-gray-200 text-left">
+                <tr class="bg-gray-200">
                   <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2">Name</th>
-                  <th class="px-4 py-2">Job</th>
-                  <th class="px-4 py-2">Favorite Color</th>
+                  <th class="px-4 py-2"></th>
+                  <th class="px-4 py-2">Woche 1 bis 3</th>
+                  <th class="px-4 py-2"></th>
+                  <th class="px-4 py-2"></th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="bg-gray-100">
-                  <th class="border px-4 py-2">1</th>
-                  <td class="border px-4 py-2">Cy Ganderton</td>
-                  <td class="border px-4 py-2">Quality Control Specialist</td>
-                  <td class="border px-4 py-2">Blue</td>
+                  <th class="border px-4 py-2"></th>
+                  <td class="border px-4 py-2">10:30 - 11:30</td>
+                  <td class="border px-4 py-2">11:30 - 12:30</td>
+                  <td class="border px-4 py-2">12:30 - 13:10</td>
+                  <td class="border px-4 py-2">13:10 - 14:00</td>
+                </tr>
+                <!-- TEENIES -->
+                <tr>
+                  <th class="border px-4 py-2">Teenies</th>
+                  <td class="border px-4 py-2"
+                    >Traditioneller Tanz <br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-4 py-2"
+                    >Afro Beats<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle Freies Gymi
+                  </td>
+                  <td class="border px-4 py-2"></td>
+                  <td class="border px-4 py-2">Gesang</td>
+                </tr>
+                <!-- MINI F -->
+                <tr>
+                  <th class="border px-4 py-2">Mini F</th>
+                  <td class="border px-4 py-2"
+                    >Afro Beats<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-4 py-2"
+                    >Traditioneller Tanz<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-4 py-2"></td>
+                  <td class="border px-4 py-2">Gesang</td>
+                </tr>
+                <!-- MINI A -->
+                <tr>
+                  <th class="border px-4 py-2">Mini A</th>
+                  <td class="border px-4 py-2"
+                    >Traditioneller Tanz<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-4 py-2"
+                    >Afro Beats<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle GZ Riesbach
+                  </td>
+                  <td class="border px-4 py-2"></td>
+                  <td class="border px-4 py-2">Gesang</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Table 2 content -->
+          <div class="overflow-x-auto mt-8">
+            <table class="w-full border-collapse">
+              <thead>
+                <tr class="bg-gray-200">
+                  <th class="px-4 py-2"></th>
+                  <th class="px-4 py-2"></th>
+                  <th class="px-4 py-2">Woche 1 bis 3</th>
+                  <th class="px-4 py-2"></th>
+                  <th class="px-4 py-2"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-gray-100">
+                  <th class="border px-4 py-2"></th>
+                  <td class="border px-4 py-2">10:30 - 11:30</td>
+                  <td class="border px-4 py-2">11:30 - 12:30</td>
+                  <td class="border px-4 py-2">12:30 - 13:10</td>
+                  <td class="border px-4 py-2">13:10 - 14:00</td>
                 </tr>
                 <tr>
-                  <th class="border px-4 py-2">2</th>
-                  <td class="border px-4 py-2">Hart Hagerty</td>
-                  <td class="border px-4 py-2">Desktop Support Technician</td>
-                  <td class="border px-4 py-2">Purple</td>
+                  <th class="border px-4 py-2">Teenies</th>
+                  <td class="border px-4 py-2">Traditioneller Tanz</td>
+                  <td class="border px-4 py-2">Afro Beats</td>
+                  <td class="border px-4 py-2"></td>
+                  <td class="border px-4 py-2">Gesang</td>
                 </tr>
-                <tr class="bg-gray-100">
-                  <th class="border px-4 py-2">3</th>
-                  <td class="border px-4 py-2">Brice Swyre</td>
-                  <td class="border px-4 py-2">Tax Accountant</td>
-                  <td class="border px-4 py-2">Red</td>
+                <tr>
+                  <th class="border px-4 py-2">Teenies</th>
+                  <td class="border px-4 py-2">Traditioneller Tanz</td>
+                  <td class="border px-4 py-2">Afro Beats</td>
+                  <td class="border px-4 py-2"></td>
+                  <td class="border px-4 py-2">Gesang</td>
+                </tr>
+                <tr>
+                  <th class="border px-4 py-2">Teenies</th>
+                  <td class="border px-4 py-2">Traditioneller Tanz</td>
+                  <td class="border px-4 py-2">Afro Beats</td>
+                  <td class="border px-4 py-2"></td>
+                  <td class="border px-4 py-2">Gesang</td>
                 </tr>
               </tbody>
             </table>
