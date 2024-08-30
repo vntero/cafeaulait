@@ -34,15 +34,15 @@
           <!-- Table 1 content -->
           <div class="overflow-x-auto mt-8">
             <table class="w-full border-collapse">
-              <!-- <thead>
+              <thead>
                 <tr class="bg-gray-200">
                   <th class="px-4 py-2"></th>
                   <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2">Woche 1 bis 3</th>
+                  <th class="px-4 py-2">Samstag</th>
                   <th class="px-4 py-2"></th>
                   <th class="px-4 py-2"></th>
                 </tr>
-              </thead> -->
+              </thead>
               <!-- TEENIES -->
               <tbody>
                 <tr class="bg-orange-100">
@@ -135,52 +135,49 @@
             </table>
           </div>
 
-          <!-- Table 2 content -->
+          <!-- Last saturday of the month table content -->
           <div class="overflow-x-auto mt-8">
             <table class="w-full border-collapse">
               <thead>
                 <tr class="bg-gray-200">
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2">Woche 1 bis 3</th>
-                  <th class="px-4 py-2"></th>
-                  <th class="px-4 py-2"></th>
+                  <th class="px-4 py-2" colspan="5"
+                    >Letzter Samstag des Monats: ALLE zusammen</th
+                  >
                 </tr>
               </thead>
               <tbody>
-                <tr class="bg-gray-100">
+                <tr class="bg-blue-100">
                   <th class="border px-4 py-2"></th>
-                  <td class="border px-4 py-2">10:30 - 11:30</td>
-                  <td class="border px-4 py-2">11:30 - 12:30</td>
-                  <td class="border px-4 py-2">12:30 - 13:10</td>
-                  <td class="border px-4 py-2">13:10 - 14:00</td>
+                  <td class="border px-4 py-2">
+                    <i class="fa-solid fa-clock"></i> 10:30 - 11:30<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle GZ Riesbach</td
+                  >
+                  <td class="border px-4 py-2"
+                    ><i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle Freies Gymi</td
+                  >
+                  <td class="border px-4 py-2"
+                    ><i class="fa-solid fa-clock"></i> 12:30 - 13:10</td
+                  >
+                  <td class="border px-4 py-2"
+                    ><i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle Freies Gymi</td
+                  >
                 </tr>
-                <tr>
-                  <th class="border px-4 py-2">Teenies</th>
-                  <td class="border px-4 py-2">Traditioneller Tanz</td>
-                  <td class="border px-4 py-2">Afro Beats</td>
-                  <td class="border px-4 py-2"></td>
-                  <td class="border px-4 py-2">Gesang</td>
-                </tr>
-                <tr>
-                  <th class="border px-4 py-2">Teenies</th>
-                  <td class="border px-4 py-2">Traditioneller Tanz</td>
-                  <td class="border px-4 py-2">Afro Beats</td>
-                  <td class="border px-4 py-2"></td>
-                  <td class="border px-4 py-2">Gesang</td>
-                </tr>
-                <tr>
-                  <th class="border px-4 py-2">Teenies</th>
-                  <td class="border px-4 py-2">Traditioneller Tanz</td>
-                  <td class="border px-4 py-2">Afro Beats</td>
-                  <td class="border px-4 py-2"></td>
-                  <td class="border px-4 py-2">Gesang</td>
+                <tr class="bg-blue-100">
+                  <th class="border px-4 py-2">Alle</th>
+                  <td class="border px-4 py-2">Gesang </td>
+                  <td class="border px-4 py-2">CAL Stage Company</td>
+                  <td class="border px-4 py-2">Pause</td>
+                  <td class="border px-4 py-2">CAL Stage Company</td>
                 </tr>
               </tbody>
             </table>
           </div>
-
-          <!-- Preise Table content -->
+          <!-- Preise table content -->
           <div class="overflow-x-auto mt-8">
             <table class="w-full border-collapse">
               <thead>
