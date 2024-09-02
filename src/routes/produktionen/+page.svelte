@@ -2,6 +2,29 @@
   import SectionWrapper from '../../components/SectionWrapper.svelte'
   import Header from '../../components/Header.svelte'
   import Footer from '../../components/Footer.svelte'
+
+  let shows = [
+    {
+      date: '27.11.2021',
+      location: 'Schwertsaal, Wald ZH',
+      info: 'https://www.agkultur.ch/agenda/cafe-au-lait-le-souffle-vom-hauch-eines-neuen-lebens/',
+    },
+    {
+      date: '01.12.2018',
+      location: 'Rote Fabrik, Zürich',
+      info: 'https://rotefabrik.ch/#/events/1959?utm_medium=display&utm_source=kulturzueri.ch&utm_campaign=kulturzueri',
+    },
+    {
+      date: '16.06.2018',
+      location: 'Volkhaus, Zürich',
+      info: 'https://rotefabrik.ch/#/events/1959?utm_medium=display&utm_source=kulturzueri.ch&utm_campaign=kulturzueri',
+    },
+    {
+      date: '13.05.2018',
+      location: 'Wolfhalden, Appenzell Ausserrhoden',
+      info: 'https://www.tagblatt.ch/ostschweiz/rheintal/poetry-slam-an-der-songwriter-nacht-ld.524936',
+    },
+  ]
 </script>
 
 <SectionWrapper>
@@ -95,49 +118,19 @@
       </p>
     </div>
 
-    <!-- RECENT EXHIBITIONS -->
-    <div class="flex flex-col gap-2">
-      <p
-        class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full"
-      >
-        <span>Recent features</span>
-      </p>
+    <!-- PAST SHOWS -->
+    <div
+      class="max-w-[1000px] mx-auto w-full text-center bg-[#FFF1DB] p-6 rounded-lg shadow-lg"
+    >
+      <h3 class="text-4xl font-semibold mb-6">Frühere Shows:</h3>
+      <ul class="list-disc list-inside text-left mx-auto max-w-lg">
+        {#each shows as show}
+          <li class="mb-4">
+            <span class="font-semibold">{show.date}</span> @ {show.location}
+          </li>
+        {/each}
+      </ul>
     </div>
-    <div class="grid grid-cols-3 gap-4 max-w-[1000px]">
-      <div class="card glass w-full">
-        <figure>
-          <img src="assets/caliente2024.png" alt="car!" />
-        </figure>
-        <div class="card-body">
-          <p>
-            We had the honour of showing our production at this prestigious
-            event.
-          </p>
-        </div>
-      </div>
-      <div class="card glass w-full">
-        <figure>
-          <img src="assets/asj2024.png" alt="car!" />
-        </figure>
-        <div class="card-body">
-          <p>
-            What an amazing experience to be able to show Le Souffle to such a
-            lovely crowd.
-          </p>
-        </div>
-      </div>
-      <div class="card glass w-full">
-        <figure>
-          <img src="assets/zts2022.png" alt="car!" />
-        </figure>
-        <div class="card-body">
-          <p>
-            Unbelievable collaboration! Le Souffle was the main event of the
-            night, and what a night.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div></SectionWrapper
->
+  </div>
+</SectionWrapper>
 <Footer />

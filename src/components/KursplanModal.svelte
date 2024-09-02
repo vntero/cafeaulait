@@ -216,7 +216,7 @@
           <div class="flex items-center gap-4 justify-center pt-10">
             <button class="specialBtnCancel" on:click={close}>
               <p class="text-xs sm:text-sm md:text-base lg:text-lg">
-                Abbrechen
+                Schließen
               </p>
             </button>
           </div>

@@ -53,7 +53,7 @@
                 </div>
                 <div>
                   <h4 class="text-blueGray-500">
-                    Bring our rythm to your celebration
+                    Bringt unseren Rhythmus in eure Feier
                   </h4>
                 </div>
               </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div>
                   <h4 class="text-blueGray-500">
-                    Dancing, singing - Traditional, contemporary
+                    Tanzen, Singen – Traditionell, zeitgenössisch
                   </h4>
                 </div>
               </div>
@@ -84,7 +84,7 @@
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">From Zürich, with love</h4>
+                  <h4 class="text-blueGray-500">Aus Zürich, mit Liebe</h4>
                 </div>
               </div>
             </li>
