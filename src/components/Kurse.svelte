@@ -4,9 +4,9 @@
   let kurseFeatures = [
     {
       featureList: [
-        'Traditional',
+        'Traditionell',
         'Original',
-        'Renowned teachers',
+        'Renommierte Lehrer',
         'Percussion',
       ],
       description:
@@ -14,19 +14,19 @@
       imgUrl: 'assets/kurse1.png',
     },
     {
-      featureList: ['Fresh', 'Modern', 'Trendy', 'Technical'],
+      featureList: ['Frisch', 'Modern', 'Trendig', 'Technisch'],
       description:
         'Junge Tänzer vermitteln energiereiche Schritte und frische Vibes.',
       imgUrl: 'assets/kurse2.png',
     },
     {
-      featureList: ['Singing', 'Stage presence', 'Coordination', 'Voice'],
+      featureList: ['Singen', 'Bühnenpräsenz', 'Koordination', 'Stimme'],
       description:
         'Die «CAL Stage Company» ist eine bühnenorientierte Tanzgruppe. Sie hat zum Ziel, die künstlerische Ausbildung im Bereich des traditionellen und zeitgenössischen afrikanischen Tanzes, der Perkussion und des Gesangs zu fördern.',
       imgUrl: 'assets/kurse3.png',
     },
     {
-      featureList: ['Presence', 'Impact', 'Coordination', 'Strength'],
+      featureList: ['Präsenz', 'Wirkung', 'Koordination', 'Stärke'],
       description:
         'Der «CAL Gospelchor» ist ein bühnenorientierter Chor, der an den unterschiedlichsten Anlässen auftritt und an den Produktionen der «CAL Stage Company» mitarbeitet.',
       imgUrl: 'assets/kurse4.png',
