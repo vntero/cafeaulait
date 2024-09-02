@@ -24,6 +24,13 @@
         class="relative flex flex-col w-full mb-6 shadow-lg rounded-lg max-w-[1000px] mx-auto m-20 bg-[#FFF1DB] max-h-screen overflow-y-auto"
         on:click|stopPropagation
       >
+        <!-- x button to close window -->
+        <button
+          class="absolute top-4 right-4 text-gray-600 hover:text-gray-800"
+          on:click={close}
+        >
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <form>
             <h6

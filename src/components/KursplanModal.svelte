@@ -25,6 +25,13 @@
         class="relative flex flex-col w-full mb-6 shadow-lg rounded-lg max-w-[1000px] mx-auto m-20 bg-white max-h-screen overflow-y-auto"
         on:click|stopPropagation
       >
+        <!-- x button to close window -->
+        <button
+          class="absolute top-4 right-4 text-gray-600 hover:text-gray-800"
+          on:click={close}
+        >
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <h6
             class="text-xl sm:text-2xl md:text-3xl lg:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
@@ -35,7 +42,7 @@
           <!-- Table 1 content -->
           <div class="overflow-x-auto mt-8">
             <table
-              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-base"
             >
               <thead>
                 <tr class="bg-gray-200">
@@ -147,7 +154,7 @@
           <!-- Last Saturday of the Month Table -->
           <div class="overflow-x-auto mt-8">
             <table
-              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-base"
             >
               <thead>
                 <tr class="bg-gray-200">
