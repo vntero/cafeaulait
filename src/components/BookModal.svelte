@@ -97,7 +97,7 @@
             <h6 class="mt-3 mb-6 font-bold uppercase">Veranstaltungsdetails</h6>
 
             <div class="flex flex-wrap">
-              <div class="w-full lg:w-6/12 px-4">
+              <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
@@ -131,7 +131,7 @@
                   />
                 </div>
               </div>
-              <div class="w-full lg:w-2/12 px-4">
+              <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label class="block text-sm font-semibold mb-2" for="guests">
                     Gästeanzahl <span class="text-red-500">*</span>
@@ -142,28 +142,6 @@
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
                   />
-                </div>
-              </div>
-              <div class="w-full lg:w-4/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="event-type"
-                  >
-                    Art der Veranstaltung <span class="text-red-500">*</span>
-                  </label>
-                  <select
-                    id="event-type"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
-                  >
-                    <option value="corporate">Firmenanlass</option>
-                    <option value="wedding">Hochzeit</option>
-                    <option value="private-party">Private Feier</option>
-                    <option value="sports-event">Sportveranstaltung</option>
-                    <option value="festival">Festival</option>
-                    <option value="other">Andere (bitte angeben)</option>
-                  </select>
                 </div>
               </div>
               <div class="w-full lg:w-4/12 px-4">
@@ -198,17 +176,10 @@
                   />
                 </div>
               </div>
-            </div>
-
-            <!-- ADDITIONAL INFORMATION -->
-            <h6 class="mt-3 mb-6 font-bold uppercase">
-              Zusätzliche Informationen
-            </h6>
-            <div class="flex flex-wrap">
-              <div class="w-full lg:w-6/12 px-4">
+              <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label class="block text-sm font-semibold mb-2" for="budget">
-                    Budget (optional)
+                    Budget
                   </label>
                   <input
                     id="budget"
@@ -217,25 +188,13 @@
                   />
                 </div>
               </div>
-              <div class="w-full lg:w-6/12 px-4">
-                <div class="relative w-full mb-3">
-                  <label
-                    class="block text-sm font-semibold mb-2"
-                    for="how-heard"
-                  >
-                    Wie haben Sie von uns gehört?
-                  </label>
-                  <select
-                    id="how-heard"
-                    class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  >
-                    <option value="website">Website</option>
-                    <option value="social-media">Social Media</option>
-                    <option value="referral">Empfehlung</option>
-                    <option value="other">Andere (bitte angeben)</option>
-                  </select>
-                </div>
-              </div>
+            </div>
+
+            <!-- ADDITIONAL INFORMATION -->
+            <h6 class="mt-3 mb-6 font-bold uppercase">
+              Zusätzliche Informationen
+            </h6>
+            <div class="flex flex-wrap">
               <div class="w-full px-4">
                 <div class="relative w-full mb-3">
                   <label
