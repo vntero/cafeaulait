@@ -32,7 +32,7 @@
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-          <form>
+          <form action="http://localhost:8080/register" method="POST">
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >
@@ -59,7 +59,8 @@
                     Name der Kontaktperson <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="contact-name"
+                    id="name"
+                    name="name"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -73,6 +74,7 @@
                   </label>
                   <input
                     id="phone"
+                    name="phone"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -86,6 +88,7 @@
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -107,6 +110,7 @@
                   </label>
                   <input
                     id="location"
+                    name="location"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -125,6 +129,7 @@
                   </label>
                   <input
                     id="duration"
+                    name="duration"
                     type="number"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -138,6 +143,7 @@
                   </label>
                   <input
                     id="guests"
+                    name="number_of_guests"
                     type="number"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -154,6 +160,7 @@
                   </label>
                   <input
                     id="event-date"
+                    name="event_date"
                     type="date"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -170,6 +177,7 @@
                   </label>
                   <input
                     id="event-time"
+                    name="event_time"
                     type="time"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -183,6 +191,7 @@
                   </label>
                   <input
                     id="budget"
+                    name="budget"
                     type="number"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -205,6 +214,7 @@
                   </label>
                   <textarea
                     id="additional-comments"
+                    name="comment"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     rows="4"
@@ -214,7 +224,7 @@
             </div>
 
             <div class="flex items-center gap-4 justify-center pt-10">
-              <button class="specialBtnDark">
+              <button type="submit" class="specialBtnDark">
                 <p class="text-base sm:text-lg md:text-xl">Senden</p>
               </button>
 
