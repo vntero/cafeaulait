@@ -15,7 +15,7 @@
       img: '/assets/deniz.png',
     },
     {
-      name: 'Sophia Banghal',
+      name: 'Sophia Bhangal',
       role: 'Tanzlehrerin & Admin',
       img: '/assets/sophia.png',
     },

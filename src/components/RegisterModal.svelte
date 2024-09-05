@@ -32,7 +32,7 @@
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-          <form>
+          <form action="http://localhost:8080/register" method="POST">
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >
@@ -54,6 +54,7 @@
                   </label>
                   <input
                     id="register-name"
+                    name="name"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -70,6 +71,7 @@
                   </label>
                   <input
                     id="register-birthday"
+                    name="birthday"
                     type="date"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -87,6 +89,7 @@
                   </label>
                   <input
                     id="register-origin"
+                    name="origin"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -103,6 +106,7 @@
                   </label>
                   <textarea
                     id="register-motivation"
+                    name="motivation"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     rows="4"
@@ -129,6 +133,7 @@
                   </label>
                   <input
                     id="register-parent-one-name"
+                    name="parent_one_name"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -146,6 +151,7 @@
                   </label>
                   <input
                     id="register-parent-one-email"
+                    name="parent_one_email"
                     type="email"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -163,6 +169,7 @@
                   </label>
                   <input
                     id="register-parent-one-tel"
+                    name="parent_one_phone"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -180,6 +187,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_one_street"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -191,12 +199,13 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block text-sm font-semibold mb-2"
-                    for="grid-postal-code"
+                    for="grid-house-number"
                   >
                     Nr <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="grid-postal-code"
+                    id="grid-house-number"
+                    name="parent_one_house_number"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -214,6 +223,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_one_postcode"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -231,6 +241,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_one_location"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     required
@@ -254,6 +265,7 @@
                   </label>
                   <input
                     id="grid-address"
+                    name="parent_two_name"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -270,6 +282,7 @@
                   </label>
                   <input
                     id="grid-country"
+                    name="parent_two_email"
                     type="email"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -286,6 +299,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_two_phone"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -302,6 +316,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_two_street"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -318,6 +333,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_two_house_number"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -334,6 +350,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_two_postcode"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -350,6 +367,7 @@
                   </label>
                   <input
                     id="grid-postal-code"
+                    name="parent_two_location"
                     type="tel"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
@@ -359,7 +377,7 @@
 
             <!-- buttons -->
             <div class="flex items-center gap-4 justify-center pt-10">
-              <button class="specialBtnDark">
+              <button type="submit" class="specialBtnDark">
                 <p class="text-base sm:text-lg md:text-xl">Senden</p>
               </button>
 
