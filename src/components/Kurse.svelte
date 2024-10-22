@@ -4,19 +4,19 @@
   let kurseFeatures = [
     {
       featureList: [
-        'Traditionell',
-        'Original',
-        'Renommierte Lehrer',
-        'Percussion',
+        'Ab 6 Jahren',
+        'Koordination',
+        'Rhythhmus',
+        'Live-Perkussion',
       ],
       description:
-        'Komplexe panafrikanische Tänze werden auf mittlerem bis fortgeschrittenem Niveau erarbeitet.',
+        'Lerne traditionelle Tänze aus verschiedenen afrikanischen Ländern - egal ob du Anfänger:in oder auf fortgeschrittenem Niveau bist.',
       imgUrl: 'assets/kurse1.png',
     },
     {
       featureList: ['Frisch', 'Modern', 'Trendig', 'Technisch'],
       description:
-        'Junge Tänzer vermitteln energiereiche Schritte und frische Vibes.',
+        'Junge Tänzerinnen und Tänzer vermitteln energiereiche Schritte und freshe Vibes.',
       imgUrl: 'assets/kurse2.png',
     },
     {
@@ -26,9 +26,9 @@
       imgUrl: 'assets/kurse3.png',
     },
     {
-      featureList: ['Präsenz', 'Wirkung', 'Koordination', 'Stärke'],
+      featureList: ['Bühnenpräsenz', 'Wirkung', 'Koordination', 'Stärke'],
       description:
-        'Der «CAL Gospelchor» ist ein bühnenorientierter Chor, der an den unterschiedlichsten Anlässen auftritt und an den Produktionen der «CAL Stage Company» mitarbeitet.',
+        'Der «CAL Chor» ist ein bühnenorientierter Chor, der an den unterschiedlichsten Anlässen auftritt und an den Produktionen der «CAL Stage Company» mitarbeitet.',
       imgUrl: 'assets/kurse4.png',
     },
   ]
@@ -49,9 +49,7 @@
     {#each kurseFeatures as kurseFeature, index}
       <KurseCard {kurseFeature} {index}>
         {#if index === 0}
-          Afrotanz als Sport <span class="text-red-500 font-medium"
-            >& Bewegung
-          </span>
+          Traditional <span class="text-red-500 font-medium">Dance </span>
         {:else if index === 1}
           Afro<span class="text-red-500 font-medium">Beats</span>
         {:else if index === 2}

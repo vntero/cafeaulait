@@ -1,6 +1,7 @@
 <script>
   import SectionWrapper from '../components/SectionWrapper.svelte'
   import { createEventDispatcher } from 'svelte'
+  import handleSubmit from '../components/BookModal.svelte'
   const dispatch = createEventDispatcher()
   export let show = true
   export let close = () => {
@@ -32,7 +33,9 @@
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-          <form action="http://localhost:8080/register" method="POST">
+          <form
+            on:submit={(e) => handleSubmit(e, 'http://localhost:8080/register')}
+          >
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >

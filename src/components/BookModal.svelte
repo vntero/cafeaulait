@@ -1,11 +1,44 @@
 <script>
   import SectionWrapper from '../components/SectionWrapper.svelte'
   import { createEventDispatcher } from 'svelte'
+
   const dispatch = createEventDispatcher()
+
   export let show = true
   export let close = () => {
     show = false
     dispatch('close')
+  }
+
+  // function to handle form submission via http request
+  export const handleSubmit = async (event, url) => {
+    event.preventDefault() // prevent default form submission behaviour
+
+    const formData = new FormData(event.target)
+    const data = Object.fromEntries(formData)
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      if (response.ok) {
+        // Handle successful response
+        console.log('Form submitted successfully')
+        // Optionally close the modal or show a success message
+        close()
+      } else {
+        // Handle error response
+        const errorData = await response.json()
+        console.error('Form submission failed:', errorData)
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error)
+    }
   }
 </script>
 
@@ -32,7 +65,9 @@
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-          <form action="http://localhost:8080/book" method="POST">
+          <form
+            on:submit={(e) => handleSubmit(e, 'http://localhost:8080/book')}
+          >
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >

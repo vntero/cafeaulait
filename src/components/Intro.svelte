@@ -6,11 +6,6 @@
 
   let events = [
     {
-      date: '14.09.2024',
-      title: 'Afro Family Day',
-      location: 'GZ Buchegg, Zürich',
-    },
-    {
       date: '17.11.2024',
       title: `Premiere "R'Evolution" - Save the date!`,
       location: 'Volkshaus, Zürich',
