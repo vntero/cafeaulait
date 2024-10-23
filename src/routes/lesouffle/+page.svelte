@@ -118,7 +118,7 @@
       </p>
     </div>
 
-    <!-- PAST SHOWS -->
+    <!-- PAST SHOWS
     <div
       class="max-w-[1000px] mx-auto w-full text-center bg-[#FFF1DB] p-6 rounded-lg shadow-lg"
     >
@@ -130,7 +130,7 @@
           </li>
         {/each}
       </ul>
-    </div>
+    </div> -->
   </div>
 </SectionWrapper>
 <Footer />

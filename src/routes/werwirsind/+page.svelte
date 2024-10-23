@@ -11,18 +11,13 @@
     },
     {
       name: 'Deniz Tunbeceren',
-      role: 'Admin',
+      role: 'Koordination Events & Sponsoring',
       img: '/assets/deniz.png',
     },
     {
-      name: 'Sophia Bhangal',
+      name: 'Sahara Kuhn',
       role: 'Tanzlehrerin & Admin',
-      img: '/assets/sophia.png',
-    },
-    {
-      name: 'Amélie',
-      role: 'Admin',
-      img: '/assets/amelie.png',
+      img: '/assets/sahara.png',
     },
     {
       name: 'Flora Luvualu',
@@ -35,24 +30,29 @@
       img: '/assets/akim.png',
     },
     {
+      name: 'Altea Baumann',
+      role: 'Gesangslehrerin',
+      img: '/assets/altea.png',
+    },
+    {
+      name: 'Amélie Aragón ',
+      role: 'Gesangslehrerin',
+      img: '/assets/amelie.png',
+    },
+    {
+      name: 'Sékou Touré',
+      role: 'Perkussionist',
+      img: '/assets/sekou.png',
+    },
+    {
+      name: 'Urbain Nachname',
+      role: 'Tanzlehrerin',
+      img: '/assets/urbain.png',
+    },
+    {
       name: 'Yamoussa Sylla',
       role: 'Perkussionist',
       img: '/assets/yamoussa.png',
-    },
-    {
-      name: 'Dramane Keita',
-      role: 'Perkussionist',
-      img: '/assets/dramane.png',
-    },
-    {
-      name: 'Sahara Kuhn',
-      role: 'Tanzlehrerin',
-      img: '/assets/sahara.png',
-    },
-    {
-      name: 'Altea Baumann',
-      role: 'Tanzlehrerin',
-      img: '/assets/altea.png',
     },
   ]
 
@@ -150,7 +150,7 @@
                   <h6 class="text-xl font-semibold">Wer wir sind</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
                     Wir sind ein Zürcher Verein für Afrotanz, Gesang, Schauspiel &
-                    Perkussion. Unser Angebot richtet sich an alle Kinder aus der Region unabhängig von ihrer Hautfarbe, Herkunft und Konfession.
+                    Perkussion. Unser Angebot ist allen Kindern zugänglich unabhängig von ihrer Hautfarbe, Herkunft und Konfession.
                     Unsere Arbeit ist beim Sportamt Zürich als Jugendsportförderung anerkannt.
                   </p>
                 </div>

@@ -40,6 +40,8 @@
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >
               Anmeldung
+              <!-- Add space and edit font size and color to "normal" text for the following text -->
+              Bist du an einem Schnuppertraining interessiert? Schreib uns unter info@cafeaulait.ch und wir sagen dir, wann das näcshte Schnuppertraining stattfindet.
             </h6>
 
             <!-- child -->

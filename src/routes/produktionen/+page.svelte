@@ -41,7 +41,7 @@
           <img src="assets/lesouffle.png" alt="Le Souffle" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Le Souffle</h2>
+          <h2 class="card-title">Le Souffle - 2018</h2>
           <p>
             Die Geschichte beginnt in Afrika vor sehr langer Zeit. Die Menschen
             leben bescheiden, der Rhythmus begleitet sie durch den friedlichen
@@ -64,10 +64,9 @@
           <img src="assets/queenleoni.png" alt="Queen Leoni" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Queen Leoni</h2>
+          <h2 class="card-title">Queen Leoni - 20XX</h2>
           <p>
-            Unsere erste Produktion. Ein Musical für Kinder, das das Beste aus
-            beiden Welten unserem Publikum bietet.
+            Lorem Ipsum.
           </p>
           <div class="card-actions justify-end mt-3">
             <a href="/queenleoni"
