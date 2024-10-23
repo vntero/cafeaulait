@@ -71,19 +71,15 @@
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
             >
-              Shows buchen
+              Show buchen
             </h6>
             <br />
             <p>
-              Suchen Sie ein Unterhaltungsprogramm für Ihren nächsten
-              Firmenanlass, eine Hochzeit oder eine Sport-veranstaltung? Café au
-              Lait kann man für private und öffentliche Anlässe buchen. Sei es
-              für eine Gesangseinlage, einen Tanz- und Trommelworkshop oder
-              grössere Animationssegmente. Wir stellen ein Programm für Sie
-              persönlich zusammen.
+              Interessiert an einer Show? Fülle das Formular aus und wir melden uns bei dir.
             </p>
             <!-- EVENT DETAILS -->
-            <h6 class="mt-3 mb-6 font-bold uppercase">Kontaktdaten</h6>
+            <h6 class="mt-3 mb-6 font-bold uppercase">Kontaktdaten
+            </h6>
             <div class="flex flex-wrap">
               <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
@@ -91,7 +87,7 @@
                     class="block text-sm font-semibold mb-2"
                     for="contact-name"
                   >
-                    Name der Kontaktperson <span class="text-red-500">*</span>
+                    Vor- und Nachname <span class="text-red-500">*</span>
                   </label>
                   <input
                     id="name"
@@ -119,7 +115,7 @@
               <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label class="block text-sm font-semibold mb-2" for="email">
-                    E-Mail-Adresse <span class="text-red-500">*</span>
+                    Emailadresse <span class="text-red-500">*</span>
                   </label>
                   <input
                     id="email"
@@ -245,7 +241,7 @@
                     class="block text-sm font-semibold mb-2"
                     for="additional-comments"
                   >
-                    Zusätzliche Kommentare oder Fragen
+                    Zusätzliche Infos oder Fragen
                   </label>
                   <textarea
                     id="additional-comments"

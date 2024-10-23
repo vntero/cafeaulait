@@ -128,7 +128,7 @@
       >
         <img
           src="/assets/unseremission.png"
-          alt="Unser Verein"
+          alt="Wer wir sind"
           class="absolute top-0 w-full h-full rounded-lg shadow-md max-w-[1000px] mx-auto"
         />
       </div>
@@ -136,7 +136,7 @@
       <section class="pb-20 -mt-24">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
-            <!-- Diversität -->
+            <!-- Swap first and second icon pls -->
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -147,18 +147,17 @@
                   >
                     <i class="fa-solid fa-heart"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Diversität</h6>
+                  <h6 class="text-xl font-semibold">Wer wir sind</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Café au Lait ist ein Verein für Afrotanz, Gesang &
-                    Perkussion aus Zürich. Der Name ist Programm: Café au Lait
-                    besteht aus Kindern und Jugendlichen unterschiedlicher
-                    Hautfarben, Herkunft und Kultur.
+                    Wir sind ein Zürcher Verein für Afrotanz, Gesang, Schauspiel &
+                    Perkussion. Unser Angebot richtet sich an alle Kinder aus der Region unabhängig von ihrer Hautfarbe, Herkunft und Konfession.
+                    Unsere Arbeit ist beim Sportamt Zürich als Jugendsportförderung anerkannt.
                   </p>
                 </div>
               </div>
             </div>
 
-            <!-- Ursprung -->
+            <!-- Unser Ziel -->
             <div class="w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -169,17 +168,17 @@
                   >
                     <i class="fa-solid fa-child-reaching"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Ursprung</h6>
+                  <h6 class="text-xl font-semibold">Unser Ziel</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Der Verein wurde 2003 von der gebürtigen Angolanerin
-                    Françoise Strassburg gegründet und ist beim Sportamt Zürich
-                    als Jugendsportförderung anerkannt.
+                    Mit unserem Angebot wollen wir die Diversität der Schweizer Gesellschaft sichtbar machen und einen Beitrag zu mehr Toleranz und Dialog leisten. 
+                    Unsere Produktionen behandeln deshalb gesellschaftskritische Themen und im Unterricht lernen die Schüler:innen spielerisch Respekt, gegenseitiges 
+                    Verständnis und Solidarität.
                   </p>
                 </div>
               </div>
             </div>
 
-            <!-- Mission -->
+            <!-- Idea: Icon should be roots -->
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -190,17 +189,11 @@
                   >
                     <i class="fa-solid fa-bolt-lightning"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Mission</h6>
+                  <h6 class="text-xl font-semibold">Woher wir kommen</h6>
+
                   <p class="mt-2 mb-4 text-blueGray-500">
-                    Café au Lait fördert die jungen Künstlerinnen und Künstlern
-                    in Tanz, Rhythmik, Schauspiel und Gesang bis hin zur
-                    Bühnenreife (<a
-                      href="/"
-                      class="text-red-500 hover:text-blue-600"
-                    >
-                      siehe Stage Company</a
-                    >). Dabei lernen die Kinder und Jugendlichen spielerisch
-                    auch Respekt, gegenseitiges Verständnis und Solidarität.
+                     Café au Lait wurde 2003 von der gebürtigen Angolanerin, Françoise Strassburg, gegründet. Seither haben unsere Pädagog:innen bereits mehrere hundert 
+                     Kinder von ihren ersten Tanzschritten bis hin zur Bühnenreife begleitet. 
                   </p>
                 </div>
               </div>

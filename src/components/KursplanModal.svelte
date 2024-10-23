@@ -77,7 +77,7 @@
                   </td>
                 </tr>
                 <tr class="bg-red-200">
-                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Teenies</th>
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Teenies (ab 13)</th>
                   <td class="border px-2 sm:px-4 py-1 sm:py-2"
                     >Traditioneller Tanz</td
                   >
@@ -108,7 +108,7 @@
                   </td>
                 </tr>
                 <tr class="bg-pink-100">
-                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Mini F</th>
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Mini F (Fortgeschritten ab 8)</th>
                   <td class="border px-2 sm:px-4 py-1 sm:py-2">Afro Beats</td>
                   <td class="border px-2 sm:px-4 py-1 sm:py-2"
                     >Traditioneller Tanz</td
@@ -139,7 +139,7 @@
                   </td>
                 </tr>
                 <tr class="bg-orange-100">
-                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Mini A</th>
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Mini A (Anfänger ab 6)</th>
                   <td class="border px-2 sm:px-4 py-1 sm:py-2"
                     >Traditioneller Tanz</td
                   >

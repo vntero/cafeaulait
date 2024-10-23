@@ -6,7 +6,7 @@
   let showsList = [
     {
       name: 'Dein Event',
-      review: `Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere Shows garantieren jede Menge Spass und gute Laune. Lass dich von unseren Performances und der Energie mitreißen! Kontaktiere uns, um mehr über unser Angebot zu erfahren. Wir freuen uns darauf, deinen Event zu einem unvergesslichen Highlight zu machen.`,
+      review: `Brauchst du eine Showeinlage für deinen Anlass? Egal ob Firmenfeier, Hochzeit oder Sportanlass - unsere Performances reissen jedes Publikum mit und garantieren guten Laune. Kontaktiere uns, und sag uns, was du dir wünschst. Wir stellen dir ein massgeschneidertes Programm zusammen und freuen uns darauf, deinen Event zu einem unvergesslichen Highlight zu machen.`,
       features: ['Kulturpreis', '2023', 'Tanz & Theater'],
       buttonText: 'Mehr erfahren und buchen',
     },
@@ -27,7 +27,7 @@
       <h3
         class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
       >
-        Uns kann man <span class="text-red-500">buchen</span>
+        Uns kannst du <span class="text-red-500">buchen</span>
       </h3>
     </div>
     <div class="container">
@@ -35,12 +35,7 @@
         <div class="w-full md:w-6/12">
           <h3 class="text-3xl font-semibold">Dein Event</h3>
           <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-            Egal, ob Firmenfeier, Hochzeit oder eine coole Party – unsere Shows
-            garantieren jede Menge Spass und gute Laune. Lass dich von unseren
-            Performances und der Energie mitreißen! Kontaktiere uns, um mehr
-            über unser Angebot zu erfahren. Wir freuen uns darauf, deinen Event
-            zu einem unvergesslichen Highlight zu machen.
-          </p>
+            Brauchst du eine Showeinlage für deinen Anlass? Egal ob Firmenfeier, Hochzeit oder Sportanlass - unsere Performances reissen jedes Publikum mit und garantieren guten Laune. Kontaktiere uns, und sag uns, was du dir wünschst. Wir stellen dir ein massgeschneidertes Programm zusammen und freuen uns darauf, deinen Event zu einem unvergesslichen Highlight zu machen.       </p>
           <ul class="list-none mt-6">
             <li class="py-2">
               <div class="flex items-center">
@@ -53,7 +48,7 @@
                 </div>
                 <div>
                   <h4 class="text-blueGray-500">
-                    Bringt unseren Rhythmus in eure Feier
+                    Massgeschneidert
                   </h4>
                 </div>
               </div>
@@ -69,7 +64,7 @@
                 </div>
                 <div>
                   <h4 class="text-blueGray-500">
-                    Tanzen, Singen – Traditionell, zeitgenössisch
+                    Mitreissend
                   </h4>
                 </div>
               </div>
@@ -84,7 +79,7 @@
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">Aus Zürich, mit Liebe</h4>
+                  <h4 class="text-blueGray-500">Professionell</h4>
                 </div>
               </div>
             </li>

@@ -4,31 +4,33 @@
   let kurseFeatures = [
     {
       featureList: [
-        'Ab 6 Jahren',
-        'Koordination',
-        'Rhythhmus',
-        'Live-Perkussion',
+        'Traditional',
+        'Afrobeats',
+        'Contemporary',
+        'Percussion Dance',
       ],
       description:
-        'Lerne traditionelle Tänze aus verschiedenen afrikanischen Ländern - egal ob du Anfänger:in oder auf fortgeschrittenem Niveau bist.',
+        'Für alle Niveaus ab 6 Jahren. Lerne in unseren Kursen unterschiedliche Tanzstile aus dem afrikanischen Kontinent.',
       imgUrl: 'assets/kurse1.png',
     },
+
+    // (Afrobeats Masterclass)
     {
-      featureList: ['Frisch', 'Modern', 'Trendig', 'Technisch'],
+      featureList: ['Afrobeats', 'Attitude', 'Technik'],
       description:
-        'Junge Tänzerinnen und Tänzer vermitteln energiereiche Schritte und freshe Vibes.',
+        'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
       imgUrl: 'assets/kurse2.png',
     },
     {
-      featureList: ['Singen', 'Bühnenpräsenz', 'Koordination', 'Stimme'],
+      featureList: ['Mehrstimmiger Gesang', 'Stimmbildung', 'Musikalisches Hören & Harmonie'],
       description:
-        'Die «CAL Stage Company» ist eine bühnenorientierte Tanzgruppe. Sie hat zum Ziel, die künstlerische Ausbildung im Bereich des traditionellen und zeitgenössischen afrikanischen Tanzes, der Perkussion und des Gesangs zu fördern.',
+        'Mit dem Chor treten wir an unterschiedlichen Anlässen auf und erarbeiten Stücke für Eigenproduktionen.',
       imgUrl: 'assets/kurse3.png',
     },
     {
-      featureList: ['Bühnenpräsenz', 'Wirkung', 'Koordination', 'Stärke'],
+      featureList: ['Bühnenpräsenz', 'Theater', 'Tanz', 'Perkussion'],
       description:
-        'Der «CAL Chor» ist ein bühnenorientierter Chor, der an den unterschiedlichsten Anlässen auftritt und an den Produktionen der «CAL Stage Company» mitarbeitet.',
+        'In der CAL Stage Company fördern wir deine Bühnenreife. Du erarbeitest und probst neue Produktionen mit der ganzen Companie und kannst zeigen, was du drauf hast.',
       imgUrl: 'assets/kurse4.png',
     },
   ]
@@ -49,11 +51,11 @@
     {#each kurseFeatures as kurseFeature, index}
       <KurseCard {kurseFeature} {index}>
         {#if index === 0}
-          Traditional <span class="text-red-500 font-medium">Dance </span>
+          Tanz<span class="text-red-500 font-medium">kurse </span>
         {:else if index === 1}
-          Afro<span class="text-red-500 font-medium">Beats</span>
+          Afrobeats <span class="text-red-500 font-medium">Masterclass</span>
         {:else if index === 2}
-          Gospel<span class="text-red-500 font-medium">chor</span>
+          CAL <span class="text-red-500 font-medium">Chor</span>
         {:else}
           Stage <span class="text-red-500 font-medium">Company</span>
         {/if}
