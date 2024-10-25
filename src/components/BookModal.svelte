@@ -75,11 +75,11 @@
             </h6>
             <br />
             <p>
-              Interessiert an einer Show? Fülle das Formular aus und wir melden uns bei dir.
+              Interessiert an einer Show? Fülle das Formular aus und wir melden
+              uns bei dir.
             </p>
-            <!-- EVENT DETAILS -->
-            <h6 class="mt-3 mb-6 font-bold uppercase">Kontaktdaten
-            </h6>
+            <!-- CONTACT DETAILS -->
+            <h6 class="mt-3 mb-6 font-bold uppercase">Kontaktdaten</h6>
             <div class="flex flex-wrap">
               <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
