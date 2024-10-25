@@ -1,5 +1,26 @@
 <script>
+  import { goto } from '$app/navigation'
   import { openModal } from '../store'
+
+  function navigateToSection(sectionId) {
+    const isHomePage = window.location.pathname === '/'
+
+    if (!isHomePage) {
+      goto('/')
+
+      setTimeout(() => {
+        const section = document.getElementById(sectionId)
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' })
+        }
+      }, 300)
+    } else {
+      const section = document.getElementById(sectionId)
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }
 </script>
 
 <header class="flex flex-col relative z-20">
@@ -19,12 +40,20 @@
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
       <a href="/" class="duration-200 hover:text-red-500 cursor-pointer">Home</a
       >
-      <a href="#kurse" class="duration-200 hover:text-red-500 cursor-pointer"
-        >Kurse</a
+      <a
+        href="#kurse"
+        class="duration-200 hover:text-red-500 cursor-pointer"
+        on:click|preventDefault={() => navigateToSection('kurse')}
       >
-      <a href="#shows" class="duration-200 hover:text-red-500 cursor-pointer"
-        >Shows</a
+        Kurse
+      </a>
+      <a
+        href="#shows"
+        class="duration-200 hover:text-red-500 cursor-pointer"
+        on:click|preventDefault={() => navigateToSection('shows')}
       >
+        Shows
+      </a>
       <a href="mailto:info@cafeaulait.ch">
         <button class="specialBtn">
           <p>Kontakt</p>

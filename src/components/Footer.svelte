@@ -14,24 +14,15 @@
       </a>
       <p>2024 © Alle Rechte vorbehalten</p>
     </div>
+
     <div class="flex flex-col gap-4">
-      <p class="font-bold poppins text-base sm:text-lg">Socials</p>
-      <a
-        href="https://www.instagram.com/cafeaulait_afrodance/"
-        target="_blank"
-        class="cursor-pointer hover:text-red-500 duration-200"
-      >
-        <i class="fa-brands fa-instagram pr-2" />Instagram</a
-      >
-    </div>
-    <div class="flex flex-col gap-4">
-      <p class="font-bold poppins text-base sm:text-lg">Über uns</p>
+      <p class="font-bold poppins text-base sm:text-lg">Mehr</p>
       <a
         href="/werwirsind"
         class="cursor-pointer hover:text-red-500 duration-200"
       >
         <i class="fa-regular fa-heart"></i>
-        Wer wir sind
+        Über uns
       </a>
       <a
         href="/produktionen"
@@ -54,6 +45,16 @@
       Verein Café au Lait - Zürich <br />
       Konto Nr.: 85-603522-7 <br />
       IBAN: CH 92 0900 0000 8560 3522 7
+    </div>
+    <div class="flex flex-col gap-4">
+      <p class="font-bold poppins text-base sm:text-lg">Socials</p>
+      <a
+        href="https://www.instagram.com/cafeaulait_afrodance/"
+        target="_blank"
+        class="cursor-pointer hover:text-red-500 duration-200"
+      >
+        <i class="fa-brands fa-instagram pr-2" />Instagram</a
+      >
     </div>
   </div>
 </footer>
