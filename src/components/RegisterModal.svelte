@@ -41,13 +41,13 @@
             >
               Anmeldung
               <!-- Add space and edit font size and color to "normal" text for the following text -->
-              Bist du an einem Schnuppertraining interessiert? Schreib uns unter info@cafeaulait.ch und wir sagen dir, wann das näcshte Schnuppertraining stattfindet.
+              Bist du an einem Schnuppertraining interessiert? Schreib uns unter
+              info@cafeaulait.ch und wir sagen dir, wann das näcshte Schnuppertraining
+              stattfindet.
             </h6>
 
             <!-- child -->
-            <h6 class="mt-3 mb-6 font-bold uppercase">
-              Kind <span class="text-red-500">*</span>
-            </h6>
+            <h6 class="mt-3 mb-6 font-bold uppercase">Kind</h6>
             <div class="flex flex-wrap">
               <div class="w-6/12 lg:w-6/12 px-4">
                 <div class="relative w-full mb-3">
@@ -125,7 +125,7 @@
 
             <!-- legal guardian 1 -->
             <h6 class="mt-3 mb-6 font-bold uppercase">
-              Erziehungsberechtigte:r 1 <span class="text-red-500">*</span>
+              Erziehungsberechtigte:r 1
             </h6>
             <div class="flex flex-wrap">
               <div class="w-6/12 md:w-5/12 lg:w-5/12 px-4">
@@ -378,6 +378,20 @@
                   />
                 </div>
               </div>
+            </div>
+
+            <!-- checkbox -->
+            <div class="flex items-center justify-center pt-10">
+              <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+                class="checkbox bg-white mr-2 border-black"
+              />
+              <label for="terms" class="text-sm font-semibold">
+                Ich akzeptiere die Allgemeinen Bestimmungen
+              </label> <span class="text-red-500 text-sm ml-1">*</span>
             </div>
 
             <!-- buttons -->
