@@ -35,7 +35,13 @@
         <div class="w-full md:w-6/12">
           <h3 class="text-3xl font-semibold">Dein Event</h3>
           <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-            Brauchst du eine Showeinlage für deinen Anlass? Egal ob Firmenfeier, Hochzeit oder Sportanlass - unsere Performances reissen jedes Publikum mit und garantieren guten Laune. Kontaktiere uns, und sag uns, was du dir wünschst. Wir stellen dir ein massgeschneidertes Programm zusammen und freuen uns darauf, deinen Event zu einem unvergesslichen Highlight zu machen.       </p>
+            Brauchst du eine Showeinlage für deinen Anlass? Egal ob Firmenfeier,
+            Hochzeit oder Sportanlass - unsere Performances reissen jedes
+            Publikum mit und garantieren guten Laune. Kontaktiere uns, und sag
+            uns, was du dir wünschst. Wir stellen dir ein massgeschneidertes
+            Programm zusammen und freuen uns darauf, deinen Event zu einem
+            unvergesslichen Highlight zu machen.
+          </p>
           <ul class="list-none mt-6">
             <li class="py-2">
               <div class="flex items-center">
@@ -43,13 +49,11 @@
                   <span
                     class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
                   >
-                    <i class="fas fa-fingerprint text-red-500"></i>
+                    <i class="fa-solid fa-bolt text-red-400"></i>
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">
-                    Massgeschneidert
-                  </h4>
+                  <h4 class="text-blueGray-500">Massgeschneidert</h4>
                 </div>
               </div>
             </li>
@@ -59,13 +63,11 @@
                   <span
                     class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
                   >
-                    <i class="fa-solid fa-sun text-red-500"></i>
+                    <i class="fa-solid fa-bolt text-red-400"></i>
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">
-                    Mitreissend
-                  </h4>
+                  <h4 class="text-blueGray-500">Mitreissend</h4>
                 </div>
               </div>
             </li>
@@ -75,7 +77,7 @@
                   <span
                     class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
                   >
-                    <i class="far fa-paper-plane text-red-500"></i>
+                    <i class="fa-solid fa-bolt text-red-400"></i>
                   </span>
                 </div>
                 <div>
