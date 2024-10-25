@@ -45,7 +45,7 @@
       img: '/assets/sekou.png',
     },
     {
-      name: 'Urbain Guiguembe',
+      name: 'Urbain Guiguemdé',
       role: 'Tanzlehrerin',
       img: '/assets/urbain.png',
     },
