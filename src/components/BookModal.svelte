@@ -129,7 +129,6 @@
             </div>
             <!-- BOOKING DETAILS -->
             <h6 class="mt-3 mb-6 font-bold uppercase">Veranstaltungsdetails</h6>
-
             <div class="flex flex-wrap">
               <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
@@ -137,14 +136,13 @@
                     class="block text-sm font-semibold mb-2"
                     for="location"
                   >
-                    Veranstaltungsort <span class="text-red-500">*</span>
+                    Veranstaltungsort
                   </label>
                   <input
                     id="location"
                     name="location"
                     type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
                   />
                 </div>
               </div>
@@ -154,30 +152,26 @@
                     class="block text-sm font-semibold mb-2"
                     for="duration"
                   >
-                    Gewünschte Dauer der Darbietung <span class="text-red-500"
-                      >*</span
-                    >
+                    Gewünschte Dauer der Darbietung
                   </label>
                   <input
                     id="duration"
                     name="duration"
                     type="number"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
                   />
                 </div>
               </div>
               <div class="w-full lg:w-4/12 px-4">
                 <div class="relative w-full mb-3">
                   <label class="block text-sm font-semibold mb-2" for="guests">
-                    Gästeanzahl <span class="text-red-500">*</span>
+                    Gästeanzahl
                   </label>
                   <input
                     id="guests"
                     name="number_of_guests"
                     type="number"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
                   />
                 </div>
               </div>
@@ -187,14 +181,13 @@
                     class="block text-sm font-semibold mb-2"
                     for="event-date"
                   >
-                    Veranstaltungsdatum <span class="text-red-500">*</span>
+                    Veranstaltungsdatum
                   </label>
                   <input
                     id="event-date"
                     name="event_date"
                     type="date"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
                   />
                 </div>
               </div>
@@ -204,14 +197,13 @@
                     class="block text-sm font-semibold mb-2"
                     for="event-time"
                   >
-                    Veranstaltungszeit <span class="text-red-500">*</span>
+                    Veranstaltungszeit
                   </label>
                   <input
                     id="event-time"
                     name="event_time"
                     type="time"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                    required
                   />
                 </div>
               </div>
