@@ -390,7 +390,9 @@
                 class="checkbox bg-white mr-2 border-black"
               />
               <label for="terms" class="text-sm font-semibold">
-                Ich akzeptiere die <a href="/t&c">Allgemeinen Bestimmungen</a>
+                Ich akzeptiere die <a href="/t&c" class="underline"
+                  >Allgemeinen Bestimmungen</a
+                >
               </label> <span class="text-red-500 text-sm ml-1">*</span>
             </div>
 
