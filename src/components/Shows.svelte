@@ -107,7 +107,7 @@
             transform: scale(1) perspective(1040px) rotateY(-11deg)
               rotateX(2deg) rotate(2deg);
           "
-            src="assets/shows.png"
+            src="assets/pics/shows.png"
           />
         </div>
       </div>
