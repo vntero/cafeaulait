@@ -20,7 +20,11 @@
     <!-- mobile screen navbar burger menu -->
     <div class="flex items-center justify-between gap-4 border-b pb-2">
       <a href="/" class="flex items-center">
-        <img alt="The project logo" src="/assets/logo.png" class="w-12 h-12" />
+        <img
+          alt="The project logo"
+          src="/assets/pics/logo.png"
+          class="w-12 h-12"
+        />
         <h1 class="font-semibold ml-2">Café au Lait</h1>
       </a>
       <button

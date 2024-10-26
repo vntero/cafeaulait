@@ -7,52 +7,52 @@
     {
       name: 'Françoise Strassburg',
       role: 'Präsidentin & Initiantin',
-      img: '/assets/francoise.png',
+      img: '/assets/pics/francoise.png',
     },
     {
       name: 'Deniz Tunbeceren',
       role: 'Koordination Events & Sponsoring',
-      img: '/assets/deniz.png',
+      img: '/assets/pics/deniz.png',
     },
     {
       name: 'Sahara Kuhn',
       role: 'Tanzlehrerin & Admin',
-      img: '/assets/sahara.png',
+      img: '/assets/pics/sahara.png',
     },
     {
       name: 'Flora Luvualu',
       role: 'Leitung Gesang',
-      img: '/assets/flora.png',
+      img: '/assets/pics/flora.png',
     },
     {
       name: 'Akim Princes',
       role: 'Tanzpädagoge traditioneller Tanz',
-      img: '/assets/akim.png',
+      img: '/assets/pics/akim.png',
     },
     {
       name: 'Altea Baumann',
       role: 'Gesangslehrerin',
-      img: '/assets/altea.png',
+      img: '/assets/pics/altea.png',
     },
     {
       name: 'Amélie Aragón ',
       role: 'Gesangslehrerin',
-      img: '/assets/amelie.png',
+      img: '/assets/pics/amelie.png',
     },
     {
       name: 'Sékou Touré',
       role: 'Perkussionist',
-      img: '/assets/sekou.png',
+      img: '/assets/pics/sekou.png',
     },
     {
       name: 'Urbain Guiguemdé',
       role: 'Tanzlehrerin',
-      img: '/assets/urbain.png',
+      img: '/assets/pics/urbain.png',
     },
     {
       name: 'Yamoussa Sylla',
       role: 'Perkussionist',
-      img: '/assets/yamoussa.png',
+      img: '/assets/pics/yamoussa.png',
     },
   ]
 
@@ -61,49 +61,49 @@
       name: 'Anisha',
       age: 14,
       origin: 'Angola / Südafrika',
-      img: '/assets/anisha.png',
+      img: '/assets/pics/anisha.png',
     },
     {
       name: 'Eleni',
       age: 12,
       origin: 'Griechenland / Jamaika / Schweiz',
-      img: '/assets/eleni.png',
+      img: '/assets/pics/eleni.png',
     },
     {
       name: 'Imani',
       age: 14,
       origin: 'Schweiz / Togo / Türkei',
-      img: '/assets/imani.png',
+      img: '/assets/pics/imani.png',
     },
     {
       name: 'Imani',
       age: 14,
       origin: 'Belize / Brasilien / Schweiz',
-      img: '/assets/imanii.png',
+      img: '/assets/pics/imanii.png',
     },
     {
       name: 'Lena',
       age: 15,
       origin: 'Kamerun',
-      img: '/assets/lena.png',
+      img: '/assets/pics/lena.png',
     },
     {
       name: 'Lionelle',
       age: 12,
       origin: 'Côte d’Ivoire / Schweiz',
-      img: '/assets/lionelle.png',
+      img: '/assets/pics/lionelle.png',
     },
     {
       name: 'Sophie',
       age: 15,
       origin: 'Deutschland / Uganda',
-      img: '/assets/sophie.png',
+      img: '/assets/pics/sophie.png',
     },
     {
       name: 'Yaiza',
       age: 14,
       origin: 'Côte d’Ivoire / Schweiz',
-      img: '/assets/yaiza.png',
+      img: '/assets/pics/yaiza.png',
     },
   ]
 </script>
@@ -127,7 +127,7 @@
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
         <img
-          src="/assets/unseremission.png"
+          src="/assets/pics/unseremission.png"
           alt="Wer wir sind"
           class="absolute top-0 w-full h-full rounded-lg shadow-md max-w-[1000px] mx-auto"
         />
