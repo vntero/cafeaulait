@@ -63,6 +63,10 @@ button:focus-visible {
   color: white;
 }
 
+.specialBtnDark:hover {
+  border-color: black;
+}
+
 .specialBtn:hover {
   border-color: black;
 }
