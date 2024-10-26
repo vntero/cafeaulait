@@ -1,6 +1,8 @@
 <script>
-  import KurseCard from './KurseCard.svelte'
   import SectionWrapper from './SectionWrapper.svelte'
+  import Register from './Register.svelte'
+  import Kursplan from './Kursplan.svelte'
+
   let kurseFeatures = [
     {
       featureList: [
@@ -13,8 +15,6 @@
         'Für alle Niveaus ab 6 Jahren. Lerne in unseren Kursen unterschiedliche Tanzstile aus dem afrikanischen Kontinent.',
       imgUrl: 'assets/pics/kurse1.png',
     },
-
-    // (Afrobeats Masterclass)
     {
       featureList: ['Afrobeats', 'Attitude', 'Technik'],
       description:
@@ -53,17 +53,58 @@
       </h3>
     </div>
     {#each kurseFeatures as kurseFeature, index}
-      <KurseCard {kurseFeature} {index}>
-        {#if index === 0}
-          Tanz<span class="text-red-500 font-medium">kurse </span>
-        {:else if index === 1}
-          Afrobeats <span class="text-red-500 font-medium">Masterclass</span>
-        {:else if index === 2}
-          CAL <span class="text-red-500 font-medium">Chor</span>
-        {:else}
-          Stage <span class="text-red-500 font-medium">Company</span>
-        {/if}
-      </KurseCard>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-14 lg:gap-20 relative text-base"
+      >
+        <div
+          class={'flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10 ' +
+            (index % 2 === 1 ? ' md:order-2' : ' ')}
+        >
+          <h4
+            class="text-2xl sm:text-3xl md:text-4xl max-w-[1000px] w-full font-medium relative pr-10 after:absolute after:top-full after:left-0 after:w-1/5 after:h-1.5 after:mt-1 after:bg-slate-900"
+          >
+            {#if index === 0}
+              Tanz<span class="text-red-500 font-medium">kurse </span>
+            {:else if index === 1}
+              Afrobeats <span class="text-red-500 font-medium">Masterclass</span
+              >
+            {:else if index === 2}
+              CAL <span class="text-red-500 font-medium">Chor</span>
+            {:else}
+              Stage <span class="text-red-500 font-medium">Company</span>
+            {/if}
+          </h4>
+          <p>{kurseFeature.description}</p>
+          <div class="flex flex-col gap-3">
+            {#each kurseFeature.featureList as listItem}
+              <div class="flex gap-2 items-center">
+                <div
+                  class="grid place-items-center px-1.5 text-xs sm:text-sm aspect-square rounded-full border-[1.5px] bg-white border-solid border-red-300"
+                >
+                  <i class="fa-solid fa-bolt text-red-400"></i>
+                </div>
+                <p>{listItem}</p>
+              </div>
+            {/each}
+          </div>
+          <div class="flex items-center gap-4">
+            <Register />
+            <Kursplan />
+          </div>
+        </div>
+        <div class="flex flex-col dropShadow overflow-hidden rounded-b-lg">
+          <div
+            class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 px-3 flex items-center gap-2"
+          >
+            {#each [1, 2, 3] as i}
+              <div class="rounded-full aspect-square w-2.5 sm:w-3 bg-red-500" />
+            {/each}
+          </div>
+          <div class="flex flex-col bg-white gap-4 flex-1">
+            <img src={kurseFeature.imgUrl} alt="kurse-img" />
+          </div>
+        </div>
+      </div>
     {/each}
   </div>
 </SectionWrapper>

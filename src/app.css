@@ -79,6 +79,10 @@ button:focus-visible {
   animation: fadeIn 300ms ease-in forwards;
 }
 
+.active-dot {
+  background-color: #f00;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
