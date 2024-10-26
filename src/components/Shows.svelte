@@ -87,7 +87,16 @@
             </li>
           </ul>
           <br />
-          <Book />
+          <div class="flex items-center gap-4 w-full">
+            <Book />
+            <button class="specialBtn">
+              <a href="/produktionen">
+                <p class="text-base sm:text-lg md:text-xl">
+                  Unsere Produktionen
+                </p>
+              </a>
+            </button>
+          </div>
         </div>
 
         <div class="w-full md:w-6/12 px-4 pt-24 md:pt-0">
