@@ -114,12 +114,24 @@
     {/each}
 
     <!-- Navigation Controls -->
-    <div class="flex gap-4 mt-4">
-      <button on:click={prevSlide} class="p-2 rounded bg-gray-800 text-white"
-        >Previous</button
+    <div class="flex items-center gap-4 mt-4">
+      <button on:click={prevSlide} class="p-2"
+        ><i class="fa-solid fa-circle-arrow-left text-red-400"></i></button
       >
-      <button on:click={nextSlide} class="p-2 rounded bg-gray-800 text-white"
-        >Next</button
+
+      <!-- Slide Indicators -->
+      <div class="flex gap-2">
+        {#each kurseFeatures as _, dotIndex}
+          <div
+            class="w-3 h-3 rounded-full transition-colors"
+            class:bg-red-400={dotIndex === currentSlide}
+            class:bg-red-300={dotIndex !== currentSlide}
+          ></div>
+        {/each}
+      </div>
+
+      <button on:click={nextSlide} class="p-2"
+        ><i class="fa-solid fa-circle-arrow-right text-red-400"></i></button
       >
     </div>
   </div>
