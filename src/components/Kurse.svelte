@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte'
   import SectionWrapper from './SectionWrapper.svelte'
   import Register from './Register.svelte'
   import Kursplan from './Kursplan.svelte'
@@ -49,6 +50,11 @@
     currentSlide =
       (currentSlide - 1 + kurseFeatures.length) % kurseFeatures.length
   }
+
+  onMount(() => {
+    const interval = setInterval(nextSlide, 5000) // Auto-change slide every 5 seconds
+    return () => clearInterval(interval) // Clean up the interval on component destroy
+  })
 </script>
 
 <SectionWrapper id="kurse">
@@ -115,9 +121,10 @@
 
     <!-- Navigation Controls -->
     <div class="flex items-center gap-4 mt-4">
-      <button on:click={prevSlide} class="p-2"
-        ><i class="fa-solid fa-circle-arrow-left text-red-400"></i></button
-      >
+      <!-- Previous Button -->
+      <button on:click={prevSlide}>
+        <i class="fa-solid fa-circle-arrow-left text-red-400 text-3xl"></i>
+      </button>
 
       <!-- Slide Indicators -->
       <div class="flex gap-2">
@@ -130,9 +137,10 @@
         {/each}
       </div>
 
-      <button on:click={nextSlide} class="p-2"
-        ><i class="fa-solid fa-circle-arrow-right text-red-400"></i></button
-      >
+      <!-- Next Button -->
+      <button on:click={nextSlide}>
+        <i class="fa-solid fa-circle-arrow-right text-red-400 text-3xl"></i>
+      </button>
     </div>
   </div>
 </SectionWrapper>
