@@ -63,6 +63,10 @@ button:focus-visible {
   color: white;
 }
 
+.specialBtnDark:hover {
+  border-color: black;
+}
+
 .specialBtn:hover {
   border-color: black;
 }
@@ -73,6 +77,10 @@ button:focus-visible {
 
 .fadeIn {
   animation: fadeIn 300ms ease-in forwards;
+}
+
+.active-dot {
+  background-color: #f00;
 }
 
 @keyframes fadeIn {

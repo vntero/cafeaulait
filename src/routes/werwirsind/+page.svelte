@@ -7,12 +7,12 @@
     {
       name: 'Françoise Strassburg',
       role: 'Präsidentin & Initiantin',
-      img: '/assets/francoise.png',
+      img: '/assets/pics/francoise.png',
     },
     {
       name: 'Deniz Tunbeceren',
       role: 'Koordination Events & Sponsoring',
-      img: '/assets/deniz.png',
+      img: '/assets/pics/deniz.png',
     },
     {
       name: 'Sahara Kuhn',
@@ -22,27 +22,27 @@
     {
       name: 'Flora Luvualu',
       role: 'Leitung Gesang',
-      img: '/assets/flora.png',
+      img: '/assets/pics/flora.png',
     },
     {
       name: 'Akim Princes',
       role: 'Tanzpädagoge traditioneller Tanz',
-      img: '/assets/akim.png',
+      img: '/assets/pics/akim.png',
     },
     {
       name: 'Altea Baumann',
       role: 'Gesangslehrerin',
-      img: '/assets/altea.png',
+      img: '/assets/pics/altea.png',
     },
     {
       name: 'Amélie Aragón ',
       role: 'Gesangslehrerin',
-      img: '/assets/amelie.png',
+      img: '/assets/pics/amelie.png',
     },
     {
       name: 'Sékou Touré',
       role: 'Perkussionist',
-      img: '/assets/sekou.png',
+      img: '/assets/pics/sekou.png',
     },
     {
       name: 'Urbain Guiguemdé',
@@ -52,7 +52,7 @@
     {
       name: 'Yamoussa Sylla',
       role: 'Perkussionist',
-      img: '/assets/yamoussa.png',
+      img: '/assets/pics/yamoussa.png',
     },
   ]
 
@@ -69,7 +69,7 @@
       name: 'Anisha',
       age: 14,
       origin: 'Angola / Südafrika',
-      img: '/assets/anisha.png',
+      img: '/assets/pics/anisha.png',
     },
         // Quote Anisha missing
 
@@ -100,14 +100,14 @@
       name: 'Eléni',
       age: 12,
       origin: 'Griechenland / Jamaika / Schweiz',
-      img: '/assets/eleni.png',
+      img: '/assets/pics/eleni.png',
     },
     // Quote Eleni: Café au Lait ist meine zweite Familie. Es macht mir Spass, mich zur Musik zu bewegen und verschiedene Choreografien zu lernen.
     {
       name: 'Imani Melike',
       age: 14,
       origin: 'Schweiz / Togo / Türkei',
-      img: '/assets/imani.png',
+      img: '/assets/pics/imani.png',
     },
     // Quote Imani Melike: Café au Lait ist wie eine grosse Familie und bietet mir die Möglichkeite, meine Leidenschaft, das Tanzen, auszuleben.
 
@@ -115,7 +115,7 @@
       name: 'Imani',
       age: 14,
       origin: 'Belize / Brasilien / Schweiz',
-      img: '/assets/imanii.png',
+      img: '/assets/pics/imanii.png',
     },
     // Quote Imani L.: Bei Café au Lait gefällt mir alles, vor allem aber dass wir zusammen tanzen können. Die Verbindung, die wir alle zueinander haben, ist speziell.
 
@@ -139,7 +139,7 @@
       name: 'Lena',
       age: 15,
       origin: 'Kamerun',
-      img: '/assets/lena.png',
+      img: '/assets/pics/lena.png',
     },
         // Quote Lena missing
 
@@ -147,7 +147,7 @@
       name: 'Lionelle',
       age: 13,
       origin: 'Côte d’Ivoire / Schweiz',
-      img: '/assets/lionelle.png',
+      img: '/assets/pics/lionelle.png',
     },
     // Quote Lionelle: Mir gefällt es bei Café au Lait, weil ich mich nicht verstecken muss. Wenn ich schlechte Laune habe, heitert mich das tanzen immer auf.
 
@@ -196,7 +196,7 @@
       name: 'Sophie',
       age: 14,
       origin: 'Deutschland / Uganda',
-      img: '/assets/sophie.png',
+      img: '/assets/pics/sophie.png',
     },
     // Quote Sophie: Hier habe Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden. 
 
@@ -220,7 +220,7 @@
       name: 'Yaiza',
       age: 14,
       origin: 'Côte d’Ivoire / Schweiz',
-      img: '/assets/yaiza.png',
+      img: '/assets/pics/yaiza.png',
     },
     // Quote Yaiza: Mir gefällt hier, dass ich mich so frei fühlen kann und immer neue Tanzarten lerne. Unser Zusammenhalt ist einzigartig.
 
@@ -246,7 +246,7 @@
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
         <img
-          src="/assets/unseremission.png"
+          src="/assets/pics/unseremission.png"
           alt="Wer wir sind"
           class="absolute top-0 w-full h-full rounded-lg shadow-md max-w-[1000px] mx-auto"
         />

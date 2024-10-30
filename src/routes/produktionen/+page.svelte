@@ -20,7 +20,7 @@
       <!-- Card 1 -->
       <div class="card w-96 shadow-xl">
         <figure>
-          <img src="assets/revolution.png" alt="R'Evolution" />
+          <img src="assets/pics/revolution.png" alt="R'Evolution" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">
@@ -37,7 +37,7 @@
       <!-- Card 2 -->
       <div class="card w-96 shadow-xl">
         <figure>
-          <img src="assets/lesouffle.png" alt="Le Souffle" />
+          <img src="assets/pics/lesouffle.png" alt="Le Souffle" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Le Souffle - 2018</h2>
@@ -58,7 +58,7 @@
       <!-- Card 3 -->
       <div class="card w-96 shadow-xl">
         <figure>
-          <img src="assets/queenleoni.png" alt="Queen Leoni" />
+          <img src="assets/pics/queenleoni.png" alt="Queen Leoni" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Diverse Produktionen - Seit 2004</h2>

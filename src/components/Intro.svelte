@@ -31,7 +31,7 @@
 
     <!-- Main image -->
     <img
-      src="/assets/afrosummerjam.png"
+      src="/assets/pics/afrosummerjam.png"
       alt="Kinder"
       class="w-full max-w-[1000px] mx-auto rounded-lg shadow-md"
     />
@@ -57,5 +57,4 @@
       </ul>
     </div>
   </div>
-  
 </SectionWrapper>

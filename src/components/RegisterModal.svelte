@@ -37,7 +37,7 @@
             on:submit={(e) => handleSubmit(e, 'http://localhost:8080/register')}
           >
             <h6
-              class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
+              class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-red-500 pt-6"
             >
               Anmeldung
               <!-- Add space and edit font size and color to "normal" text for the following text -->
@@ -390,7 +390,11 @@
                 class="checkbox bg-white mr-2 border-black"
               />
               <label for="terms" class="text-sm font-semibold">
-                Ich akzeptiere die Allgemeinen Bestimmungen
+                Ich akzeptiere die <a
+                  href="/assets/docs/terms.pdf"
+                  target="_blank"
+                  class="underline">Allgemeinen Bestimmungen</a
+                >
               </label> <span class="text-red-500 text-sm ml-1">*</span>
             </div>
 
