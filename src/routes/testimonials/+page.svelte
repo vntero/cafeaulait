@@ -39,7 +39,7 @@
     {
       name: 'Klaus Merz - Schriftsteller',
       review:
-        'Die neue Produktion “Le Souffle” ist nicht nur herzzerreissend schön, sondern auch künstlerisch klug durchdacht. Flankiert von achtsamen Trommeln und Tänzern und ebenso virtuosem Gesang tanzen und atmen unsere Kinder und Menschenskinder – tragend und getragen – in der wogenden Schar.',
+        'Die Produktion “Le Souffle” ist nicht nur herzzerreissend schön, sondern auch künstlerisch klug durchdacht. Flankiert von achtsamen Trommeln und Tänzern und ebenso virtuosem Gesang tanzen und atmen unsere Kinder und Menschenskinder – tragend und getragen – in der wogenden Schar.',
       features: [],
     },
     {

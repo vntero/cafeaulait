@@ -200,7 +200,7 @@
             </table>
           </div>
 
-          <!-- Preise Table Content -->
+          <!-- Preise Samstag Table Content -->
           <div class="overflow-x-auto mt-8">
             <table
               class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
@@ -210,7 +210,76 @@
                   <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
                   <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
                   <th class="px-2 sm:px-4 py-1 sm:py-2 text-center">
-                    Preise: CHF 450 pro Semester (Geschwisterrabatt 50%)
+                    Preise Samstags: CHF 720 pro Semester (Geschwisterrabatt 50%)
+                  </th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+
+          <!-- Wednesday table -->
+          <div class="overflow-x-auto mt-8">
+            <table
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-base"
+            >
+              <thead>
+                <tr class="bg-gray-200">
+                  <th class="px-2 sm:px-4 py-1 sm:py-2" colspan="5">
+                    Mittwochs
+
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-blue-100">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 19:00 - 20:30<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Schulhaus Hofacker
+                  <!-- </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"> -->
+                    <!-- <i class="fa-solid fa-clock"></i> 11:30 - 12:30<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle Freies Gymi
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 12:30 - 13:10
+                  </td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">
+                    <i class="fa-solid fa-clock"></i> 13:10 - 14:00<br />
+                    <i class="fa-solid fa-location-dot"></i>
+                    Turnhalle Freies Gymi
+                  </td> -->
+                </tr>
+                <tr class="bg-blue-100">
+                  <th class="border px-2 sm:px-4 py-1 sm:py-2">Teenies (ab 12)</th>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Afrobeats Masterclass</td>
+                  <!-- <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >CAL Stage Company</td -->
+                  <!-- >
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2">Pause</td>
+                  <td class="border px-2 sm:px-4 py-1 sm:py-2"
+                    >CAL Stage Company</td -->
+                  <!-- > -->
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Preise Wednesday Table Content -->
+          <div class="overflow-x-auto mt-8">
+            <table
+              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+            >
+              <thead>
+                <tr class="bg-green-300">
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
+                  <th class="px-2 sm:px-4 py-1 sm:py-2 text-center">
+                    Preise Mittwochs: CHF 30 pro Monat für Nichtmitglieder
                   </th>
                   <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
                   <th class="px-2 sm:px-4 py-1 sm:py-2"></th>
@@ -227,6 +296,8 @@
               </p>
             </button>
           </div>
+
+          
         </div>
       </div>
     </SectionWrapper>
