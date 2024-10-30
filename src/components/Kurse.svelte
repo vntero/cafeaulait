@@ -112,7 +112,7 @@
             <img
               src={kurseFeature.imgUrl}
               alt="kurse-img"
-              class="flex flex-col bg-white"
+              class="flex flex-col bg-white sm:w-full"
             />
           </div>
         </div>
