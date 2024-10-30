@@ -28,10 +28,9 @@
             <div class="badge badge-secondary">COMING SOON</div>
           </h2>
           <p>
-            Café au Lait feiert dieses Jahr ihr 20-jähriges Bestehen. Anlässlich
-            dieses Ereignisses stellt sie ihre jüngste Produktion vor und
-            erzählt dabei eine Geschichte, die niemanden kalt lässt.
-          </p>
+          Begleitet von einem Chor und emotionalen Tanzeinlagen, erzählt dieses Stück 
+          die Geschichte von Frauen und ihrem Weg durch gesellschaftliche und persönliche Hürden. 
+          Lass dich berühren und inspirieren und erlebe eine Aufführung, die bewegt und Debatten anstößt          </p>
         </div>
       </div>
 
@@ -43,17 +42,15 @@
         <div class="card-body">
           <h2 class="card-title">Le Souffle - 2018</h2>
           <p>
-            Die Geschichte beginnt in Afrika vor sehr langer Zeit. Die Menschen
-            leben bescheiden, der Rhythmus begleitet sie durch den friedlichen
-            Alltag. Eines Tages wird das Dorfleben plötzlich auf den Kopf
-            gestellt. Besuch aus Europa steht vor der Tür. Der Reichtum ruft und
-            Aufregung macht sich unter den Dorfbewohnern breit. Sollen sie
-            aufbrechen oder bleiben?
+            Provokativ, berührend, wortlos, witzig. Das ist die Produktion namens 
+            „Le Souffle – vom Hauch eines neuen Lebens“. Sie geht eine brandaktuelle Thematik an, 
+            die bewegt und den Nerv der Gesellschaft trifft. Das Stück handelt vom Aufbruch 
+            in eine neue, hoffentlich bessere Welt, den zahlreiche Migrantinnen und Migranten wagen.
           </p>
           <div class="card-actions justify-end mt-3">
             <a href="/lesouffle"
-              ><button class="specialBtnDark">Mehr erfahren</button></a
-            >
+              >
+              <button class="specialBtnDark">Mehr erfahren</button></a>
           </div>
         </div>
       </div>
@@ -64,15 +61,16 @@
           <img src="assets/queenleoni.png" alt="Queen Leoni" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Queen Leoni - 20XX</h2>
+          <h2 class="card-title">Diverse Produktionen - Seit 2004</h2>
           <p>
-            Lorem Ipsum.
+            Café au Lait erarbeitet bereits seit seinem Bestehen Showeinlagen.
+            Seit 2011 kommen Musical-Märchen wie etwa "Zango" und 2015 "Queen Leonie" dazu.
           </p>
-          <div class="card-actions justify-end mt-3">
+          <!-- <div class="card-actions justify-end mt-3">
             <a href="/queenleoni"
               ><button class="specialBtnDark">Mehr erfahren</button></a
             >
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
