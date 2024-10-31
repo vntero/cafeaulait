@@ -112,5 +112,5 @@
         </div>
       </div>
     </div>
-  </div></SectionWrapper
->
+  </div>
+</SectionWrapper>

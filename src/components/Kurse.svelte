@@ -52,13 +52,15 @@
   }
 
   onMount(() => {
-    const interval = setInterval(nextSlide, 5000) // Auto-change slide every 5 seconds
-    return () => clearInterval(interval) // Clean up the interval on component destroy
+    const interval = setInterval(nextSlide, 5000)
+    return () => clearInterval(interval)
   })
 </script>
 
 <SectionWrapper id="kurse">
-  <div class="flex flex-col gap-10 items-center pb-10 pt-20">
+  <div
+    class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center pt-30"
+  >
     <div class="flex flex-col gap-2">
       <p class="opacity-60 text-base text-center"></p>
       <h3 class="text-4xl font-semibold text-center">Kurse</h3>
