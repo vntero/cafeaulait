@@ -64,14 +64,14 @@
       img: '/assets/amaya.png',
     },
     // Quote Amaya: Ganz besonders gut gefällt mir das Trommeln. Manchmal fühlt sich Café au Lait wie meine Familie an.
-    
+
     {
       name: 'Anisha',
       age: 14,
       origin: 'Angola / Südafrika',
       img: '/assets/pics/anisha.png',
     },
-        // Quote Anisha missing
+    // Quote Anisha missing
 
     {
       name: 'Brimady',
@@ -80,7 +80,7 @@
       img: '/assets/brimady.png',
     },
     // Quote Brimady: Ich finde die traditionellen Tänze, das Singen und den Trommelunterricht toll und dass wir wie eine Familie sind.
-    
+
     {
       name: 'Cherline',
       age: 11,
@@ -88,7 +88,7 @@
       img: '/assets/cherline.png',
     },
     // Quote Cherline: Mir geällt, dass wir nicht nur tanzen, sondern auch singen, trommeln und zusammen esssen und dass es jedes Jahr ein Lager gibt.
-    
+
     {
       name: 'Debra',
       age: 15,
@@ -126,7 +126,7 @@
       img: '/assets/juli.png',
     },
     // Quote Juli: Wir sind alle ein Team und kommen gut miteinander aus. Beim Tanzen fühle ich mich frei und es ist nicht schlimm, wenn man einen Fehler macht.
-    
+
     {
       name: 'Kendra',
       age: 14,
@@ -141,7 +141,7 @@
       origin: 'Kamerun',
       img: '/assets/pics/lena.png',
     },
-        // Quote Lena missing
+    // Quote Lena missing
 
     {
       name: 'Lionelle',
@@ -157,8 +157,8 @@
       origin: 'Äthiopien / Guadeloupe / Schweiz',
       img: '/assets/lishan.png',
     },
-    // Quote Lishan: Es gefällt mir, dass wir immer neue Sachen und verschiedene Tanzstile lernen. Bei Café au Lait halten alle zusammenhalten und wir stehen gerne auf der Bühne. 
-    
+    // Quote Lishan: Es gefällt mir, dass wir immer neue Sachen und verschiedene Tanzstile lernen. Bei Café au Lait halten alle zusammenhalten und wir stehen gerne auf der Bühne.
+
     {
       name: 'Luana',
       age: 14,
@@ -191,14 +191,14 @@
       img: '/assets/solia.png',
     },
     // Quote Solia: Café au Lait ist mehr als ein Hobby: Durch das gemeinsame Tanzen, Trommeln und Singen fühle ich mich verbunden mit meinen afrikanischen Wurzeln und mit den anderen TänzerInnen.
-    
+
     {
       name: 'Sophie',
       age: 14,
       origin: 'Deutschland / Uganda',
       img: '/assets/pics/sophie.png',
     },
-    // Quote Sophie: Hier habe Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden. 
+    // Quote Sophie: Hier habe Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden.
 
     {
       name: 'Sydney',
@@ -223,7 +223,6 @@
       img: '/assets/pics/yaiza.png',
     },
     // Quote Yaiza: Mir gefällt hier, dass ich mich so frei fühlen kann und immer neue Tanzarten lerne. Unser Zusammenhalt ist einzigartig.
-
   ]
 </script>
 
@@ -287,7 +286,7 @@
                   <div
                     class="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
                   >
-                    <i class="fa-solid fa-child-reaching"></i>
+                    <i class="fa-solid fa-arrows-to-circle"></i>
                   </div>
                   <h6 class="text-xl font-semibold">Unser Ziel</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
@@ -311,7 +310,7 @@
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
                   >
-                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <i class="fa-solid fa-seedling"></i>
                   </div>
                   <h6 class="text-xl font-semibold">Woher wir kommen</h6>
 
