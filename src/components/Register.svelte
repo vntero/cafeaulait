@@ -8,8 +8,20 @@
 </script>
 
 <div class="flex items-center gap-4">
-  <button class="specialBtnDark" on:click={() => (showRegisterModal = true)}>
+  <button
+    class="specialBtnDark"
+    on:click={() => {
+      showRegisterModal = true
+      stopSlideshow() // Stop slideshow when Register modal opens
+    }}
+  >
     <p class="text-base sm:text-lg md:text-xl">Mach mit</p>
   </button>
-  <RegisterModal show={showRegisterModal} on:close={handleRegisterClose} />
+  <RegisterModal
+    show={showRegisterModal}
+    on:close={() => {
+      handleRegisterClose() // Close modal
+      startSlideshow() // Resume slideshow when Register modal closes
+    }}
+  />
 </div>
