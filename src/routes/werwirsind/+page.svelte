@@ -17,7 +17,7 @@
     {
       name: 'Sahara Kuhn',
       role: 'Tanzpädagogin & Admin',
-      img: '/assets/sahara.png',
+      img: '/assets/pics/sahara.png',
     },
     {
       name: 'Flora Luvualu',
@@ -47,7 +47,7 @@
     {
       name: 'Urbain Guiguemdé',
       role: 'Theaterpädagoge',
-      img: '/assets/urbain.png',
+      img: '/assets/pics/urbain.png',
     },
     {
       name: 'Yamoussa Sylla',
@@ -397,17 +397,20 @@
           <div
             class="absolute top-0 left-0 h-2/3 w-[1px] bg-slate-950 -translate-y-4"
           ></div>
-          <div class="flex items-center gap-4">
-            <img
-              src={kid.img}
-              alt={kid.name}
-              class="w-20 h-20 rounded-full object-cover shadow-md"
-            />
-            <h4 class="text-lg sm:text-xl md:text-2xl pt-2 text-red-500">
+          <div class="chat chat-start">
+            <div class="chat-image avatar">
+              <div class="w-20 h-20 rounded-full">
+                <img alt={kid.name} src={kid.img} />
+              </div>
+            </div>
+            <div class="chat-header text-red-500 text-xl">
               {kid.name}
-            </h4>
+            </div>
+            <div class="chat-bubble">You were the Chosen One!</div>
+            <div class="chat-footer opacity-50">
+              <p class="pl-2">{kid.age}, {kid.origin}</p>
+            </div>
           </div>
-          <p class="pl-2">{kid.age}, {kid.origin}</p>
         </div>
       {/each}
     </div>

@@ -43,12 +43,16 @@
         'assets/pics/kurse4_alt2.png',
       ],
     },
-    // {
-    //   featureList: ['Afrobeats', 'Attitude', 'Technik'],
-    //   description:
-    //     'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
-    //   imgUrl: 'assets/pics/kurse2.png',
-    // },
+    {
+      featureList: ['Afrobeats', 'Attitude', 'Technik'],
+      description:
+        'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
+      imgUrls: [
+        'assets/pics/kurse2.png',
+        'assets/pics/kurse4_alt1.png',
+        'assets/pics/kurse4_alt2.png',
+      ],
+    },
   ]
 </script>
 
@@ -84,6 +88,9 @@
               CAL <span class="text-red-500 font-medium">Chor</span>
             {:else if index === 2}
               Stage <span class="text-red-500 font-medium">Company</span>
+            {:else}
+              Afrobeats <span class="text-red-500 font-medium">Masterclass</span
+              >
             {/if}
           </h4>
           <p>{kurseFeature.description}</p>
@@ -107,7 +114,7 @@
           </div>
         </div>
         <!-- CAROUSEL -->
-        <div class="carousel rounded-box space-x-2 h-96 max-w-[1000px] mt-12">
+        <div class="carousel rounded-box space-x-2 h-96 max-w-[1000px] mt-14">
           {#each kurseFeature.imgUrls as imgUrl}
             <div class="carousel-item">
               <img src={imgUrl} alt="kurse" />
