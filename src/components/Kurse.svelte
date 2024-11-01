@@ -15,12 +15,12 @@
         'Für alle Niveaus ab 6 Jahren. Lerne in unseren Kursen unterschiedliche Tanzstile aus dem afrikanischen Kontinent.',
       imgUrl: 'assets/pics/kurse1.png',
     },
-    {
-      featureList: ['Afrobeats', 'Attitude', 'Technik'],
-      description:
-        'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
-      imgUrl: 'assets/pics/kurse2.png',
-    },
+    // {
+    //   featureList: ['Afrobeats', 'Attitude', 'Technik'],
+    //   description:
+    //     'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
+    //   imgUrl: 'assets/pics/kurse2.png',
+    // },
     {
       featureList: [
         'Mehrstimmiger Gesang',
@@ -44,6 +44,7 @@
   <div
     class="flex flex-col gap-10 sm:gap-14 md:gap-24 flex-1 items-center justify-center pb-10 md:pb-14 pt-20"
   >
+    <!-- Section title -->
     <div class="flex flex-col gap-2">
       <p class="opacity-60 text-base sm:text-lg md:text-xl text-center"></p>
       <h3
@@ -52,30 +53,29 @@
         Kurse
       </h3>
     </div>
+
     {#each kurseFeatures as kurseFeature, index}
       <div
         class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-14 lg:gap-20 relative text-base"
       >
+        <!-- Courses and descriptions -->
         <div
-          class={'flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10 ' +
+          class={'flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10' +
             (index % 2 === 1 ? ' md:order-2' : ' ')}
         >
           <h4
-            class="text-2xl sm:text-3xl md:text-4xl max-w-[1000px] w-full font-medium relative pr-10 after:absolute after:top-full after:left-0 after:w-1/5 after:h-1.5 after:mt-1 after:bg-slate-900"
+            class="text-2xl sm:text-3xl md:text-4xl font-medium relative pr-10 after:absolute after:top-full after:left-0 after:w-1/5 after:h-1.5 after:mt-1 after:bg-slate-900"
           >
             {#if index === 0}
               Tanz<span class="text-red-500 font-medium">kurse </span>
             {:else if index === 1}
-              Afrobeats <span class="text-red-500 font-medium">Masterclass</span
-              >
-            {:else if index === 2}
               CAL <span class="text-red-500 font-medium">Chor</span>
-            {:else}
+            {:else if index === 2}
               Stage <span class="text-red-500 font-medium">Company</span>
             {/if}
           </h4>
           <p>{kurseFeature.description}</p>
-          <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-3 mt-0">
             {#each kurseFeature.featureList as listItem}
               <div class="flex gap-2 items-center">
                 <div
@@ -87,21 +87,35 @@
               </div>
             {/each}
           </div>
+
+          <!-- Buttons to open modals -->
           <div class="flex items-center gap-4">
             <Register />
             <Kursplan />
           </div>
         </div>
-        <div class="flex flex-col dropShadow overflow-hidden rounded-b-lg">
-          <div
-            class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 px-3 flex items-center gap-2"
-          >
-            {#each [1, 2, 3] as i}
-              <div class="rounded-full aspect-square w-2.5 sm:w-3 bg-red-500" />
-            {/each}
+        <!-- CAROUSEL -->
+        <div class="carousel rounded-box space-x-2 h-96 max-w-[1000px] mt-12">
+          <div class="carousel-item">
+            <img src="assets/pics/ls1.png" alt="le souffle" />
           </div>
-          <div class="flex flex-col bg-white gap-4 flex-1">
-            <img src={kurseFeature.imgUrl} alt="kurse-img" />
+          <div class="carousel-item">
+            <img src="assets/pics/ls2.png" alt="le souffle" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pics/ls3.png" alt="le souffle" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pics/ls4.png" alt="le souffle" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pics/ls5.png" alt="le souffle" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pics/ls6.png" alt="le souffle" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/pics/ls7.png" alt="le souffle" />
           </div>
         </div>
       </div>
