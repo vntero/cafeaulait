@@ -61,9 +61,9 @@
       name: 'Amaya',
       age: 8,
       origin: 'Côte d’Ivoire / Schweiz',
-      img: '/assets/amaya.png',
+      img: '/assets/pics/amaya.png',
       quote:
-        'Ganz besonders gut gefällt mir das Trommeln. Manchmal fühlt sich Café au Lait wie meine Familie an.',
+        '"Ganz besonders gut gefällt mir das Trommeln. Manchmal fühlt sich Café au Lait wie meine Familie an."',
     },
     {
       name: 'Anisha',
@@ -76,25 +76,25 @@
       name: 'Brimady',
       age: 11,
       origin: 'Kamerun / Schweiz',
-      img: '/assets/brimady.png',
+      img: '/assets/pics/brimady.png',
       quote:
-        'Ich finde die traditionellen Tänze, das Singen und den Trommelunterricht toll und dass wir wie eine Familie sind.',
+        '"Ich finde die traditionellen Tänze, das Singen und den Trommelunterricht toll und dass wir wie eine Familie sind."',
     },
     {
       name: 'Cherline',
       age: 11,
       origin: 'Haiti / Schweiz',
-      img: '/assets/cherline.png',
+      img: '/assets/pics/cherline.png',
       quote:
-        'Mir gefällt, dass wir nicht nur tanzen, sondern auch singen, trommeln und zusammen essen und dass es jedes Jahr ein Lager gibt.',
+        '"Mir gefällt, dass wir nicht nur tanzen, sondern auch singen, trommeln und zusammen essen und dass es jedes Jahr ein Lager gibt."',
     },
     {
       name: 'Debra',
       age: 15,
       origin: 'Nigeria / Schweiz',
-      img: '/assets/debra.png',
+      img: '/assets/pics/debra.png',
       quote:
-        'Mir gefällt es, dass wir alle wie eine grosse Familie sind und die Freude am Tanzen teilen. Ich geniesse die Zeit im Training immer sehr mit meinen Freunden.',
+        '"Mir gefällt es, dass wir alle wie eine grosse Familie sind und die Freude am Tanzen teilen. Ich geniesse die Zeit im Training immer sehr mit meinen Freunden."',
     },
     {
       name: 'Eléni',
@@ -102,7 +102,7 @@
       origin: 'Griechenland / Jamaika / Schweiz',
       img: '/assets/pics/eleni.png',
       quote:
-        'Café au Lait ist meine zweite Familie. Es macht mir Spass, mich zur Musik zu bewegen und verschiedene Choreografien zu lernen.',
+        '"Café au Lait ist meine zweite Familie. Es macht mir Spass, mich zur Musik zu bewegen und verschiedene Choreografien zu lernen."',
     },
     {
       name: 'Imani Melike',
@@ -110,7 +110,7 @@
       origin: 'Schweiz / Togo / Türkei',
       img: '/assets/pics/imani.png',
       quote:
-        'Café au Lait ist wie eine grosse Familie und bietet mir die Möglichkeit, meine Leidenschaft, das Tanzen, auszuleben.',
+        '"Café au Lait ist wie eine grosse Familie und bietet mir die Möglichkeit, meine Leidenschaft, das Tanzen, auszuleben."',
     },
     {
       name: 'Imani',
@@ -118,21 +118,21 @@
       origin: 'Belize / Brasilien / Schweiz',
       img: '/assets/pics/imanii.png',
       quote:
-        'Bei Café au Lait gefällt mir alles, vor allem aber dass wir zusammen tanzen können. Die Verbindung, die wir alle zueinander haben, ist speziell.',
+        '"Bei Café au Lait gefällt mir alles, vor allem aber dass wir zusammen tanzen können. Die Verbindung, die wir alle zueinander haben, ist speziell."',
     },
     {
       name: 'Juli',
       age: 11,
       origin: 'Schweiz / Tansania',
-      img: '/assets/juli.png',
+      img: '/assets/pics/juli.png',
       quote:
-        'Wir sind alle ein Team und kommen gut miteinander aus. Beim Tanzen fühle ich mich frei und es ist nicht schlimm, wenn man einen Fehler macht.',
+        '"Wir sind alle ein Team und kommen gut miteinander aus. Beim Tanzen fühle ich mich frei und es ist nicht schlimm, wenn man einen Fehler macht."',
     },
     {
       name: 'Kendra',
       age: 14,
       origin: 'Kamerun / Schweiz',
-      img: '/assets/kendra.png',
+      img: '/assets/pics/kendra.png',
       quote: null, // Quote missing
     },
     {
@@ -148,47 +148,47 @@
       origin: 'Côte d’Ivoire / Schweiz',
       img: '/assets/pics/lionelle.png',
       quote:
-        'Mir gefällt es bei Café au Lait, weil ich mich nicht verstecken muss. Wenn ich schlechte Laune habe, heitert mich das Tanzen immer auf.',
+        '"Mir gefällt es bei Café au Lait, weil ich mich nicht verstecken muss. Wenn ich schlechte Laune habe, heitert mich das Tanzen immer auf."',
     },
     {
       name: 'Lishan',
       age: 13,
       origin: 'Äthiopien / Guadeloupe / Schweiz',
-      img: '/assets/lishan.png',
+      img: '/assets/pics/lishan.png',
       quote:
-        'Es gefällt mir, dass wir immer neue Sachen und verschiedene Tanzstile lernen. Bei Café au Lait halten alle zusammen und wir stehen gerne auf der Bühne.',
+        '"Es gefällt mir, dass wir immer neue Sachen und verschiedene Tanzstile lernen. Bei Café au Lait halten alle zusammen und wir stehen gerne auf der Bühne."',
     },
     {
       name: 'Luana',
       age: 14,
       origin: 'Kosovo / Nigeria / Schweiz',
-      img: '/assets/luana.png',
+      img: '/assets/pics/luana.png',
       quote:
-        'Bei Café au Lait vereint sich das Tanzen, Singen und Theater zu einer einzigartigen kreativen Gemeinschaft. Ich bin sehr froh und dankbar, Teil dieser tollen Gruppe zu sein.',
+        '"Bei Café au Lait vereint sich das Tanzen, Singen und Theater zu einer einzigartigen kreativen Gemeinschaft. Ich bin sehr froh und dankbar, Teil dieser tollen Gruppe zu sein."',
     },
     {
       name: 'Nerea',
       age: 9,
       origin: 'Côte d’Ivoire / Schweiz / Spanien',
-      img: '/assets/nerea.png',
+      img: '/assets/pics/nerea.png',
       quote:
-        'Hier erlebe ich eine familiäre Atmosphäre. Ich fühle mich, so wie ich bin, vollkommen dazugehörig. Café au Lait ist eine Brücke zu meinen afrikanischen Wurzeln.',
+        '"Hier erlebe ich eine familiäre Atmosphäre. Ich fühle mich, so wie ich bin, vollkommen dazugehörig. Café au Lait ist eine Brücke zu meinen afrikanischen Wurzeln."',
     },
     {
       name: 'Salima',
       age: 13,
       origin: 'Gambia / Schweiz',
-      img: '/assets/salima.png',
+      img: '/assets/pics/salima.png',
       quote:
-        'Hier kann ich meine Kultur kennenlernen und bin in einer Tanzgruppe, in der alle zusammenhalten.',
+        '"Hier kann ich meine Kultur kennenlernen und bin in einer Tanzgruppe, in der alle zusammenhalten."',
     },
     {
       name: 'Solia',
       age: 13,
       origin: 'Italien / Nigeria / Schweiz',
-      img: '/assets/solia.png',
+      img: '/assets/pics/solia.png',
       quote:
-        'Café au Lait ist mehr als ein Hobby: Durch das gemeinsame Tanzen, Trommeln und Singen fühle ich mich verbunden mit meinen afrikanischen Wurzeln und mit den anderen TänzerInnen.',
+        '"Café au Lait ist mehr als ein Hobby: Durch das gemeinsame Tanzen, Trommeln und Singen fühle ich mich verbunden mit meinen afrikanischen Wurzeln und mit den anderen TänzerInnen."',
     },
     {
       name: 'Sophie',
@@ -196,23 +196,23 @@
       origin: 'Deutschland / Uganda',
       img: '/assets/pics/sophie.png',
       quote:
-        'Hier habe ich Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden.',
+        '"Hier habe ich Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden."',
     },
     {
       name: 'Sydney',
       age: 14,
       origin: 'Côte d’Ivoire / Schweiz',
-      img: '/assets/sydney.png',
+      img: '/assets/pics/sydney.png',
       quote:
-        'Café au Lait ist ein Ort, an dem du vieles auf einmal lernen kannst: Tanzen, Singen und Trommeln. Das jährliche Lager schweisst uns zusammen.',
+        '"Café au Lait ist ein Ort, an dem du vieles auf einmal lernen kannst: Tanzen, Singen und Trommeln. Das jährliche Lager schweisst uns zusammen."',
     },
     {
       name: 'Tilala',
       age: 10,
       origin: 'Marokko / Schweiz / Senegal',
-      img: '/assets/tilala.png',
+      img: '/assets/pics/tilala.png',
       quote:
-        'Hier kann ich so sein, wie ich bin und muss mich nicht verstellen. Ich fühle mich frei. Das macht mich sehr glücklich.',
+        '"Hier kann ich so sein, wie ich bin und muss mich nicht verstellen. Ich fühle mich frei. Das macht mich sehr glücklich."',
     },
     {
       name: 'Yaiza',
@@ -220,7 +220,7 @@
       origin: 'Côte d’Ivoire / Schweiz',
       img: '/assets/pics/yaiza.png',
       quote:
-        'Mir gefällt hier, dass ich mich so frei fühlen kann und immer neue Tanzarten lerne. Unser Zusammenhalt ist einzigartig.',
+        '"Mir gefällt hier, dass ich mich so frei fühlen kann und immer neue Tanzarten lerne. Unser Zusammenhalt ist einzigartig."',
     },
   ]
 </script>
@@ -388,7 +388,7 @@
     >
       {#each kids as kid}
         <div
-          class="flex flex-col gap-2 text-left max-w-[400px] w-full mx-auto relative p-4 px-6"
+          class="group flex flex-col gap-2 text-left max-w-[400px] w-full mx-auto relative p-4 px-6"
         >
           <div
             class="absolute top-0 left-0 w-1/3 h-[1px] bg-slate-950 -translate-x-4"
@@ -396,23 +396,31 @@
           <div
             class="absolute top-0 left-0 h-2/3 w-[1px] bg-slate-950 -translate-y-4"
           ></div>
-          <div class="chat chat-start">
-            <div class="chat-image avatar">
-              <div class="w-20 h-20 rounded-full">
-                <img alt={kid.name} src={kid.img} />
-              </div>
-            </div>
-            <div class="chat-header text-red-500 text-xl">
+          <div class="relative flex items-center gap-4">
+            <img
+              src={kid.img}
+              alt={kid.name}
+              class="w-20 h-20 rounded-full object-cover shadow-md"
+            />
+            <h4 class="text-lg sm:text-xl md:text-2xl pt-2 text-red-500">
               {kid.name}
-            </div>
-            <div class="chat-bubble">You were the Chosen One!</div>
-            <div class="chat-footer opacity-50">
-              <p class="pl-2">{kid.age}, {kid.origin}</p>
-            </div>
+            </h4>
+            <!-- Chat bubble appears on hover if quote is present -->
+            {#if kid.quote}
+              <div
+                class="chat chat-start absolute left-24 bottom-12 hidden group-hover:block"
+              >
+                <div class="chat-bubble bg-red-200 text-black">
+                  <i>{kid.quote}</i>
+                </div>
+              </div>
+            {/if}
           </div>
+          <p class="pl-2">{kid.age}, {kid.origin}</p>
         </div>
       {/each}
     </div>
   </div>
 </SectionWrapper>
+
 <Footer />
