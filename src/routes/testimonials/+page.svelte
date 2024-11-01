@@ -7,7 +7,7 @@
       name: 'Stadt Zürich',
       review:
         'Die Stadt Zürich hat am 24. November 2023 Françoise Strassburg, Gründerin und Präsidentin von Café au Lait, und ihre Weggefährt:innen mit dem Kulturpreis 2023 im Bereich Tanz & Theater gewürdigt. Wir sind überglücklich über diesen Preis und bedanken uns bei der Stadt Zürich.',
-      features: ['Kulturpreis 2023', 'Bereich Tanz', 'Theater'],
+      features: ['Bereich Tanz', 'Theater'],
       link: 'https://www.stadt-zuerich.ch/prd/de/index/ueber_das_departement/medien/medienmitteilungen/2023/oktober/231024a.html',
     },
     {
@@ -79,9 +79,7 @@
                     ? ' right-0 -mr-8 translate-x-1/2'
                     : ' left-0 -ml-8 -translate-x-1/2')}
               >
-                <div
-                  class="rounded-full bg-slate-950 aspect-square bg-slate-950 h-2"
-                />
+                <div class="rounded-full aspect-square bg-slate-950 h-2" />
               </div>
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-user" />
@@ -122,9 +120,7 @@
                     ? ' right-0 -mr-8 translate-x-1/2'
                     : ' left-0 -ml-8 -translate-x-1/2')}
               >
-                <div
-                  class="rounded-full bg-slate-950 aspect-square bg-slate-950 h-2"
-                />
+                <div class="rounded-full aspect-square bg-slate-950 h-2" />
               </div>
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-user" />
