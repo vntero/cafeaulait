@@ -42,6 +42,8 @@
 
   let currentSlide = 0
 
+  let isPaused = false
+
   function nextSlide() {
     currentSlide = (currentSlide + 1) % kurseFeatures.length
   }
