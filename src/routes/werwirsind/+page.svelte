@@ -62,167 +62,166 @@
       age: 8,
       origin: 'Côte d’Ivoire / Schweiz',
       img: '/assets/amaya.png',
+      quote:
+        'Ganz besonders gut gefällt mir das Trommeln. Manchmal fühlt sich Café au Lait wie meine Familie an.',
     },
-    // Quote Amaya: Ganz besonders gut gefällt mir das Trommeln. Manchmal fühlt sich Café au Lait wie meine Familie an.
-
     {
       name: 'Anisha',
       age: 14,
       origin: 'Angola / Südafrika',
       img: '/assets/pics/anisha.png',
+      quote: null, // Quote missing
     },
-    // Quote Anisha missing
-
     {
       name: 'Brimady',
       age: 11,
       origin: 'Kamerun / Schweiz',
       img: '/assets/brimady.png',
+      quote:
+        'Ich finde die traditionellen Tänze, das Singen und den Trommelunterricht toll und dass wir wie eine Familie sind.',
     },
-    // Quote Brimady: Ich finde die traditionellen Tänze, das Singen und den Trommelunterricht toll und dass wir wie eine Familie sind.
-
     {
       name: 'Cherline',
       age: 11,
       origin: 'Haiti / Schweiz',
       img: '/assets/cherline.png',
+      quote:
+        'Mir gefällt, dass wir nicht nur tanzen, sondern auch singen, trommeln und zusammen essen und dass es jedes Jahr ein Lager gibt.',
     },
-    // Quote Cherline: Mir geällt, dass wir nicht nur tanzen, sondern auch singen, trommeln und zusammen esssen und dass es jedes Jahr ein Lager gibt.
-
     {
       name: 'Debra',
       age: 15,
       origin: 'Nigeria / Schweiz',
       img: '/assets/debra.png',
+      quote:
+        'Mir gefällt es, dass wir alle wie eine grosse Familie sind und die Freude am Tanzen teilen. Ich geniesse die Zeit im Training immer sehr mit meinen Freunden.',
     },
-    // Quote Debra: Mir gefällt es, dass wir alle wie eine grosse Familie sind und die Freude am Tanzen teilen. Ich geniesse die Zeit im Training immer sehr mit meinen Freunden.
     {
       name: 'Eléni',
       age: 12,
       origin: 'Griechenland / Jamaika / Schweiz',
       img: '/assets/pics/eleni.png',
+      quote:
+        'Café au Lait ist meine zweite Familie. Es macht mir Spass, mich zur Musik zu bewegen und verschiedene Choreografien zu lernen.',
     },
-    // Quote Eleni: Café au Lait ist meine zweite Familie. Es macht mir Spass, mich zur Musik zu bewegen und verschiedene Choreografien zu lernen.
     {
       name: 'Imani Melike',
       age: 14,
       origin: 'Schweiz / Togo / Türkei',
       img: '/assets/pics/imani.png',
+      quote:
+        'Café au Lait ist wie eine grosse Familie und bietet mir die Möglichkeit, meine Leidenschaft, das Tanzen, auszuleben.',
     },
-    // Quote Imani Melike: Café au Lait ist wie eine grosse Familie und bietet mir die Möglichkeite, meine Leidenschaft, das Tanzen, auszuleben.
-
     {
       name: 'Imani',
       age: 14,
       origin: 'Belize / Brasilien / Schweiz',
       img: '/assets/pics/imanii.png',
+      quote:
+        'Bei Café au Lait gefällt mir alles, vor allem aber dass wir zusammen tanzen können. Die Verbindung, die wir alle zueinander haben, ist speziell.',
     },
-    // Quote Imani L.: Bei Café au Lait gefällt mir alles, vor allem aber dass wir zusammen tanzen können. Die Verbindung, die wir alle zueinander haben, ist speziell.
-
     {
       name: 'Juli',
       age: 11,
       origin: 'Schweiz / Tansania',
       img: '/assets/juli.png',
+      quote:
+        'Wir sind alle ein Team und kommen gut miteinander aus. Beim Tanzen fühle ich mich frei und es ist nicht schlimm, wenn man einen Fehler macht.',
     },
-    // Quote Juli: Wir sind alle ein Team und kommen gut miteinander aus. Beim Tanzen fühle ich mich frei und es ist nicht schlimm, wenn man einen Fehler macht.
-
     {
       name: 'Kendra',
       age: 14,
       origin: 'Kamerun / Schweiz',
       img: '/assets/kendra.png',
+      quote: null, // Quote missing
     },
-    // Quote Kendra missing
-
     {
       name: 'Lena',
       age: 15,
       origin: 'Kamerun',
       img: '/assets/pics/lena.png',
+      quote: null, // Quote missing
     },
-    // Quote Lena missing
-
     {
       name: 'Lionelle',
       age: 13,
       origin: 'Côte d’Ivoire / Schweiz',
       img: '/assets/pics/lionelle.png',
+      quote:
+        'Mir gefällt es bei Café au Lait, weil ich mich nicht verstecken muss. Wenn ich schlechte Laune habe, heitert mich das Tanzen immer auf.',
     },
-    // Quote Lionelle: Mir gefällt es bei Café au Lait, weil ich mich nicht verstecken muss. Wenn ich schlechte Laune habe, heitert mich das tanzen immer auf.
-
     {
       name: 'Lishan',
       age: 13,
       origin: 'Äthiopien / Guadeloupe / Schweiz',
       img: '/assets/lishan.png',
+      quote:
+        'Es gefällt mir, dass wir immer neue Sachen und verschiedene Tanzstile lernen. Bei Café au Lait halten alle zusammen und wir stehen gerne auf der Bühne.',
     },
-    // Quote Lishan: Es gefällt mir, dass wir immer neue Sachen und verschiedene Tanzstile lernen. Bei Café au Lait halten alle zusammenhalten und wir stehen gerne auf der Bühne.
-
     {
       name: 'Luana',
       age: 14,
       origin: 'Kosovo / Nigeria / Schweiz',
       img: '/assets/luana.png',
+      quote:
+        'Bei Café au Lait vereint sich das Tanzen, Singen und Theater zu einer einzigartigen kreativen Gemeinschaft. Ich bin sehr froh und dankbar, Teil dieser tollen Gruppe zu sein.',
     },
-    // Quote Luana: Bei Café au Lait vereint sich das Tanzen, Singen und Theater zu einer einzigartigen kreativen Gemeinschaft. Ich bin sehr froh und dankbar, Teil dieser tollen Gruppe zu sein.
-
     {
       name: 'Nerea',
       age: 9,
       origin: 'Côte d’Ivoire / Schweiz / Spanien',
       img: '/assets/nerea.png',
+      quote:
+        'Hier erlebe ich eine familiäre Atmosphäre. Ich fühle mich, so wie ich bin, vollkommen dazugehörig. Café au Lait ist eine Brücke zu meinen afrikanischen Wurzeln.',
     },
-
-    // Quote Nerea: Hier erlebe ich eine familiäre Atmossphäre. Ich fühle mich, so wie ich bin, vollkommen dazugehörig. Café au Lait ist eine Brücke zu meinen afrikanischen Wurzeln.
-
     {
       name: 'Salima',
       age: 13,
       origin: 'Gambia / Schweiz',
       img: '/assets/salima.png',
+      quote:
+        'Hier kann ich meine Kultur kennenlernen und bin in einer Tanzgruppe, in der alle zusammenhalten.',
     },
-    // Quote Salima: Hier kann ich meine Kultur kennenlernen und bin in einer Tanzgruppe, in der alle zusammenhalten.
-
     {
       name: 'Solia',
       age: 13,
       origin: 'Italien / Nigeria / Schweiz',
       img: '/assets/solia.png',
+      quote:
+        'Café au Lait ist mehr als ein Hobby: Durch das gemeinsame Tanzen, Trommeln und Singen fühle ich mich verbunden mit meinen afrikanischen Wurzeln und mit den anderen TänzerInnen.',
     },
-    // Quote Solia: Café au Lait ist mehr als ein Hobby: Durch das gemeinsame Tanzen, Trommeln und Singen fühle ich mich verbunden mit meinen afrikanischen Wurzeln und mit den anderen TänzerInnen.
-
     {
       name: 'Sophie',
       age: 14,
       origin: 'Deutschland / Uganda',
       img: '/assets/pics/sophie.png',
+      quote:
+        'Hier habe ich Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden.',
     },
-    // Quote Sophie: Hier habe Freunde fürs Leben gefunden und ich fühle mich mehr zur afrikanischen Kultur verbunden.
-
     {
       name: 'Sydney',
       age: 14,
       origin: 'Côte d’Ivoire / Schweiz',
       img: '/assets/sydney.png',
+      quote:
+        'Café au Lait ist ein Ort, an dem du vieles auf einmal lernen kannst: Tanzen, Singen und Trommeln. Das jährliche Lager schweisst uns zusammen.',
     },
-    // Quote Sydney: Café au Lait ist ein Ort, an dem du vieles auf einmal lernen kannst: Tanzen, Singen und Trommeln. Das jährliche Lager schweisst uns zusammen.
-
     {
       name: 'Tilala',
       age: 10,
       origin: 'Marokko / Schweiz / Senegal',
       img: '/assets/tilala.png',
+      quote:
+        'Hier kann ich so sein, wie ich bin und muss mich nicht verstellen. Ich fühle mich frei. Das macht mich sehr glücklich.',
     },
-    // Quote Tilala: Hier kann ich so sein, wie ich bin und muss mich nicht verstellen. Ich fühle mich frei. Das macht mich sehr glücklich.
-
     {
       name: 'Yaiza',
       age: 14,
       origin: 'Côte d’Ivoire / Schweiz',
       img: '/assets/pics/yaiza.png',
+      quote:
+        'Mir gefällt hier, dass ich mich so frei fühlen kann und immer neue Tanzarten lerne. Unser Zusammenhalt ist einzigartig.',
     },
-    // Quote Yaiza: Mir gefällt hier, dass ich mich so frei fühlen kann und immer neue Tanzarten lerne. Unser Zusammenhalt ist einzigartig.
   ]
 </script>
 
