@@ -297,7 +297,7 @@
           <!-- Buttons -->
           <div class="flex items-center gap-4 justify-center pt-10">
             <button class="specialBtnCancel">
-              <a href="assets/docs/kursplan.pdf" target="_blank">
+              <a href="assets/docs/cal_kursplan_2024.pdf" target="_blank">
                 <p class="text-xs sm:text-sm md:text-base lg:text-lg">
                   PDF
                   <i class="fa-solid fa-download"></i>
