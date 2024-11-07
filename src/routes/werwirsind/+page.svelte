@@ -229,7 +229,7 @@
 <!-- our values -->
 <SectionWrapper>
   <div
-    class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center"
+    class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-50 flex-1 items-center justify-center"
   >
     <div class="flex flex-col gap-2">
       <h3
@@ -244,9 +244,9 @@
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
         <img
-          src="/assets/pics/unseremission.png"
+          src="/assets/pics/test.png"
           alt="Wer wir sind"
-          class="absolute top-0 w-full h-full rounded-lg shadow-md max-w-[1000px] mx-auto"
+          class="absolute top-0 w-full rounded-lg shadow-md max-w-[1000px] mx-auto"
         />
       </div>
 
@@ -277,7 +277,7 @@
             </div>
 
             <!-- Unser Ziel -->
-            <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="w-full md:w-4/12 px-4 py-20 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
