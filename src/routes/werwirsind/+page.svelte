@@ -244,7 +244,7 @@
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
         <img
-          src="/assets/pics/test.png"
+          src="/assets/pics/unser-verein.png"
           alt="Wer wir sind"
           class="absolute top-0 w-full rounded-lg shadow-md max-w-[1000px] mx-auto"
         />
