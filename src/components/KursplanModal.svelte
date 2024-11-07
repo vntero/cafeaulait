@@ -298,6 +298,12 @@
           <div class="flex items-center gap-4 justify-center pt-10">
             <button class="specialBtnCancel" on:click={close}>
               <p class="text-xs sm:text-sm md:text-base lg:text-lg">
+                PDF
+                <i class="fa-solid fa-download"></i>
+              </p>
+            </button>
+            <button class="specialBtnCancel" on:click={close}>
+              <p class="text-xs sm:text-sm md:text-base lg:text-lg">
                 Schließen
               </p>
             </button>
