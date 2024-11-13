@@ -66,7 +66,7 @@
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <form
-            on:submit={(e) => handleSubmit(e, 'http://localhost:8080/book')}
+            on:submit={(e) => handleSubmit(e, 'http://3.75.183.110:1991/book')}
           >
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"

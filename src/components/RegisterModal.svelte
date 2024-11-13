@@ -34,7 +34,8 @@
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <form
-            on:submit={(e) => handleSubmit(e, 'http://localhost:8080/register')}
+            on:submit={(e) =>
+              handleSubmit(e, 'http://3.75.183.110:1991/register')}
           >
             <div class="flex justify-center">
               <h6
