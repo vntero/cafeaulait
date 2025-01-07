@@ -86,6 +86,18 @@
         >Die Afrotanzgruppe aus Zürich für Kinder & Jugendliche</span
       >
     </p>
+    <a
+      href="https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2023/10/231024a2.html"
+      target="_blank"
+      class="flex items-center transition-transform duration-300 hover:scale-110"
+    >
+      <img
+        src="/assets/pics/zuri.png"
+        alt="zuri"
+        class="w-16 sm:w-10 md:w-10 lg:w-10"
+      />
+      <p>Kulturpreis Kanton Zürich “Tanz & Theater” 2023</p>
+    </a>
 
     <!-- Main image -->
     <img
