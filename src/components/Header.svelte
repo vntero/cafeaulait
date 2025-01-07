@@ -35,6 +35,18 @@
       />
       <h1 class="font-semibold ml-2">Café au Lait</h1>
     </a>
+    <a
+      href="https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2023/10/231024a2.html"
+      target="_blank"
+      class="flex items-center transition-transform duration-300 hover:scale-110"
+    >
+      <img
+        src="/assets/pics/zuri.png"
+        alt="zuri"
+        class="w-16 sm:w-20 md:w-20 lg:w-20"
+      />
+      <p>Kulturelle Auszeichnungen der Stadt Zürich 2023</p>
+    </a>
     <button
       on:click={() => ($openModal = true)}
       class="md:hidden grid place-items-center"
