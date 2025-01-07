@@ -394,7 +394,7 @@
               />
               <label for="terms" class="text-sm font-semibold">
                 Ich akzeptiere die <a
-                  href="/assets/docs/terms.pdf"
+                  href="/assets/docs/terms_2024.pdf"
                   target="_blank"
                   class="underline">Allgemeinen Bestimmungen</a
                 >
