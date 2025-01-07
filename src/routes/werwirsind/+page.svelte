@@ -372,7 +372,8 @@
 </SectionWrapper>
 
 <!-- our kids -->
-<SectionWrapper>
+
+<!-- <SectionWrapper>
   <div
     class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center"
   >
@@ -405,7 +406,7 @@
             <h4 class="text-lg sm:text-xl md:text-2xl pt-2 text-red-500">
               {kid.name}
             </h4>
-            <!-- Chat bubble appears on hover if quote is present -->
+
             {#if kid.quote}
               <div
                 class="chat chat-start absolute left-24 bottom-12 hidden group-hover:block"
@@ -421,6 +422,6 @@
       {/each}
     </div>
   </div>
-</SectionWrapper>
+</SectionWrapper> -->
 
 <Footer />

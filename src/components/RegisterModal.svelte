@@ -44,7 +44,7 @@
                 Anmeldung
               </h6>
             </div>
-            <p>
+            <p class="block text-sm font-semibold mb-2">
               Bist du an einem Schnuppertraining interessiert? Schreib uns unter
               info@cafeaulait.ch und wir sagen dir, wann das näcshte
               Schnuppertraining stattfindet.
