@@ -12,7 +12,9 @@
         <i class="fa-solid fa-location-dot"></i>
         Seefeldstrasse 109, 8008 Zürich
       </a>
-      <p>2024 © Alle Rechte vorbehalten</p>
+      <a href="/path/to/your/file.pdf" target="_blank" class="underline">
+        <p>2024 © Alle Rechte vorbehalten</p>
+      </a>
     </div>
 
     <div class="flex flex-col gap-4">
