@@ -6,19 +6,14 @@
 
   let events = [
     {
-      date: '17.11.2024',
-      title: `Premiere "R'Evolution" - Save the date!`,
-      location: 'Volkshaus, Zürich',
+      date: '15.06.2025',
+      title: `Premiere "R'Evolution"`,
+      location: 'Volkshaus, Zürich - Save the date!',
     },
     {
-      date: '24.12.2024',
-      title: `Christmas`,
-      location: 'Fällanden, Zürich',
-    },
-    {
-      date: '31.12.2024',
-      title: `New Year's Eve and antecipation for 2025`,
-      location: 'Wankdorf, Bern',
+      date: '26.09.2025',
+      title: `R'Evolution`,
+      location: 'Kurhotel, Baden  - Infos folgen',
     },
   ]
 
