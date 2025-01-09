@@ -7,7 +7,7 @@
       name: 'Stadt Zürich',
       review:
         'Die Stadt Zürich hat am 24. November 2023 Françoise Strassburg, Gründerin und Präsidentin von Café au Lait, und ihre Weggefährt:innen mit dem Kulturpreis 2023 im Bereich Tanz & Theater gewürdigt. Wir sind überglücklich über diesen Preis und bedanken uns bei der Stadt Zürich.',
-      features: ['Theater'],
+      features: [],
       link: 'https://www.stadt-zuerich.ch/prd/de/index/ueber_das_departement/medien/medienmitteilungen/2023/oktober/231024a.html',
     },
     {
@@ -26,14 +26,14 @@
       name: 'Zoe Venakis / Julia Bendlin - SRF',
       review:
         'In der grossen Turnhalle des Zürcher Gemeinschaftszentrums Riesbach klingen laute Trommeln. Man versteht kaum sein eigenes Wort. Der Boden vibriert und die Haare der Mädchen schleudern durch die Luft. Es ist Probe bei Café au Lait – einem Verein zur Pflege panafrikanischer Volkstänze. Schweisstreibend ist der Tanz. Doch nur um Fitness geht es hier nicht.',
-      features: ['Identität', 'Integration', 'Volkstanz'],
+      features: [],
       link: 'https://www.srf.ch/kultur/gesellschaft-religion/volkstanz-im-aufwind-herz-und-fuesse-tanzen-im-takt',
     },
     {
       name: 'Zeno van Essel - STAGEPLANET',
       review:
         'Ihre Wurzeln sind in Kamerun, Kongo, Togo, Kamerun, Jamaica und anderen Orten der Karibik, Afrikas und Asiens. Ihre Wurzeln sind aber auch hier in der Schweiz, dem Land, wo sie aufwachsen und dessen Dialekt sie sprechen. Zusammen bilden diese Kinder und Jugendlichen verschiedenster Hautfarbe, Herkunft und Kultur die Tanztruppe Café au Lait, die der Schweizer Kultur ein wichtiges Stück neuer, kraftvoller Authentizität hinzufügt.',
-      features: ['Leidenschaftlich', 'Kraftvoll', 'Schön'],
+      features: [],
       link: 'https://stageplanet.ch/2018/05/cafe-au-lait/',
     },
     {
@@ -82,7 +82,7 @@
                 <div class="rounded-full aspect-square bg-slate-950 h-2" />
               </div>
               <div class="flex items-center gap-2">
-                <i class="fa-solid fa-user" />
+                <i class="fa-solid fa-user text-red-500" />
                 <h3 class="text-lg sm:text-xl md:text-2xl">
                   {reviewItem.name}
                 </h3>
@@ -123,7 +123,7 @@
                 <div class="rounded-full aspect-square bg-slate-950 h-2" />
               </div>
               <div class="flex items-center gap-2">
-                <i class="fa-solid fa-user" />
+                <i class="fa-solid fa-user text-red-500" />
                 <h3 class="text-lg sm:text-xl md:text-2xl">
                   {reviewItem.name}
                 </h3>
