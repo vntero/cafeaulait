@@ -13,7 +13,10 @@
       ],
       description:
         'Für alle Niveaus ab 6 Jahren. Lerne in unseren Kursen unterschiedliche Tanzstile aus dem afrikanischen Kontinent.',
-      imgUrls: ['assets/pics/kurse1.png', 'assets/pics/tanzkurse2.png'],
+      imgUrls: [
+        'assets/pics/kurse1.png',
+        // 'assets/pics/tanzkurse2.png',
+      ],
     },
     {
       featureList: [
@@ -23,7 +26,10 @@
       ],
       description:
         'Mit dem Chor treten wir an unterschiedlichen Anlässen auf und erarbeiten Stücke für Eigenproduktionen.',
-      imgUrls: ['assets/pics/kurse3.png', 'assets/pics/gospel2.png'],
+      imgUrls: [
+        'assets/pics/kurse3.png',
+        // 'assets/pics/gospel2.png',
+      ],
     },
     {
       featureList: ['Bühnenpräsenz', 'Theater', 'Tanz', 'Perkussion'],
@@ -31,15 +37,18 @@
         'In der CAL Stage Company fördern wir deine Bühnenreife. Du erarbeitest und probst neue Produktionen mit der ganzen Companie und kannst zeigen, was du drauf hast.',
       imgUrls: [
         'assets/pics/kurse4.png',
-        'assets/pics/stage2.png',
-        'assets/pics/stage3.png',
+        // 'assets/pics/stage2.png',
+        // 'assets/pics/stage3.png',
       ],
     },
     {
       featureList: ['Afrobeats', 'Attitude', 'Technik'],
       description:
         'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
-      imgUrls: ['assets/pics/kurse2.png', 'assets/pics/afrobeats2.png'],
+      imgUrls: [
+        'assets/pics/kurse2.png',
+        // 'assets/pics/afrobeats2.png',
+      ],
     },
   ]
 </script>
