@@ -96,7 +96,7 @@
         alt="zuri"
         class="w-10 sm:w-10 md:w-10 lg:w-10"
       />
-      <p>Kulturpreis Kanton Zürich “Tanz & Theater” 2023</p>
+      <p>Kulturpreis Kanton Zürich “Tanz & Theater”</p>
     </a>
 
     <!-- Main image -->
