@@ -35,7 +35,7 @@
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
           <form
             on:submit={(e) =>
-              handleSubmit(e, 'http://3.127.232.39:1991/register')}
+              handleSubmit(e, 'https://api.cafeaulait.ch/register')}
           >
             <div class="flex justify-center">
               <h6
