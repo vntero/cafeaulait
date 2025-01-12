@@ -65,8 +65,10 @@
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+          <!-- prod: http://localhost:1991/book -->
+          <!-- env: https://api.cafeaulait.ch/book -->
           <form
-            on:submit={(e) => handleSubmit(e, 'https://api.cafeaulait.ch/book')}
+            on:submit={(e) => handleSubmit(e, 'http://localhost:1991/book')}
           >
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
@@ -132,9 +134,9 @@
                     Organisation
                   </label>
                   <input
-                    id="email"
-                    name="email"
-                    type="email"
+                    id="organization"
+                    name="organization"
+                    type="text"
                     class="border-0 px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                   />
                 </div>
