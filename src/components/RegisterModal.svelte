@@ -33,9 +33,10 @@
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+          <!-- prod: http://localhost:1991/book -->
+          <!-- env: https://api.cafeaulait.ch/book -->
           <form
-            on:submit={(e) =>
-              handleSubmit(e, 'https://api.cafeaulait.ch/register')}
+            on:submit={(e) => handleSubmit(e, 'http://localhost:1991/register')}
           >
             <div class="flex justify-center">
               <h6

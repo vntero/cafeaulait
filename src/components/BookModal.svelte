@@ -11,7 +11,7 @@
   }
 
   // function to handle form submission via http request
-  export const handleSubmit = async (event, url) => {
+  const handleSubmitBook = async (event, url) => {
     event.preventDefault() // prevent default form submission behaviour
 
     const formData = new FormData(event.target)
@@ -68,7 +68,7 @@
           <!-- prod: http://localhost:1991/book -->
           <!-- env: https://api.cafeaulait.ch/book -->
           <form
-            on:submit={(e) => handleSubmit(e, 'http://localhost:1991/book')}
+            on:submit={(e) => handleSubmitBook(e, 'http://localhost:1991/book')}
           >
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"
