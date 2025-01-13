@@ -10,9 +10,12 @@
     dispatch('close')
   }
 
-  // function to handle form submission via http request
+  // Add message state
+  let message = null
+
+  // Updated submit handler with message handling
   const handleSubmitBook = async (event, url) => {
-    event.preventDefault() // prevent default form submission behaviour
+    event.preventDefault()
 
     const formData = new FormData(event.target)
     const data = Object.fromEntries(formData)
@@ -27,17 +30,29 @@
       })
 
       if (response.ok) {
-        // Handle successful response
-        console.log('Form submitted successfully')
-        // Optionally close the modal or show a success message
-        close()
+        message = {
+          type: 'success',
+          text: 'Buchungsanfrage erfolgreich gesendet!',
+        }
+        // Close modal after delay
+        setTimeout(() => {
+          close()
+        }, 2000)
       } else {
-        // Handle error response
-        const errorData = await response.json()
-        console.error('Form submission failed:', errorData)
+        const errorData = await response.text()
+        message = { type: 'error', text: `Fehler: ${errorData}` }
+        setTimeout(() => {
+          message = null
+        }, 5000)
       }
     } catch (error) {
-      console.error('Error submitting form:', error)
+      message = {
+        type: 'error',
+        text: `Netzwerkfehler: ${error.message}. Bitte versuchen Sie es erneut.`,
+      }
+      setTimeout(() => {
+        message = null
+      }, 5000)
     }
   }
 </script>
@@ -260,6 +275,17 @@
                 </div>
               </div>
             </div>
+            {#if message}
+              <div
+                role="alert"
+                class="mt-4 w-full text-center p-4 rounded {message.type ===
+                'success'
+                  ? 'bg-green-100 text-green-700'
+                  : 'bg-red-100 text-red-700'}"
+              >
+                <span>{message.text}</span>
+              </div>
+            {/if}
 
             <div class="flex items-center gap-4 justify-center pt-10">
               <button type="submit" class="specialBtnDark">
