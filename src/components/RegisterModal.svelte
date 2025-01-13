@@ -1,12 +1,42 @@
 <script>
   import SectionWrapper from '../components/SectionWrapper.svelte'
   import { createEventDispatcher } from 'svelte'
-  import handleSubmit from '../components/BookModal.svelte'
   const dispatch = createEventDispatcher()
   export let show = true
   export let close = () => {
     show = false
     dispatch('close')
+  }
+
+  // function to handle form submission via http request
+  const handleSubmitRegister = async (event, url) => {
+    event.preventDefault() // prevent default form submission behaviour
+
+    const formData = new FormData(event.target)
+    const data = Object.fromEntries(formData)
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      if (response.ok) {
+        // Handle successful response
+        console.log('Form submitted successfully')
+        // Optionally close the modal or show a success message
+        close()
+      } else {
+        // Handle error response
+        const errorData = await response.json()
+        console.error('Form submission failed:', errorData)
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error)
+    }
   }
 </script>
 
@@ -36,7 +66,8 @@
           <!-- prod: http://localhost:1991/book -->
           <!-- env: https://api.cafeaulait.ch/book -->
           <form
-            on:submit={(e) => handleSubmit(e, 'http://localhost:1991/register')}
+            on:submit={(e) =>
+              handleSubmitRegister(e, 'http://localhost:1991/register')}
           >
             <div class="flex justify-center">
               <h6
