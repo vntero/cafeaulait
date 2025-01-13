@@ -83,7 +83,11 @@
           <!-- prod: http://localhost:1991/book -->
           <!-- env: https://api.cafeaulait.ch/book -->
           <form
-            on:submit={(e) => handleSubmitBook(e, 'http://localhost:1991/book')}
+            on:submit={(e) =>
+              handleSubmitBook(
+                e,
+                'https://cafeaulait-server-latest.onrender.com/book',
+              )}
           >
             <h6
               class="text-4xl sm:text-5xl md:text-4xl max-w-[1000px] mx-auto w-full font-semibold text-center text-red-500 pt-6"

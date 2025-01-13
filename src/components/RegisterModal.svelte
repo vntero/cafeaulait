@@ -80,7 +80,10 @@
           <!-- env: https://api.cafeaulait.ch/book -->
           <form
             on:submit={(e) =>
-              handleSubmitRegister(e, 'http://localhost:1991/register')}
+              handleSubmitRegister(
+                e,
+                'https://cafeaulait-server-latest.onrender.com/register',
+              )}
           >
             <div class="flex justify-center">
               <h6
