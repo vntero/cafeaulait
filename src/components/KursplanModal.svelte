@@ -42,7 +42,7 @@
           <!-- Table "NORMAL CLASSES" content -->
           <div class="overflow-x-auto mt-8">
             <table
-              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-base"
+              class="w-full border-collapse text-[0.5rem] sm:text-sm md:text-base lg:text-base"
             >
               <thead>
                 <tr class="bg-gray-200">
@@ -160,7 +160,7 @@
           <div class="overflow-x-auto mt-8">
             <div class="overflow-x-auto mt-8">
               <table
-                class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-base"
+                class="w-full border-collapse text-[0.5rem] sm:text-sm md:text-base lg:text-base"
               >
                 <thead>
                   <tr class="bg-gray-200">
@@ -216,7 +216,7 @@
           <!-- Preise for both tables "NORMAL CLASSES" and "last saturday of the month" -->
           <div class="overflow-x-auto mt-8">
             <table
-              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+              class="w-full border-collapse text-[0.5rem] sm:text-sm md:text-base lg:text-lg"
             >
               <thead>
                 <tr class="bg-green-300">
@@ -238,7 +238,7 @@
           <div class="overflow-x-auto mt-8">
             <div class="overflow-x-auto mt-8">
               <table
-                class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-base"
+                class="w-full border-collapse text-[0.5rem] sm:text-sm md:text-base lg:text-base"
               >
                 <thead>
                   <tr class="bg-gray-200">
@@ -278,7 +278,7 @@
           <!-- Preise table "WEDNESDAYS" -->
           <div class="overflow-x-auto mt-8">
             <table
-              class="w-full border-collapse text-xs sm:text-sm md:text-base lg:text-lg"
+              class="w-full border-collapse text-[0.5rem] sm:text-sm md:text-base lg:text-lg"
             >
               <thead>
                 <tr class="bg-green-300">
