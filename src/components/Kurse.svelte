@@ -111,10 +111,16 @@
           </div>
         </div>
         <!-- CAROUSEL -->
-        <div class="carousel rounded-box space-x-2 h-96 max-w-[1000px] mt-14">
+        <div
+          class="carousel flex space-x-6 overflow-x-auto snap-x snap-mandatory h-96 max-w-[1000px] mt-14"
+        >
           {#each kurseFeature.imgUrls as imgUrl}
-            <div class="carousel-item">
-              <img src={imgUrl} alt="kurse" />
+            <div class="carousel-item flex-shrink-0 w-full max-w-lg snap-start">
+              <img
+                src={imgUrl}
+                alt="kurse"
+                class="object-cover w-full h-full rounded-lg"
+              />
             </div>
           {/each}
         </div>
