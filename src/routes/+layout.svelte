@@ -1,9 +1,8 @@
 <script>
   import '../app.css'
   import Header from '../components/Header.svelte'
-  import { title } from '$lib/stores'
+
   import { openModal } from '../store'
-  $title = 'Café Au Lait'
 
   let y
   $: outerHeight = 0
