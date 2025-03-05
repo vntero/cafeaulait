@@ -35,11 +35,11 @@
             </span>
           </h2>
           <p class="text-gray-700 mb-4">
-            Begleitet von einem Chor und emotionalen Tanzeinlagen, erzählt
-            dieses Stück die Geschichte von Frauen und ihrem Weg durch
+            Begleitet von einem Chor und emotionalen Tanzeinlagen erzählt dieses
+            Stück die Geschichte von Frauen und ihrem Weg durch
             gesellschaftliche und persönliche Hürden. Lass dich berühren und
             inspirieren und erlebe eine Aufführung, die bewegt und Debatten
-            anstößt.
+            anstösst.
           </p>
         </div>
       </div>
