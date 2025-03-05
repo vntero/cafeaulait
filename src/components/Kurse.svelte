@@ -25,7 +25,7 @@
         'Musikalisches Hören & Harmonie',
       ],
       description:
-        'Mit dem Chor treten wir an unterschiedlichen Anlässen auf und erarbeiten Stücke für Eigenproduktionen.',
+        'Mit dem Chor treten wir an unterschiedlichen Anlässen auf und erarbeiten Stücke für unsere Eigenproduktionen.',
       imgUrls: [
         'assets/pics/kurse3.png',
         // 'assets/pics/gospel2.png',
