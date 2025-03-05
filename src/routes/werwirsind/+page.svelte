@@ -270,7 +270,9 @@
                     & Perkussion. Unser Angebot ist allen Kindern zugänglich,
                     unabhängig von ihrer Hautfarbe, Herkunft und Konfession.
                     Unsere Arbeit ist beim Sportamt Zürich als
-                    Jugendsportförderung anerkannt.
+                    Jugendsportförderung anerkannt und wurde 2023 von der Stadt
+                    Zürich mit dem Kulturpreis im Bereich Tanz & Theater
+                    gewürdigt.
                   </p>
                 </div>
               </div>
