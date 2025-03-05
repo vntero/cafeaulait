@@ -20,11 +20,6 @@
       img: '/assets/pics/sahara.png',
     },
     {
-      name: 'Flora Luvualu',
-      role: 'Leitung Gesang',
-      img: '/assets/pics/flora.png',
-    },
-    {
       name: 'Akim Princes',
       role: 'Tanzpädagoge traditioneller Tanz',
       img: '/assets/pics/akim.png',
@@ -38,6 +33,11 @@
       name: 'Amélie Aragón ',
       role: 'Gesangslehrerin',
       img: '/assets/pics/amelie.png',
+    },
+    {
+      name: 'Flora Luvualu',
+      role: 'Leitung Gesang',
+      img: '/assets/pics/flora.png',
     },
     {
       name: 'Sékou Touré',
