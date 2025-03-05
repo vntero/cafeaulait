@@ -19,11 +19,7 @@
       ],
     },
     {
-      featureList: [
-        'Mehrstimmiger Gesang',
-        'Stimmbildung',
-        'Musikalisches Hören & Harmonie',
-      ],
+      featureList: ['Mehrstimmiger Gesang', 'Stimmbildung', 'Gehörbildung'],
       description:
         'Mit dem Chor treten wir an unterschiedlichen Anlässen auf und erarbeiten Stücke für unsere Eigenproduktionen.',
       imgUrls: [
