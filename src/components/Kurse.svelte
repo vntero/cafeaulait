@@ -40,7 +40,7 @@
     {
       featureList: ['Afrobeats', 'Attitude', 'Technik'],
       description:
-        'Bist du mindestens 12 Jahre alt und hast es richtig drauf? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
+        'Bist du mindestens 12 Jahre alt und hast was auf dem Kasten? Dann richtet sich dieser Kurs an dich. Junge Tanzlehrer:innen und Erstplatzierte an der "World of Dance Switzerland 2023" zeigen dir freshe Moves für Fortgeschrittene und vermitteln dir Attitude für die Bühne.',
       imgUrls: [
         'assets/pics/kurse2.png',
         // 'assets/pics/afrobeats2.png',
