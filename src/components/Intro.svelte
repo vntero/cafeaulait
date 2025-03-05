@@ -62,7 +62,7 @@
     <div
       class="max-w-[1000px] mx-auto w-full text-center bg-[#FFF1DB] p-6 rounded-lg shadow-lg"
     >
-      <h3 class="text-4xl font-semibold mb-6">Upcoming Events</h3>
+      <h3 class="text-4xl font-semibold mb-6">Veranstaltungen</h3>
       <ul class="list-disc list-inside text-left mx-auto max-w-[600px]">
         {#each events as event}
           <li class="mb-4">
