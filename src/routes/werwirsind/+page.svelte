@@ -267,7 +267,7 @@
                   <h6 class="text-xl font-semibold">Wer wir sind</h6>
                   <p class="mt-2 mb-4 text-blueGray-500">
                     Wir sind ein Zürcher Verein für Afrotanz, Gesang, Schauspiel
-                    & Perkussion. Unser Angebot ist allen Kindern zugänglich
+                    & Perkussion. Unser Angebot ist allen Kindern zugänglich,
                     unabhängig von ihrer Hautfarbe, Herkunft und Konfession.
                     Unsere Arbeit ist beim Sportamt Zürich als
                     Jugendsportförderung anerkannt.
