@@ -56,11 +56,10 @@
         <div class="p-6">
           <h2 class="text-2xl font-semibold mb-2">Le Souffle - 2018</h2>
           <p class="text-gray-700 mb-4">
-            Provokativ, berührend, wortlos, witzig. Das ist die Produktion
-            namens „Le Souffle – vom Hauch eines neuen Lebens“. Sie geht eine
-            brandaktuelle Thematik an, die bewegt und den Nerv der Gesellschaft
-            trifft. Das Stück handelt vom Aufbruch in eine neue, hoffentlich
-            bessere Welt, den zahlreiche Migrantinnen und Migranten wagen.
+            Provokativ, herzzerreissend, wortlos und manchmal lustig. Das ist
+            die Produktion „Le Souffle – vom Hauch eines neuen Lebens“. Das
+            Stück geht unter die Haut und handelt von Menschen, die den Aufbruch
+            in eine neue, hoffnungsvollere Welt wagen.
           </p>
           <a
             href="/lesouffle"
