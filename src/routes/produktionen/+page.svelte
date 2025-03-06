@@ -84,9 +84,9 @@
             Diverse Produktionen - Seit 2004
           </h2>
           <p class="text-gray-700 mb-4">
-            Café au Lait erarbeitet bereits seit seinem Bestehen Showeinlagen.
-            Seit 2011 kommen Musical-Märchen wie etwa "Zango" und 2015 "Queen
-            Leonie" dazu.
+            Wir erarbeiten schon seit unserem Bestehen Showeinlagen. Seit 2011
+            kommen Musical-Märchen wie etwa "Zango" und 2015 "Queen Leonie"
+            dazu.
           </p>
         </div>
       </div>
