@@ -139,6 +139,21 @@
         traditionellen und zeitgenössischen afrikanischen Tanzes und alle, die
         ihren Horizont erweitern wollen.
       </p>
+      <span class="text-red-500">Provokativ</span>,
+      <span class="text-red-500">herzzerreissend</span>,
+      <span class="text-red-500">wortlos</span> und manchmal
+      <span class="text-red-500">lustig</span>. Das ist die Produktion „Le
+      Souffle – vom Hauch eines neuen Lebens“. Mit diesem Stück wagen wir uns an
+      Themen, die berühren und polarisieren: Migration, Hoffnung,
+      Fremdenfeindlichkeit, Integration, Identität und Liebe. Es erzählt von
+      Menschen, die den mutigen Schritt in eine neue, hoffnungsvollere Welt
+      wagen. Die anfängliche Freude, aber auch die Herausforderungen und Trauer
+      auf diesem Weg werden von Café au Laits Nachwuchstalenten sowie
+      professionellen Künstlerinnen und Künstlern eindrucksvoll zum Leben
+      erweckt – mit farbenfrohen Kostümen, atemberaubenden Choreografien,
+      pulsierenden Trommeln und mitreissendem Gesang. Ein Muss für
+      Liebhaberinnen und Liebhaber des traditionellen und zeitgenössischen
+      afrikanischen Tanzes und für alle, die ihren Horizont erweitern möchten.
     </div>
   </div>
 </SectionWrapper>
