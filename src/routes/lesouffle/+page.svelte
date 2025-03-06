@@ -115,45 +115,21 @@
     <div class="flex flex-col gap-2">
       <p class="text-base sm:text-lg md:text-xl text-justify max-w-[1000px]">
         <span class="text-red-500">Provokativ</span>,
-        <span class="text-red-500">berührend</span>,
-        <span class="text-red-500">wortlos</span>,
-        <span class="text-red-500">witzig</span>. Das ist unsere jüngste
-        Produktion namens
-        <span class="text-red-500"
-          >„Le Souffle – vom Hauch eines neuen Lebens”</span
-        >. Sie geht eine brandaktuelle Thematik an, die
-        <span class="text-red-500">polarisiert</span>. Mit diesem Stück wagt
-        sich CAL an
-        <span class="text-red-500">sensitive Themen</span>, die den Nerv der
-        Gesellschaft treffen und spricht dabei über Migration, Hoffnung,
-        Fremdenhass, Integration, Mischlingskinder und Liebe. Das Stück handelt
-        vom Aufbruch in eine neue, hoffentlich bessere Welt, den zahlreiche
-        Migrantinnen und Migranten wagen.
+        <span class="text-red-500">herzzerreissend</span>,
+        <span class="text-red-500">wortlos</span> und manchmal
+        <span class="text-red-500">lustig</span>. Das ist die Produktion „Le
+        Souffle – vom Hauch eines neuen Lebens“. Mit diesem Stück wagen wir uns
+        an Themen, die berühren und polarisieren: Migration, Hoffnung,
+        Fremdenfeindlichkeit, Integration, Identität und Liebe. Es erzählt von
+        Menschen, die den mutigen Schritt in eine neue, hoffnungsvollere Welt
+        wagen. Die anfängliche Freude, aber auch die Herausforderungen und
+        Trauer auf diesem Weg werden von Café au Laits Nachwuchstalenten sowie
+        professionellen Künstlerinnen und Künstlern eindrucksvoll zum Leben
+        erweckt – mit farbenfrohen Kostümen, atemberaubenden Choreografien,
+        pulsierenden Trommeln und mitreissendem Gesang. Ein Muss für
+        Liebhaberinnen und Liebhaber des traditionellen und zeitgenössischen
+        afrikanischen Tanzes und für alle, die ihren Horizont erweitern möchten.
       </p>
-      <p class="text-base sm:text-lg md:text-xl text-justify max-w-[1000px]">
-        Die anfängliche Freude, aber auch die Gefahren und Trauer auf diesem Weg
-        werden von CALs Nachwuchstalenten sowie von professionellen Tänzern
-        Afrikas mit <span class="text-red-500">farbenfrohen Kostümen</span>,
-        <span class="text-red-500">atemberaubenden Tänzen</span>, pulsierenden
-        Trommeln und betörenden Gesängen dargestellt. Ein Muss für Liebhaber des
-        traditionellen und zeitgenössischen afrikanischen Tanzes und alle, die
-        ihren Horizont erweitern wollen.
-      </p>
-      <span class="text-red-500">Provokativ</span>,
-      <span class="text-red-500">herzzerreissend</span>,
-      <span class="text-red-500">wortlos</span> und manchmal
-      <span class="text-red-500">lustig</span>. Das ist die Produktion „Le
-      Souffle – vom Hauch eines neuen Lebens“. Mit diesem Stück wagen wir uns an
-      Themen, die berühren und polarisieren: Migration, Hoffnung,
-      Fremdenfeindlichkeit, Integration, Identität und Liebe. Es erzählt von
-      Menschen, die den mutigen Schritt in eine neue, hoffnungsvollere Welt
-      wagen. Die anfängliche Freude, aber auch die Herausforderungen und Trauer
-      auf diesem Weg werden von Café au Laits Nachwuchstalenten sowie
-      professionellen Künstlerinnen und Künstlern eindrucksvoll zum Leben
-      erweckt – mit farbenfrohen Kostümen, atemberaubenden Choreografien,
-      pulsierenden Trommeln und mitreissendem Gesang. Ein Muss für
-      Liebhaberinnen und Liebhaber des traditionellen und zeitgenössischen
-      afrikanischen Tanzes und für alle, die ihren Horizont erweitern möchten.
     </div>
   </div>
 </SectionWrapper>
