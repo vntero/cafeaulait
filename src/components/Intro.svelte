@@ -8,13 +8,13 @@
     {
       date: '15.06.2025',
       title: `Premiere "R'Evolution"`,
-      location: 'Volkshaus, Zürich',
-      note: 'Save the date!',
+      location: 'Volkshaus, Zürich -',
+      note: 'Tickets hier kaufen!',
     },
     {
       date: '26.09.2025',
       title: `R'Evolution`,
-      location: 'Kurhotel, Baden',
+      location: 'Kurhotel, Baden -',
       note: 'Infos folgen',
     },
   ]
@@ -70,14 +70,17 @@
           <li class="mb-4">
             <span class="font-semibold">{event.date}</span>: {event.title}
             <span class="italic">@ {event.location}</span>
-            {#if event.note}
-              <span
-                class={event.note === 'Save the date!'
-                  ? 'line-through ml-2'
-                  : 'ml-2'}
+            {#if event.note === 'Tickets hier kaufen!'}
+              <a
+                href="https://eventfrog.ch/de/p/musicals-shows/musical/revolution-keine-revolution-ohne-frauen-7322282210823823399.html"
+                class="font-bold text-color: text-red-500 cursor-pointer hover:text-red-500 duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {event.note}
-              </span>
+              </a>
+            {:else}
+              <span class="text-gray-500">{event.note}</span>
             {/if}
           </li>
         {/each}
