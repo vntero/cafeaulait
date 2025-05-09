@@ -73,7 +73,7 @@
             {#if event.note === 'Tickets hier kaufen!'}
               <a
                 href="https://eventfrog.ch/de/p/musicals-shows/musical/revolution-keine-revolution-ohne-frauen-7322282210823823399.html"
-                class="font-bold text-color: text-red-500 cursor-pointer hover:text-red-500 duration-200"
+                class="font-bold text-red-500 hover:text-black cursor-pointer duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
