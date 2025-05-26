@@ -17,12 +17,12 @@
       location: 'Kurhotel, Baden -',
       note: 'Infos folgen',
     },
-    {
-      date: '22.-25. Januar 2026',
-      title: `OPEN CALL Tanzmehr`,
-      location: 'Theater Pavillon Luzern -',
-      note: 'Bewirb dich bis am 23. Mai!',
-    },
+    // {
+    //   date: '22.-25. Januar 2026',
+    //   title: `OPEN CALL Tanzmehr`,
+    //   location: 'Theater Pavillon Luzern -',
+    //   note: 'Bewirb dich bis am 23. Mai!',
+    // },
   ]
 </script>
 
@@ -85,7 +85,7 @@
               >
                 {event.note}
               </a>
-            {:else if event.note === 'Bewirb dich bis am 23. Mai!'}
+              <!-- {:else if event.note === 'Bewirb dich bis am 23. Mai!'}
               <a
                 href="https://www.tanzmehr.ch/festival/"
                 class="font-bold text-red-500 hover:text-black cursor-pointer duration-200 ml-2"
@@ -93,7 +93,7 @@
                 rel="noopener noreferrer"
               >
                 {event.note}
-              </a>
+              </a> -->
             {:else}
               <span class="text-gray-500 ml-2">{event.note}</span>
             {/if}
