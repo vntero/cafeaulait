@@ -5,12 +5,12 @@
   import Register from './Register.svelte'
 
   let events = [
-    {
-      date: '15.06.2025',
-      title: `Premiere "R'Evolution"`,
-      location: 'Volkshaus, Zürich -',
-      note: 'Tickets hier kaufen!',
-    },
+    // {
+    //   date: '15.06.2025',
+    //   title: `Premiere "R'Evolution"`,
+    //   location: 'Volkshaus, Zürich -',
+    //   note: 'Tickets hier kaufen!',
+    // },
     {
       date: '26.09.2025',
       title: `R'Evolution`,
