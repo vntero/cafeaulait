@@ -11,12 +11,12 @@
     //   location: 'Volkshaus, Zürich -',
     //   note: 'Tickets hier kaufen!',
     // },
-    {
-      date: '26.09.2025',
-      title: `R'Evolution`,
-      location: 'Kurhotel, Baden -',
-      note: 'Infos folgen',
-    },
+    // {
+    //   date: '26.09.2025',
+    //   title: `R'Evolution`,
+    //   location: 'Kurhotel, Baden -',
+    //   note: 'Infos folgen',
+    // },
     // {
     //   date: '22.-25. Januar 2026',
     //   title: `OPEN CALL Tanzmehr`,
@@ -67,39 +67,38 @@
     </div>
 
     <!-- Upcoming Events Section -->
+    <!-- Upcoming Events Section -->
     <div
       class="max-w-[1000px] mx-auto w-full text-center bg-[#FFF1DB] p-6 rounded-lg shadow-lg"
     >
       <h3 class="text-4xl font-semibold mb-6">Veranstaltungen</h3>
-      <ul class="list-disc list-inside text-left mx-auto max-w-[600px]">
-        {#each events as event}
-          <li class="mb-4">
-            <span class="font-semibold">{event.date}</span>: {event.title}
-            <span class="italic">@ {event.location}</span>
-            {#if event.note === 'Tickets hier kaufen!'}
-              <a
-                href="https://eventfrog.ch/de/p/musicals-shows/musical/revolution-keine-revolution-ohne-frauen-7322282210823823399.html"
-                class="font-bold text-red-500 hover:text-black cursor-pointer duration-200 ml-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {event.note}
-              </a>
-              <!-- {:else if event.note === 'Bewirb dich bis am 23. Mai!'}
-              <a
-                href="https://www.tanzmehr.ch/festival/"
-                class="font-bold text-red-500 hover:text-black cursor-pointer duration-200 ml-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {event.note}
-              </a> -->
-            {:else}
-              <span class="text-gray-500 ml-2">{event.note}</span>
-            {/if}
-          </li>
-        {/each}
-      </ul>
+
+      {#if events.length === 0}
+        <p class="text-xl text-gray-500 italic">
+          Zurzeit sind keine Anlässe geplant. Schau bald wieder vorbei!
+        </p>
+      {:else}
+        <ul class="list-disc list-inside text-left mx-auto max-w-[600px]">
+          {#each events as event}
+            <li class="mb-4">
+              <span class="font-semibold">{event.date}</span>: {event.title}
+              <span class="italic">@ {event.location}</span>
+              {#if event.note === 'Tickets hier kaufen!'}
+                <a
+                  href="https://eventfrog.ch/de/p/musicals-shows/musical/revolution-keine-revolution-ohne-frauen-7322282210823823399.html"
+                  class="font-bold text-red-500 hover:text-black cursor-pointer duration-200 ml-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {event.note}
+                </a>
+              {:else}
+                <span class="text-gray-500 ml-2">{event.note}</span>
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {/if}
     </div>
   </div>
 </SectionWrapper>
