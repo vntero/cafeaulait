@@ -14,7 +14,7 @@
     {
       date: '14.09.2025',
       title: `R'Evolution`,
-      location: 'Volkshaus, Zürich -',
+      location: 'Volkshaus, Weisser Saal, Zürich -',
       note: 'Infos folgen',
     },
     // {
