@@ -26,7 +26,7 @@
           class="w-full h-48 object-cover"
         />
         <div class="p-6">
-          <h2 class="text-2xl font-semibold mb-2">R'Evolution</h2>
+          <h2 class="text-2xl font-semibold mb-2">R'Evolution - 2025</h2>
           <p class="text-gray-700 mb-4">
             Begleitet von einem Chor und emotionalen Tanzeinlagen erzählt dieses
             Stück die Geschichte von Frauen und ihrem Weg durch
