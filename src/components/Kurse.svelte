@@ -13,10 +13,7 @@
       ],
       description:
         'Für alle Niveaus ab 6 Jahren. Lerne in unseren Kursen unterschiedliche Tanzstile aus dem afrikanischen Kontinent.',
-      imgUrls: [
-        'assets/pics/kurse1.png',
-        // 'assets/pics/tanzkurse2.png',
-      ],
+      imgUrls: ['assets/pics/tanzkurse.png'],
     },
     {
       featureList: ['Mehrstimmiger Gesang', 'Stimmbildung', 'Gehörbildung'],
