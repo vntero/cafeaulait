@@ -29,7 +29,7 @@
       description:
         'In der CAL Stage Company fördern wir deine Bühnenreife. Du erarbeitest und probst neue Produktionen mit der ganzen Companie und kannst zeigen, was du drauf hast.',
       imgUrls: [
-        'assets/pics/kurse4.png',
+        'assets/pics/stage.png',
         // 'assets/pics/stage2.png',
         // 'assets/pics/stage3.png',
       ],
