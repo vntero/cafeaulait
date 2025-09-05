@@ -15,7 +15,7 @@
       date: '14.09.2025',
       title: `R'Evolution`,
       location: 'Volkshaus, Weisser Saal, Zürich -',
-      note: 'Infos folgen',
+      note: 'Tickets hier kaufen!',
     },
     // {
     //   date: '22.-25. Januar 2026',
@@ -67,7 +67,6 @@
     </div>
 
     <!-- Upcoming Events Section -->
-    <!-- Upcoming Events Section -->
     <div
       class="max-w-[1000px] mx-auto w-full text-center bg-[#FFF1DB] p-6 rounded-lg shadow-lg"
     >
@@ -85,7 +84,7 @@
               <span class="italic">@ {event.location}</span>
               {#if event.note === 'Tickets hier kaufen!'}
                 <a
-                  href="https://eventfrog.ch/de/p/musicals-shows/musical/revolution-keine-revolution-ohne-frauen-7322282210823823399.html"
+                  href="https://eventfrog.ch/de/p/musicals-shows/musical/r-evolution-keine-revolution-ohne-frauen-7358418881457709583.html"
                   class="font-bold text-red-500 hover:text-black cursor-pointer duration-200 ml-2"
                   target="_blank"
                   rel="noopener noreferrer"
