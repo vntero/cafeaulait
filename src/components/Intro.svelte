@@ -11,12 +11,12 @@
     //   location: 'Volkshaus, Zürich -',
     //   note: 'Tickets hier kaufen!',
     // },
-    {
-      date: '14.09.2025',
-      title: `R'Evolution`,
-      location: 'Volkshaus, Weisser Saal, Zürich -',
-      note: 'Tickets hier kaufen!',
-    },
+    // {
+    //   date: '14.09.2025',
+    //   title: `R'Evolution`,
+    //   location: 'Volkshaus, Weisser Saal, Zürich -',
+    //   note: 'Tickets hier kaufen!',
+    // },
     // {
     //   date: '22.-25. Januar 2026',
     //   title: `OPEN CALL Tanzmehr`,
