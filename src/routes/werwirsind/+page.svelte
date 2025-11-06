@@ -6,18 +6,23 @@
   let team = [
     {
       name: 'Françoise Strassburg',
-      role: 'Präsidentin & Initiantin',
+      role: 'Gründerin',
       img: '/assets/pics/francoise.png',
     },
     {
-      name: 'Deniz Tunbeceren',
-      role: 'Koordination Events & Sponsoring',
-      img: '/assets/pics/deniz.png',
+      name: 'Amélie Aragón Kpenou',
+      role: 'Co-Leiterin & Gesangsleiterin',
+      img: '/assets/pics/amelie.png',
     },
     {
       name: 'Sahara Kuhn',
-      role: 'Tanzpädagogin & Admin',
+      role: 'Co-Leiterin & Tanzpädagogin Afrobeats',
       img: '/assets/pics/sahara.png',
+    },
+    {
+      name: 'Deniz Tunbeceren',
+      role: 'Koordinatorin Events & Sponsoring',
+      img: '/assets/pics/deniz.png',
     },
     {
       name: 'Akim Princes',
@@ -25,29 +30,19 @@
       img: '/assets/pics/akim.png',
     },
     {
-      name: 'Altea Baumann',
-      role: 'Gesangslehrerin',
-      img: '/assets/pics/altea.png',
-    },
-    {
-      name: 'Amélie Aragón ',
-      role: 'Gesangslehrerin',
-      img: '/assets/pics/amelie.png',
-    },
-    {
       name: 'Flora Luvualu',
-      role: 'Leitung Gesang',
+      role: 'Gesangspädagogin',
       img: '/assets/pics/flora.png',
-    },
-    {
-      name: 'Sékou Touré',
-      role: 'Perkussionist',
-      img: '/assets/pics/sekou.png',
     },
     {
       name: 'Urbain Guiguemdé',
       role: 'Theaterpädagoge',
       img: '/assets/pics/urbain.png',
+    },
+    {
+      name: 'Sékou Touré',
+      role: 'Perkussionist',
+      img: '/assets/pics/sekou.png',
     },
     {
       name: 'Yamoussa Sylla',
