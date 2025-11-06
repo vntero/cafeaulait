@@ -5,12 +5,12 @@
   import Register from './Register.svelte'
 
   let events = [
-    // {
-    //   date: '15.06.2025',
-    //   title: `Premiere "R'Evolution"`,
-    //   location: 'Volkshaus, Zürich -',
-    //   note: 'Tickets hier kaufen!',
-    // },
+    {
+      date: '07.12.2025',
+      title: `"R'Evolution - Keine Revolution ohne Frauen"`,
+      location: 'Volkshaus, Zürich',
+      note: 'Tickets hier kaufen!',
+    },
     // {
     //   date: '14.09.2025',
     //   title: `R'Evolution`,
@@ -84,7 +84,7 @@
               <span class="italic">@ {event.location}</span>
               {#if event.note === 'Tickets hier kaufen!'}
                 <a
-                  href="https://eventfrog.ch/de/p/musicals-shows/musical/r-evolution-keine-revolution-ohne-frauen-7358418881457709583.html"
+                  href="https://eventfrog.ch/de/p/musicals-shows/musical/r-evolution-keine-revolution-ohne-frauen-7388896199724539085.html"
                   class="font-bold text-red-500 hover:text-black cursor-pointer duration-200 ml-2"
                   target="_blank"
                   rel="noopener noreferrer"
