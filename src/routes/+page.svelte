@@ -5,6 +5,7 @@
   import Shows from '../components/Shows.svelte'
   import Footer from '../components/Footer.svelte'
   import PopupModal from '../components/PopupModal.svelte'
+  import UnserTeam from '../components/UnserTeam.svelte'
 
   let showPopupModal = false
 
@@ -25,5 +26,6 @@
   <Intro />
   <Kurse />
   <Shows />
+  <UnserTeam />
   <Footer />
 </main>

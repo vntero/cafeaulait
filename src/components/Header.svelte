@@ -58,6 +58,13 @@
       >
         Shows
       </a>
+      <a
+        href="#shows"
+        class="duration-200 hover:text-red-500 cursor-pointer"
+        on:click|preventDefault={() => navigateToSection('team')}
+      >
+        Unser Team
+      </a>
       <a href="mailto:info@cafeaulait.ch">
         <button class="specialBtn">
           <p>Kontakt</p>
